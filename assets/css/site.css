@@ -26,42 +26,64 @@
    ================================================================== */
 
 /* ------------------------------ TOKENS -------------------------- */
+/* ==================================================================
+   SOUQ — design system v4
+   ------------------------------------------------------------------
+   Dee rejected three previous directions and named the reason: "it is
+   not a store." v1 was a dark editorial portfolio, v2 an Italian
+   design-house paper site, v3 the same with brass. All three were
+   magazines about a contractor. This one is a yard you buy from that
+   also builds.
+
+     1. Warm sand ground.   The colour of Galala, the stone they sell
+                            most of. Not white, not grey, not paper.
+     2. Date-brown chrome.  Header, footer and dark bands. Warm enough
+                            to sit on sand without going cold.
+     3. Terracotta means    Every clickable thing is terracotta and
+        ACTION.             nothing else is. A visitor learns it once.
+     4. A serif for names.  Stone has a name the way a wine does.
+                            Fraunces on products and headings, DM Sans
+                            on everything that is UI.
+     5. Two front doors.    Shop the material, or hand over the house.
+                            Neither outranks the other.
+   ================================================================== */
 :root{
-  /* paper — warm alabaster, the colour of Galala marble */
-  --paper:#F7F4EE;
-  --paper-w:#FDFCFA;
-  --paper-2:#EFEAE0;
-  --paper-3:#E1DACD;
+  /* ground — warm sand, the colour of the stone they sell most of */
+  --paper:#F6F1E7;
+  --paper-w:#FFFFFF;
+  --paper-2:#EDE3D2;
+  --paper-3:#E0D4BE;
 
-  /* ink — a warm bistre black, never neutral grey */
-  --ink:#16130E;
-  --ink-2:#4C463B;
-  --ink-3:#8B8375;
+  /* ink — date brown, never a neutral grey */
+  --ink:#2B211A;
+  --ink-2:#6B5A4A;
+  --ink-3:#8A7B6A;
 
-  /* night — verde onyx. Dark, with a green cast you feel more than see */
-  --night:#0F1614;
-  --night-2:#18211E;
-  --on-night:#F1ECE2;
-  --on-night-2:#98A099;
+  /* chrome — the header, the footer, the dark bands */
+  --night:#2B211A;
+  --night-2:#3A2C22;
+  --on-night:#F6F1E7;
+  --on-night-2:#C9B9A5;
 
-  /* brass — the single metal. Ink weight only: rules, numerals, marks */
-  --brass:#A97F45;
-  --brass-2:#D9BC86;
-  --brass-soft:rgba(169,127,69,.30);
-  --brass-night:rgba(217,188,134,.34);
+  /* ACTION. Terracotta is reserved for things you can click. */
+  --brass:#B4472C;
+  --brass-2:#E8A87C;
+  --brass-soft:rgba(180,71,44,.28);
+  --brass-night:rgba(232,168,124,.36);
 
   /* hairlines */
-  --line:#DBD3C6;
-  --line-soft:#EAE4D9;
-  --line-night:rgba(241,236,226,.15);
+  --line:#E0D4BE;
+  --line-soft:#EDE3D2;
+  --line-night:rgba(246,241,231,.18);
 
-  --sans:"Archivo","Helvetica Neue",Helvetica,Arial,"Tajawal",sans-serif;
+  --sans:"DM Sans","Helvetica Neue",Helvetica,Arial,"Tajawal",sans-serif;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
 
-  /* rhythm */
+  /* rhythm — tighter than v3. A shop is denser than a magazine. */
   --wrap:1560px;
-  --measure:74ch;
-  --gut:clamp(1.25rem,5vw,5.5rem);
-  --sec:clamp(5.5rem,11vw,11rem);
+  --measure:70ch;
+  --gut:clamp(1.1rem,4vw,4rem);
+  --sec:clamp(3.5rem,7vw,7rem);
   --ease:cubic-bezier(.19,1,.22,1);
   --ease-2:cubic-bezier(.4,0,.2,1);
 }
@@ -86,11 +108,11 @@ table{border-collapse:collapse;width:100%}
 ::selection{background:var(--brass);color:var(--paper)}
 
 /* ------------------------------ TYPE ---------------------------- */
-.d1,.d2,.d3,.d4{font-weight:300;text-wrap:balance;overflow-wrap:break-word}
-.d1{font-size:clamp(2.5rem,7.4vw,6.6rem);letter-spacing:-.045em;line-height:.94}
-.d2{font-size:clamp(1.95rem,4.8vw,4.4rem);letter-spacing:-.038em;line-height:1.0}
-.d3{font-size:clamp(1.45rem,2.9vw,2.5rem);letter-spacing:-.028em;line-height:1.1;font-weight:400}
-.d4{font-size:clamp(1.02rem,1.4vw,1.28rem);letter-spacing:-.012em;line-height:1.3;font-weight:500}
+.d1,.d2,.d3,.d4{font-family:var(--serif);font-weight:600;text-wrap:balance;overflow-wrap:break-word}
+.d1{font-size:clamp(2.3rem,6.4vw,5.4rem);letter-spacing:-.025em;line-height:1.02}
+.d2{font-size:clamp(1.7rem,3.8vw,3.2rem);letter-spacing:-.022em;line-height:1.06}
+.d3{font-size:clamp(1.3rem,2.4vw,2rem);letter-spacing:-.018em;line-height:1.14;font-weight:600}
+.d4{font-size:clamp(1.02rem,1.4vw,1.22rem);letter-spacing:-.01em;line-height:1.3;font-weight:600}
 .d1 em,.d2 em,.d3 em{font-style:normal;color:var(--ink-3)}
 
 /* micro label — the Italian signature: tiny, wide-tracked, numbered */
@@ -149,10 +171,10 @@ table{border-collapse:collapse;width:100%}
   transition:background .5s var(--ease),color .5s var(--ease),border-color .5s var(--ease);
   white-space:nowrap;
 }
-.btn--primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.btn--primary:hover{background:transparent;color:var(--ink)}
-.btn--ghost{border-color:var(--line);color:var(--ink)}
-.btn--ghost:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn--primary{background:var(--brass);color:#fff;border-color:var(--brass);border-radius:4px}
+.btn--primary:hover{background:var(--ink);border-color:var(--ink);color:var(--on-night)}
+.btn--ghost{border-color:var(--ink);color:var(--ink);border-radius:4px}
+.btn--ghost:hover{background:var(--ink);color:var(--on-night);border-color:var(--ink)}
 .dark .btn--primary,.on-night .btn--primary{background:var(--on-night);color:var(--ink);border-color:var(--on-night)}
 .dark .btn--primary:hover,.on-night .btn--primary:hover{background:transparent;color:var(--on-night)}
 .dark .btn--ghost,.on-night .btn--ghost{border-color:var(--line-night);color:var(--on-night)}
@@ -339,7 +361,7 @@ figure.fig figcaption{
 a.card:hover .card__media .ph,a.card:hover .card__media img{transform:scale(1.045)}
 .card__body{display:flex;flex-direction:column;gap:.45rem;flex:1}
 .card__eyebrow{font-size:.575rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-3)}
-.card__title{font-size:clamp(1.15rem,1.6vw,1.5rem);font-weight:400;line-height:1.16;letter-spacing:-.028em}
+.card__title{font-family:var(--serif);font-size:clamp(1.08rem,1.4vw,1.35rem);font-weight:600;line-height:1.2;letter-spacing:-.015em}
 .card__text{font-size:.875rem;line-height:1.55;color:var(--ink-2);letter-spacing:-.008em}
 .card__foot{margin-top:auto;padding-top:1.1rem;font-size:.575rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--ink);display:flex;align-items:center;gap:.6em}
 .card__foot svg{transition:transform .5s var(--ease)}
@@ -359,7 +381,7 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
 }
 .index-list a:hover{padding-left:clamp(.5rem,1.6vw,1.6rem)}
 .index-list .n{font-size:.66rem;font-weight:600;letter-spacing:.16em;color:var(--ink-3);font-variant-numeric:tabular-nums}
-.index-list .t{font-size:clamp(1.35rem,2.5vw,2.1rem);font-weight:300;letter-spacing:-.032em;line-height:1.08}
+.index-list .t{font-family:var(--serif);font-size:clamp(1.15rem,1.9vw,1.6rem);font-weight:600;letter-spacing:-.015em;line-height:1.12}
 .index-list .d{font-size:.85rem;line-height:1.5;color:var(--ink-2)}
 .index-list .go{font-size:.6rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);opacity:0;transform:translateX(-6px);transition:.5s var(--ease)}
 .index-list a:hover .go{opacity:1;transform:none;color:var(--ink)}
@@ -376,7 +398,7 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
 .feat{display:grid;gap:0;border-top:1px solid var(--line)}
 .feat li{padding:clamp(1.6rem,2.6vw,2.4rem) 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:4.5rem 1fr;gap:clamp(1rem,2.5vw,2.5rem);align-items:start}
 .feat__n{font-size:.66rem;font-weight:600;letter-spacing:.16em;color:var(--ink-3);padding-top:.5em;font-variant-numeric:tabular-nums}
-.feat h3{font-size:clamp(1.15rem,1.9vw,1.6rem);font-weight:400;letter-spacing:-.028em;line-height:1.16;margin-bottom:.65rem}
+.feat h3{font-family:var(--serif);font-size:clamp(1.1rem,1.6vw,1.4rem);font-weight:600;letter-spacing:-.015em;line-height:1.2;margin-bottom:.65rem}
 .feat p{font-size:.9rem;line-height:1.62;color:var(--ink-2);max-width:62ch}
 .dark .feat,.dark .feat li{border-color:var(--line-night)}
 .dark .feat p{color:var(--on-night-2)}
@@ -386,7 +408,7 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}
 .stats div{padding:clamp(2rem,4vw,3.4rem) clamp(1rem,2vw,2rem) clamp(2rem,4vw,3.4rem) 0;border-bottom:1px solid var(--line)}
 .stats div+div{border-left:1px solid var(--line);padding-left:clamp(1rem,2vw,2rem)}
-.stats .v{font-size:clamp(2.2rem,4.6vw,3.6rem);font-weight:300;letter-spacing:-.04em;line-height:1}
+.stats .v{font-family:var(--serif);font-size:clamp(2rem,3.8vw,3rem);font-weight:600;letter-spacing:-.02em;line-height:1}
 .stats .l{font-size:.6rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-top:1rem}
 .dark .stats,.dark .stats div{border-color:var(--line-night)}
 .dark .stats .l{color:var(--on-night-2)}
@@ -406,7 +428,7 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
 /* ---------------------------- RANGES ---------------------------- */
 .ranges{display:grid;gap:0;border-top:1px solid var(--line)}
 .ranges li{padding:clamp(1.5rem,2.4vw,2.2rem) 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:1rem clamp(2rem,5vw,5rem);align-items:baseline}
-.ranges h3{font-size:clamp(1.1rem,1.8vw,1.5rem);font-weight:400;letter-spacing:-.028em}
+.ranges h3{font-family:var(--serif);font-size:clamp(1.05rem,1.6vw,1.35rem);font-weight:600;letter-spacing:-.015em}
 .ranges .origin{display:block;font-size:.575rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);margin-top:.6rem}
 .ranges p{font-size:.885rem;line-height:1.6;color:var(--ink-2)}
 @media(max-width:760px){.ranges li{grid-template-columns:1fr;gap:.7rem}}
@@ -819,3 +841,73 @@ a.sheet__f:hover img{transform:scale(1.05)}
 .menu__reach{display:flex;gap:.9rem;flex-wrap:wrap;margin-bottom:clamp(2rem,4vw,3rem)}
 .menu__reach .btn{flex:1 1 14rem;justify-content:center;text-align:center}
 @media(min-width:900px){.menu__reach{max-width:34rem}}
+
+/* ====================== SOUQ: THE SHOP HEADER ======================
+   Search first, departments underneath, on every page. A visitor should
+   be able to look a stone up without opening a menu — that is what
+   separates a shop from a catalogue.
+   ================================================================== */
+.hdr--shop{position:sticky;top:0;background:var(--night);color:var(--on-night);border:0}
+.hdr--shop .hdr__in{height:auto;padding-block:.8rem;gap:1.2rem;flex-wrap:wrap}
+.hdr--shop .lg,.hdr--shop .hdr__right{color:var(--on-night)}
+.hdr--shop .lg__sub{opacity:.62}
+.hdr__search{flex:1;min-width:190px;display:flex}
+.hdr__search input{
+  flex:1;min-width:0;border:0;border-radius:4px 0 0 4px;padding:.68rem .9rem;
+  font:inherit;font-size:.88rem;background:var(--paper);color:var(--ink);
+}
+.hdr__search input::placeholder{color:var(--ink-3)}
+.hdr__search button{
+  border:0;border-radius:0 4px 4px 0;background:var(--brass);color:#fff;
+  font:inherit;font-weight:700;font-size:.8rem;padding:0 1.15rem;cursor:pointer;
+  transition:filter .25s;
+}
+.hdr__search button:hover{filter:brightness(1.1)}
+.hdr__quote{
+  background:var(--brass);color:#fff;padding:.6rem 1rem;border-radius:4px;
+  font-size:.78rem;font-weight:700;letter-spacing:.04em;white-space:nowrap;
+}
+.hdr__quote:hover{filter:brightness(1.1)}
+.hdr__depts{border-top:1px solid rgba(246,241,231,.16)}
+.hdr__depts__in{display:flex;gap:1.25rem;overflow-x:auto;padding:.6rem 0;scrollbar-width:none}
+.hdr__depts__in::-webkit-scrollbar{display:none}
+.hdr__depts a{font-size:.82rem;white-space:nowrap;opacity:.85}
+.hdr__depts a:hover{opacity:1}
+.hdr__depts a.on{color:var(--brass-2);font-weight:700;opacity:1}
+.hdr__depts a.build{margin-left:auto;color:var(--brass-2);font-weight:700;opacity:1;padding-left:1.5rem}
+/* the hero no longer sits under a transparent bar */
+.hero--home,.hero{padding-top:clamp(2.5rem,5vw,4rem)}
+@media(max-width:760px){
+  .hdr--shop .hdr__in{gap:.7rem}
+  .hdr__quote{display:none}
+  .hdr__depts a.build{margin-left:0}
+}
+
+/* ========================= TWO FRONT DOORS =========================
+   Dee: "we provide service but at the same time we source and sell
+   materials." Both, equally. Two panels of identical size and weight —
+   the moment one is bigger, the site has taken a side.
+   ================================================================== */
+.doors{background:var(--paper-2);border-block:1px solid var(--line)}
+.doors__g{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line)}
+.door{
+  background:var(--paper);padding:clamp(1.6rem,3.4vw,2.8rem);
+  display:flex;flex-direction:column;gap:.7rem;
+  transition:background .35s var(--ease);
+}
+.door:hover{background:var(--paper-w)}
+.door--b{background:var(--night);color:var(--on-night)}
+.door--b:hover{background:var(--night-2)}
+.door__k{font-size:.68rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--brass)}
+.door--b .door__k{color:var(--brass-2)}
+.door h2{margin:.2rem 0 .1rem}
+.door p{font-size:.92rem;line-height:1.6;color:var(--ink-2);max-width:46ch}
+.door--b p{color:var(--on-night-2)}
+.door__a{
+  margin-top:auto;padding-top:1.1rem;display:flex;align-items:center;gap:.6em;
+  font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);
+}
+.door--b .door__a{color:var(--brass-2)}
+.door svg{transition:transform .5s var(--ease)}
+.door:hover svg{transform:translateX(5px)}
+@media(max-width:820px){.doors__g{grid-template-columns:1fr}}
