@@ -1,0 +1,7 @@
+# Elite Renovations
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+Disallow: /privacy/
+
+Sitemap: https://www.eliterenovations.com/sitemap.xml

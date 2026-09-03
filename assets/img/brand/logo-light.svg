@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" role="img" aria-label="Elite Renovations">
+  <g fill="none" stroke="#B08D4F">
+    <rect x="1.4" y="1.4" width="53.2" height="53.2" rx="1.8" stroke-width="1.4" opacity=".55"/>
+    <path d="M15 17.2h26M15 28h18.4M15 38.8h26" stroke-width="2.7" stroke-linecap="square"/>
+    <path d="M41.8 24.4l6 11.6" stroke-width="1.2" opacity=".5"/>
+  </g>
+  <text x="70" y="31" font-family="Cormorant Garamond, Georgia, serif" font-size="27" font-weight="400" letter-spacing="2.6" fill="#EDE8E0">ELITE</text>
+  <text x="71" y="46" font-family="Inter, Helvetica, Arial, sans-serif" font-size="8.6" font-weight="500" letter-spacing="6.4" fill="#D2B27A">RENOVATIONS</text>
+</svg>
