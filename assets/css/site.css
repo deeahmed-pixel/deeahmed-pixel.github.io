@@ -1111,3 +1111,42 @@ a.sheet__f:hover img{transform:scale(1.05)}
   color:inherit;font-size:.86rem;line-height:1;white-space:nowrap;transition:border-color .2s}
 .hdr__lang:hover{border-color:var(--brass-2)}
 @media(max-width:820px){.hdr__lang{display:none}}
+
+/* ================================================================
+   THE MONEY BAND
+   ----------------------------------------------------------------
+   The one argument that wins the job: the client pays the supplier
+   directly and holds the tax invoice, so no margin can hide in the
+   materials. It gets its own visual world — the dark ground used
+   nowhere else on the home page — so it reads as a statement rather
+   than as another section. Not a popup: a popup is closed before it
+   is read, and this is the paragraph that has to be read.
+   ================================================================ */
+.money{background:var(--night);color:var(--paper)}
+.money .kicker{color:var(--brass-2)}
+.money__head{max-width:60rem;margin-bottom:clamp(2.5rem,5vw,4rem)}
+.money__head .d2{margin:.4rem 0 1.1rem}
+.money__head .d2 em{font-style:normal;color:var(--brass-2)}
+.money__head .lede{opacity:.82;max-width:46rem}
+
+.money__steps{list-style:none;counter-reset:m;padding:0;margin:0;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(1.4rem,2.6vw,2.6rem)}
+@media(max-width:900px){.money__steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.money__steps{grid-template-columns:1fr}}
+.money__steps li{counter-increment:m;padding-top:1.15rem;border-top:1px solid rgba(232,168,124,.4)}
+.money__steps li::before{content:counter(m,decimal-leading-zero);display:block;
+  font-family:var(--serif);font-size:.9rem;color:var(--brass-2);margin-bottom:.7rem;
+  font-variant-numeric:tabular-nums}
+.money__steps h3{font-family:var(--serif);font-size:1.16rem;line-height:1.25;margin:0 0 .5rem}
+.money__steps p{margin:0;font-size:.94rem;line-height:1.6;opacity:.78}
+
+.money__extras{display:grid;grid-template-columns:repeat(2,1fr);
+  gap:clamp(1.4rem,2.6vw,2.6rem);margin-top:clamp(2.5rem,5vw,3.5rem)}
+@media(max-width:700px){.money__extras{grid-template-columns:1fr}}
+.money__extras>div{background:rgba(246,241,231,.06);border:1px solid rgba(246,241,231,.14);
+  border-radius:2px;padding:1.5rem 1.7rem}
+.money__extras h3{font-family:var(--serif);font-size:1.16rem;margin:0 0 .5rem}
+.money__extras p{margin:0;line-height:1.6;opacity:.82}
+.money__cta{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:clamp(2.2rem,4vw,3rem)}
+
+[dir="rtl"] .money__steps li{border-top:1px solid rgba(232,168,124,.4)}
