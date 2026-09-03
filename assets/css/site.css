@@ -988,3 +988,50 @@ a.sheet__f:hover img{transform:scale(1.05)}
   .moghra__f{grid-template-columns:repeat(2,1fr)}
   .moghra__show .show__box{aspect-ratio:4/3}
 }
+
+/* ================================================================
+   COMMISSIONS — the "can you make this?" catalogue
+   ----------------------------------------------------------------
+   Every piece is a line drawing, so the card is built around the
+   drawing rather than around a photograph. The drawings sit on a
+   tinted panel with generous air; stone options are shown as real
+   swatch colours pulled from the stone catalogue, because a colour
+   the visitor can actually order is worth more than an icon.
+   ================================================================ */
+.pdraw{width:100%;height:auto;display:block;color:var(--ink)}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.4rem,2.4vw,2.4rem)}
+@media(max-width:960px){.pgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.pgrid{grid-template-columns:1fr}}
+
+.pcard{display:flex;flex-direction:column;text-decoration:none;color:inherit;
+  background:var(--paper);border:1px solid rgba(43,33,26,.13);border-radius:2px;overflow:hidden;
+  transition:border-color .25s ease,transform .25s ease}
+.pcard:hover{border-color:var(--brass);transform:translateY(-3px)}
+.pcard:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+.pcard__d{background:var(--paper-2);padding:1.5rem 1.5rem .6rem;display:flex;justify-content:center}
+.pcard__d .pdraw{max-width:210px}
+.pcard__b{padding:1.3rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
+.pcard__k{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);font-weight:600}
+.pcard__b h3{font-family:var(--serif);font-size:1.32rem;line-height:1.18;margin:0}
+.pcard__b p{margin:0;font-size:.94rem;line-height:1.5;opacity:.78}
+.pcard__s{display:flex;align-items:center;gap:.4rem;margin-top:auto;padding-top:.9rem}
+.pdot{width:15px;height:15px;border-radius:50%;border:1px solid rgba(43,33,26,.22);flex:none}
+.pcard__sn{font-size:.76rem;opacity:.6;margin-left:.3rem}
+
+/* --- one piece --- */
+.pdetail__top{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);
+  gap:clamp(2rem,5vw,4.5rem);align-items:center;margin-top:2rem}
+@media(max-width:820px){.pdetail__top{grid-template-columns:1fr}}
+.pdetail__d{background:var(--paper-2);border-radius:2px;padding:2rem;display:flex;justify-content:center}
+.pdetail__ar{font-size:1.15rem;opacity:.62;margin:.1rem 0 1rem}
+.pdetail__cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.6rem}
+
+.pbuild{list-style:none;counter-reset:pb;padding:0;margin:0;display:grid;gap:1.15rem}
+.pbuild li{counter-increment:pb;position:relative;padding-left:2.6rem;line-height:1.62}
+.pbuild li::before{content:counter(pb,decimal-leading-zero);position:absolute;left:0;top:.1rem;
+  font-family:var(--serif);font-size:.92rem;color:var(--brass);font-variant-numeric:tabular-nums}
+
+.pwatch{margin-top:1.8rem;padding:1.3rem 1.5rem;background:var(--paper);
+  border-left:3px solid var(--brass);border-radius:2px}
+.pwatch h3{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;margin:0 0 .55rem;opacity:.72}
+.pwatch p{margin:0;line-height:1.6}
