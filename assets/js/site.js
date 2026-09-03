@@ -133,10 +133,51 @@
     }
   })();
 
-  /* ---------- quote form ---------- */
+  /* ---------- enquiry form: capture first, then hand off ----------
+     The old behaviour was WhatsApp-only. If the visitor's WhatsApp did not
+     open — desktop without WhatsApp Web, blocked popup, closed tab — the
+     enquiry was gone: nothing stored, nobody told. Now the lead is POSTed
+     first and the WhatsApp hand-off is a bonus on top. If the POST fails we
+     still open WhatsApp, so the enquiry survives either failure. */
   var form = document.querySelector('form[data-quote-form]');
   if (form) {
+    var endpoint = form.dataset.endpoint || '';
+    var sending = false;
+
+    var val = function (n) {
+      var el = form.querySelector('[name=' + n + ']');
+      return el ? el.value.trim() : '';
+    };
+
+    function waMessage() {
+      var lines = ['New enquiry from the website', ''];
+      [['Name', 'name'], ['Phone', 'phone'], ['Email', 'email'], ['Location', 'area'],
+       ['Property', 'property'], ['Service', 'service'], ['Timeline', 'timeline']]
+        .forEach(function (pair) { if (val(pair[1])) lines.push(pair[0] + ': ' + val(pair[1])); });
+      if (val('message')) lines.push('', val('message'));
+      return lines.join('\n');
+    }
+
+    function openWhatsApp() {
+      if (!form.dataset.whatsapp) return;
+      window.open('https://wa.me/' + form.dataset.whatsapp + '?text=' + encodeURIComponent(waMessage()),
+        '_blank', 'noopener');
+    }
+
+    function done() {
+      var panel = document.querySelector('[data-form-done]');
+      if (!panel) { openWhatsApp(); return; }
+      panel.hidden = false;
+      form.hidden = true;
+      panel.setAttribute('tabindex', '-1');
+      panel.focus();
+      panel.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    }
+
     form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (sending) return;
+
       var ok = true;
       form.querySelectorAll('[required]').forEach(function (input) {
         var field = input.closest('.field');
@@ -144,27 +185,54 @@
         if (field) field.classList.toggle('invalid', !valid);
         if (!valid && ok) { ok = false; input.focus(); }
       });
-      if (!ok) { e.preventDefault(); return; }
+      if (!ok) return;
+
       track('Lead', {
-        content_category: (form.querySelector('[name=service]') || {}).value || 'general',
-        content_name: (form.querySelector('[name=area]') || {}).value || 'unspecified'
+        content_category: val('service') || 'general',
+        content_name: val('area') || 'unspecified'
       });
-      /* No backend wired yet — see README "Connecting the form".
-         Falls back to a prefilled WhatsApp message so no enquiry is lost. */
-      if (form.getAttribute('action') === '#whatsapp') {
-        e.preventDefault();
-        var g = function (n) { var el = form.querySelector('[name=' + n + ']'); return el ? el.value.trim() : ''; };
-        var msg = 'New enquiry — ' + document.title.split('|')[0].trim() + '\n\n'
-          + 'Name: ' + g('name') + '\n'
-          + 'Phone: ' + g('phone') + '\n'
-          + 'Location: ' + g('area') + '\n'
-          + 'Property: ' + g('property') + '\n'
-          + 'Service: ' + g('service') + '\n'
-          + 'Timeline: ' + g('timeline') + '\n\n'
-          + g('message');
-        window.open('https://wa.me/' + form.dataset.whatsapp + '?text=' + encodeURIComponent(msg), '_blank', 'noopener');
-      }
+
+      var btn = form.querySelector('[type=submit]');
+      var label = btn ? btn.textContent : '';
+      sending = true;
+      if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+
+      var restore = function () {
+        sending = false;
+        if (btn) { btn.disabled = false; btn.textContent = label; }
+      };
+
+      if (!endpoint) { restore(); openWhatsApp(); done(); return; }
+
+      var payload = {
+        name: val('name'), phone: val('phone'), email: val('email'),
+        area: val('area'), property: val('property'), service: val('service'),
+        timeline: val('timeline'), message: val('message'),
+        _gotcha: val('_gotcha'),
+        source: window.location.host + window.location.pathname
+      };
+
+      // Do not let a slow network hold the visitor: hand off after 6 seconds
+      // regardless, and let the POST finish in the background.
+      var handedOff = false;
+      var handOff = function () {
+        if (handedOff) return;
+        handedOff = true;
+        restore();
+        openWhatsApp();
+        done();
+      };
+      var timer = setTimeout(handOff, 6000);
+
+      fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(function (r) { return r.json().catch(function () { return {}; }); })
+        .then(function () { clearTimeout(timer); handOff(); })
+        .catch(function () { clearTimeout(timer); handOff(); });
     });
+
     form.querySelectorAll('[required]').forEach(function (input) {
       input.addEventListener('input', function () {
         var f = input.closest('.field');

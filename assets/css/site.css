@@ -782,3 +782,9 @@ a.sheet__f:hover img{transform:scale(1.05)}
 
 /* a badged hero: the label sits under the fixed header, not behind it */
 .hero__badge{top:auto;bottom:0;left:0;z-index:6}
+
+/* honeypot: off-screen for bots, invisible and unreachable for people */
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+/* the state after Send — a form that just sits there loses the lead */
+.done{border-left:2px solid var(--brass);padding-left:clamp(1.2rem,3vw,2rem)}
+.done .kicker[data-n]::before{color:var(--brass)}

@@ -167,7 +167,9 @@
       <div class="reveal">
         <p class="kicker" data-n="01">Enquiry</p>
         <h2 class="d2" style="margin-bottom:1.5rem">Tell us about the project.</h2>
-        <form class="form" data-quote-form action="#whatsapp" method="post" data-whatsapp="201069262572" novalidate>
+        <form class="form" data-quote-form method="post" data-whatsapp="201069262572"
+              data-endpoint="https://jnmuurxmxlonqrjmqdfh.supabase.co/functions/v1/elite-lead" novalidate>
+          <div class="hp" aria-hidden="true"><label for="f-website">Website</label><input id="f-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off"></div>
           <div class="field--2">
             <div class="field">
               <label for="f-name">Your name *</label>
@@ -236,6 +238,19 @@
           <button class="btn btn--primary" type="submit" style="width:100%">Send enquiry</button>
           <p class="form__note">We reply within one working day, Sat–Thu. Your details are used only to respond to this enquiry — see our <a href="/privacy/" style="color:var(--brass)">privacy note</a>. Prefer to talk? <a href="https://wa.me/201069262572?text=Hello%20Elite%20Renovations%20%E2%80%94%20I'd%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" style="color:var(--brass)">Message us on WhatsApp</a>.</p>
         </form>
+
+        <!-- Shown once the enquiry is captured. A form that just sits there
+             after Send is the commonest reason a lead calls a competitor. -->
+        <div class="done" data-form-done hidden>
+          <p class="kicker" data-n="✓">Enquiry received</p>
+          <h3 class="d3" style="margin-bottom:1rem">Thank you. It is already with us.</h3>
+          <p style="color:var(--ink-2);max-width:52ch">Your enquiry has been logged and sent to the office. We reply within one working day, Saturday to Thursday, and usually a good deal sooner.</p>
+          <p style="color:var(--ink-2);max-width:52ch;margin-top:1rem">A WhatsApp message has also been opened with your details filled in. Send it and you will have a person on it within minutes — that is the fastest route by a distance.</p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="https://wa.me/201069262572?text=Hello%20Elite%20Renovations%20%E2%80%94%20I'd%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">Open WhatsApp</a>
+            <a class="btn btn--ghost" href="tel:+201069262572">Call +20 106 926 2572</a>
+          </div>
+        </div>
       </div>
 
       <div class="reveal">
