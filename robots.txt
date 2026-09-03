@@ -2,6 +2,5 @@
 User-agent: *
 Allow: /
 Disallow: /thank-you/
-Disallow: /privacy/
 
-Sitemap: https://www.eliterenovations.com/sitemap.xml
+Sitemap: https://deeahmed-pixel.github.io/sitemap.xml

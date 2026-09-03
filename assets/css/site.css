@@ -135,7 +135,7 @@ table{border-collapse:collapse;width:100%}
 @media(max-width:820px){.g3{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.g2,.g3,.g4{grid-template-columns:1fr}}
 
-.sec-head{max-width:26ch;margin-bottom:clamp(2.5rem,5vw,4.5rem)}
+.sec-head{max-width:none;margin-bottom:clamp(2.5rem,5vw,4.5rem)}
 .sec-head .lede{margin-top:1.4rem;max-width:52ch}
 .rule{height:1px;background:var(--line);border:0;margin:0}
 .dark .rule{background:var(--line-night)}
@@ -192,7 +192,14 @@ body.nav-open .lg,body.nav-open .hdr__right{color:var(--ink)}
 .hdr__right{display:flex;align-items:center;gap:clamp(1rem,2.5vw,2.4rem);color:var(--ink);transition:color .5s var(--ease)}
 .hdr__tel{font-size:.66rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap}
 .hdr__tel:hover{opacity:.6}
-@media(max-width:760px){.hdr__tel{display:none}}
+/* A contractor whose clients are on phones must have tap-to-call above the
+   fold. Below 760px the number collapses to a glyph rather than disappearing. */
+@media(max-width:760px){
+  .hdr__tel{font-size:0;padding:.6rem;margin-right:-.4rem}
+  .hdr__tel::before{content:"";display:block;width:20px;height:20px;background:currentColor;
+    -webkit-mask:var(--tel-icon) center/contain no-repeat;mask:var(--tel-icon) center/contain no-repeat}
+}
+:root{--tel-icon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z'/%3E%3C/svg%3E")}
 
 /* menu trigger: word + two rules */
 .menu-btn{display:flex;align-items:center;gap:.75rem;font-size:.65rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;padding:.5rem 0}
@@ -318,6 +325,12 @@ figure.fig figcaption{
 }
 .dark figure.fig figcaption,.on-night figure.fig figcaption{color:var(--on-night-2)}
 
+/* `ch` measures against the element's OWN font. On .sec-head it resolved
+   against the 16px parent, so a 26ch cap produced a 231px box and a 69px
+   display heading broke into four or five one-word lines. Cap the heading
+   itself instead, where 14ch is ~470px. */
+.sec-head .d1,.sec-head .d2,.sec-head .d3{max-width:14ch}
+
 /* ---------------------------- CARDS ----------------------------- */
 /* Borderless. The image is the card. */
 .card{display:flex;flex-direction:column;height:100%;background:transparent}
@@ -374,7 +387,7 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
 .stats div{padding:clamp(2rem,4vw,3.4rem) clamp(1rem,2vw,2rem) clamp(2rem,4vw,3.4rem) 0;border-bottom:1px solid var(--line)}
 .stats div+div{border-left:1px solid var(--line);padding-left:clamp(1rem,2vw,2rem)}
 .stats .v{font-size:clamp(2.2rem,4.6vw,3.6rem);font-weight:300;letter-spacing:-.04em;line-height:1}
-.stats .l{font-size:.6rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-top:1rem;max-width:22ch}
+.stats .l{font-size:.6rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-top:1rem}
 .dark .stats,.dark .stats div{border-color:var(--line-night)}
 .dark .stats .l{color:var(--on-night-2)}
 @media(max-width:820px){.stats{grid-template-columns:repeat(2,1fr)}.stats div:nth-child(odd)+div{border-left:1px solid var(--line)}.stats div:nth-child(odd){border-left:0}}
@@ -442,9 +455,12 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
 /* Underlined fields only — no boxes. */
 .form{display:grid;gap:clamp(1.4rem,2.4vw,2rem)}
 .field{display:flex;flex-direction:column;gap:.5rem}
-.field label{font-size:.575rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-3)}
+/* was .575rem = 9.2px on a phone: too small for a label doing real work */
+.field label{font-size:.72rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2)}
 .field input,.field select,.field textarea{
-  font:inherit;font-size:.98rem;padding:.65em 0;background:transparent;color:var(--ink);
+  /* 16px exactly: iOS Safari zooms the viewport on focus for anything smaller,
+     and it did on all nine fields of the enquiry form. */
+  font:inherit;font-size:16px;padding:.65em 0;background:transparent;color:var(--ink);
   border:0;border-bottom:1px solid var(--line);width:100%;transition:border-color .4s var(--ease);
   border-radius:0;-webkit-appearance:none;appearance:none;
 }
@@ -455,7 +471,7 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
 @media(max-width:600px){.field--2{grid-template-columns:1fr}}
 .form__note{font-size:.76rem;color:var(--ink-3);line-height:1.55}
 .form__note a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
-.form__err{font-size:.72rem;color:#A8342A;display:none}
+.form__err{font-size:.82rem;color:#A8342A;display:none}
 .field.invalid input,.field.invalid select,.field.invalid textarea{border-bottom-color:#A8342A}
 .field.invalid .form__err{display:block}
 
@@ -576,7 +592,7 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
   position:absolute;top:0;left:0;z-index:3;
   padding:.5em .85em;
   font-size:.55rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--night);background:var(--brass-2);
+  color:var(--brass-2);background:rgba(15,22,20,.74);backdrop-filter:blur(3px);
 }
 
 /* ==================================================================
@@ -603,9 +619,9 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
 /* numbered index + features: the numeral is the ornament */
 .index-list .n,.feat__n{color:var(--brass)}
 .dark .index-list .n,.dark .feat__n{color:var(--brass-2)}
-.index-list a:hover{background:linear-gradient(90deg,rgba(169,127,69,.05),transparent 42%)}
+.index-list a:hover{background:transparent}
 .index-list a:hover .t{color:var(--ink)}
-.dark .index-list a:hover{background:linear-gradient(90deg,rgba(217,188,134,.06),transparent 42%)}
+.dark .index-list a:hover{background:transparent}
 .index-list a:hover .go{color:var(--brass)}
 .dark .index-list a:hover .go{color:var(--brass-2)}
 
@@ -647,11 +663,9 @@ a.card:hover .card__media::after{transform:scaleX(1)}
 .f input:focus,.f select:focus,.f textarea:focus{border-color:var(--brass);outline:none}
 
 /* dark sections get depth rather than flatness — a slow radial lift */
-.dark{
-  background:
-    radial-gradient(120% 80% at 50% -10%,rgba(169,127,69,.07),transparent 60%),
-    var(--night);
-}
+/* The metal is INK. A brass wash across a 1440x1234 section was the single
+   largest painted area on the site and the rule says never on a large area. */
+.dark{background:var(--night)}
 
 /* footer: one brass rule across the top */
 .ftr{border-top:1px solid var(--brass-soft)}
@@ -730,7 +744,10 @@ a.sheet__f:hover img{transform:scale(1.05)}
    because on a phone a 20 px target is a joke. The range input stays in
    the DOM and keyboard-operable; it is only visually hidden.
    ---------------------------------------------------------------- */
-.ba-slide__box{position:relative;overflow:hidden;aspect-ratio:4/3;background:var(--night-2);touch-action:none;cursor:ew-resize}
+/* pan-y, not none: a vertical swipe must still scroll the page. Horizontal
+   dragging is handled in JS behind a movement threshold. `none` here froze a
+   350px band of the home page on a phone. */
+.ba-slide__box{position:relative;overflow:hidden;aspect-ratio:4/3;background:var(--night-2);touch-action:pan-y;cursor:ew-resize}
 .ba-slide__box img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;user-select:none;-webkit-user-drag:none}
 .ba-slide__clip{position:absolute;inset:0;width:var(--x,50%);overflow:hidden;will-change:width}
 .ba-slide__clip img{width:100vw;max-width:none}
@@ -739,8 +756,8 @@ a.sheet__f:hover img{transform:scale(1.05)}
   position:absolute;top:0;z-index:4;padding:.5em .85em;
   font-size:.55rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
 }
-.ba-slide__tag--b{left:0;background:var(--night);color:var(--on-night)}
-.ba-slide__tag--a{right:0;background:var(--brass-2);color:var(--night)}
+.ba-slide__tag--b{left:0;background:var(--night);color:var(--on-night);box-shadow:inset 0 -2px 0 var(--line-night)}
+.ba-slide__tag--a{right:0;background:var(--night);color:var(--on-night);box-shadow:inset 0 -2px 0 var(--brass-2)}
 .ba-slide__handle{
   position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--brass-2);z-index:3;
   transform:translateX(-1px);pointer-events:none;
@@ -750,14 +767,17 @@ a.sheet__f:hover img{transform:scale(1.05)}
   transform:translate(-50%,-50%);border:2px solid var(--brass-2);border-radius:50%;
   background:rgba(15,22,20,.55);backdrop-filter:blur(3px);
 }
+/* Two arrowheads pointing LEFT and RIGHT. The previous pair of 45-degree
+   wedges rendered as a single downward chevron on a control that only moves
+   horizontally, which told the user the wrong axis. */
 .ba-slide__handle::before{
-  content:"";position:absolute;top:50%;left:50%;width:15px;height:9px;
-  transform:translate(-50%,-50%);
-  background:
-    linear-gradient(45deg,transparent 48%,var(--brass-2) 48% 52%,transparent 52%) left/7px 100% no-repeat,
-    linear-gradient(-45deg,transparent 48%,var(--brass-2) 48% 52%,transparent 52%) right/7px 100% no-repeat;
-  z-index:1;
+  content:"";position:absolute;top:50%;left:50%;width:22px;height:10px;
+  transform:translate(-50%,-50%);z-index:1;
+  background:var(--brass-2);
+  -webkit-mask:var(--ba-arrows) center/contain no-repeat;
+  mask:var(--ba-arrows) center/contain no-repeat;
 }
+:root{--ba-arrows:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 10'%3E%3Cpath d='M4.8 0.6 0.9 5l3.9 4.4' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17.2 0.6 21.1 5l-3.9 4.4' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
 .ba-slide__range{
   position:absolute;inset:0;width:100%;height:100%;z-index:5;opacity:0;cursor:ew-resize;margin:0;
 }
@@ -772,12 +792,14 @@ a.sheet__f:hover img{transform:scale(1.05)}
 .show__f{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;
   transition:opacity .9s var(--ease-2);z-index:1}
 .show__f.is-on{opacity:1;z-index:2}
-.show__dots{position:absolute;left:0;right:0;bottom:0;z-index:4;display:flex;gap:6px;
-  justify-content:center;padding:1rem}
-.show__dot{width:26px;height:2px;background:rgba(241,236,226,.35);border:0;padding:0;cursor:pointer;
-  transition:background .3s}
-.show__dot.is-on{background:var(--brass-2)}
-.show__dot:hover{background:rgba(241,236,226,.7)}
+.show__dots{position:absolute;left:0;right:0;bottom:0;z-index:4;display:flex;gap:4px;
+  justify-content:center;padding:.4rem}
+/* the visible bar stays 2px; the TAP TARGET is 44px tall via padding and
+   background-clip, because a 26x2 target cannot be hit with a thumb */
+.show__dot{width:30px;height:44px;background:rgba(241,236,226,.35);border:0;cursor:pointer;
+  padding:21px 2px;background-clip:content-box;transition:background .3s}
+.show__dot.is-on{background:var(--brass-2);background-clip:content-box}
+.show__dot:hover{background:rgba(241,236,226,.7);background-clip:content-box}
 @media(prefers-reduced-motion:reduce){.show__f{transition:none}}
 
 /* a badged hero: the label sits under the fixed header, not behind it */

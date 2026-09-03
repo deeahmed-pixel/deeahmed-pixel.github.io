@@ -164,9 +164,15 @@
         '_blank', 'noopener');
     }
 
-    function done() {
+    /* `captured` says whether the office actually has the enquiry. Telling a
+       visitor it is "already with us" when the POST failed is a lie at the one
+       moment it matters — they stop chasing and the lead is gone. */
+    function done(captured) {
       var panel = document.querySelector('[data-form-done]');
-      if (!panel) { openWhatsApp(); return; }
+      if (!panel) return;
+      panel.querySelectorAll('[data-done-if]').forEach(function (el) {
+        el.hidden = (el.dataset.doneIf === 'captured') !== !!captured;
+      });
       panel.hidden = false;
       form.hidden = true;
       panel.setAttribute('tabindex', '-1');
@@ -202,7 +208,7 @@
         if (btn) { btn.disabled = false; btn.textContent = label; }
       };
 
-      if (!endpoint) { restore(); openWhatsApp(); done(); return; }
+      if (!endpoint) { restore(); openWhatsApp(); done(false); return; }
 
       var payload = {
         name: val('name'), phone: val('phone'), email: val('email'),
@@ -215,22 +221,26 @@
       // Do not let a slow network hold the visitor: hand off after 6 seconds
       // regardless, and let the POST finish in the background.
       var handedOff = false;
-      var handOff = function () {
+      var handOff = function (captured) {
         if (handedOff) return;
         handedOff = true;
         restore();
         openWhatsApp();
-        done();
+        done(captured);
       };
-      var timer = setTimeout(handOff, 6000);
+      // A hand-off forced by the timeout has NOT been confirmed captured.
+      var timer = setTimeout(function () { handOff(false); }, 6000);
 
       fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
-      }).then(function (r) { return r.json().catch(function () { return {}; }); })
-        .then(function () { clearTimeout(timer); handOff(); })
-        .catch(function () { clearTimeout(timer); handOff(); });
+      }).then(function (r) {
+        return r.ok ? r.json().catch(function () { return {}; }) : null;
+      }).then(function (res) {
+        clearTimeout(timer);
+        handOff(!!(res && (res.stored || res.emailed || res.ok)));
+      }).catch(function () { clearTimeout(timer); handOff(false); });
     });
 
     form.querySelectorAll('[required]').forEach(function (input) {
@@ -302,4 +312,26 @@
       }, { threshold: 0.25 }).observe(fig);
     } else { play(); }
   });
+})();
+
+/* --------- clips play when they reach the screen, not before ---------
+   preload="none" keeps them off the wire until they matter; this starts
+   them on intersection and pauses them again on the way out, so a page of
+   ten walkthroughs costs one clip's bandwidth rather than ten. */
+(function () {
+  var vids = document.querySelectorAll('video[data-lazyplay]');
+  if (!vids.length || !('IntersectionObserver' in window)) return;
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      var v = e.target;
+      if (e.isIntersecting) {
+        if (still) return;
+        if (v.preload === 'none') v.preload = 'auto';
+        var play = v.play();
+        if (play && play.catch) play.catch(function () { /* autoplay refused: poster stands */ });
+      } else if (!v.paused) { v.pause(); }
+    });
+  }, { threshold: 0.35 });
+  [].forEach.call(vids, function (v) { io.observe(v); });
 })();
