@@ -96,8 +96,8 @@ table{border-collapse:collapse;width:100%}
 /* micro label — the Italian signature: tiny, wide-tracked, numbered */
 .kicker{
   display:flex;align-items:baseline;gap:.9em;
-  font-size:.615rem;font-weight:600;letter-spacing:.26em;text-transform:uppercase;
-  color:var(--ink-3);margin-bottom:clamp(1.5rem,3vw,2.6rem);
+  font-size:.72rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-2);margin-bottom:clamp(1.5rem,3vw,2.6rem);
 }
 .kicker[data-n]::before{content:attr(data-n);color:var(--ink);font-variant-numeric:tabular-nums}
 .dark .kicker[data-n]::before,.hero .kicker[data-n]::before{color:var(--on-night)}
@@ -500,6 +500,8 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
   transition:background .45s var(--ease),transform .45s var(--ease);
 }
 .wa-float:hover{background:#1FA855;transform:translateY(-2px)}
+/* No hover on a touch screen, so the resting state has to carry the cue. */
+@media(hover:none){.wa-float{background:#1FA855;color:#fff}}
 .wa-float svg{width:16px;height:16px}
 @media(max-width:560px){.wa-float span{display:none}.wa-float{padding:.95rem;border-radius:50%}}
 
@@ -569,7 +571,7 @@ a.card:hover .card__foot svg{transform:translateX(5px)}
 .partner-note a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 .dark .partner-note{border-color:var(--line-night);color:var(--on-night-2)}
 .dark .partner-note a{color:var(--on-night)}
-@media(max-width:900px){.cat-toolbar{top:0}}
+@media(max-width:900px){.cat-toolbar{top:var(--hdr-h,76px)}}
 
 /* --------------------------- UTILITIES -------------------------- */
 .skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--ink);color:var(--paper);padding:1em 1.6em;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase}
@@ -714,8 +716,8 @@ a.card:hover .card__media::after{transform:scaleX(1)}
 a.sheet__f:hover img{transform:scale(1.05)}
 .sheet__f>span{
   position:absolute;left:0;bottom:0;z-index:2;
-  padding:.35em .55em;font-family:ui-monospace,Menlo,monospace;
-  font-size:.55rem;letter-spacing:.06em;color:var(--on-night);
+  padding:.35em .55em;
+  font-size:.55rem;font-weight:600;letter-spacing:.14em;color:var(--on-night);
   background:linear-gradient(180deg,transparent,rgba(8,10,9,.78));
   width:100%;
 }
@@ -810,3 +812,10 @@ a.sheet__f:hover img{transform:scale(1.05)}
 /* the state after Send — a form that just sits there loses the lead */
 .done{border-left:2px solid var(--brass);padding-left:clamp(1.2rem,3vw,2rem)}
 .done .kicker[data-n]::before{color:var(--brass)}
+
+/* The first thing in the menu, not the last: two full-width contact buttons
+   above the link columns. On a phone the drawer is 2.4 screens tall and the
+   phone number used to sit at the very bottom of it. */
+.menu__reach{display:flex;gap:.9rem;flex-wrap:wrap;margin-bottom:clamp(2rem,4vw,3rem)}
+.menu__reach .btn{flex:1 1 14rem;justify-content:center;text-align:center}
+@media(min-width:900px){.menu__reach{max-width:34rem}}
