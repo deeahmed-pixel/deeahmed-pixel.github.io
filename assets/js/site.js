@@ -173,3 +173,65 @@
     });
   }
 })();
+
+/* --------------------- before / after sliders --------------------- */
+(function () {
+  var nodes = document.querySelectorAll('[data-ba]');
+  if (!nodes.length) return;
+  nodes.forEach(function (fig) {
+    var clip = fig.querySelector('.ba-slide__clip');
+    var range = fig.querySelector('.ba-slide__range');
+    var handle = fig.querySelector('.ba-slide__handle');
+    if (!clip || !range) return;
+    function set(v) {
+      clip.style.setProperty('--x', v + '%');
+      if (handle) handle.style.left = v + '%';
+    }
+    set(range.value);
+    range.addEventListener('input', function () { set(range.value); });
+    // dragging anywhere on the image, not just the 20px handle
+    var box = fig.querySelector('.ba-slide__box');
+    var dragging = false;
+    function at(e) {
+      var r = box.getBoundingClientRect();
+      var x = (e.touches ? e.touches[0].clientX : e.clientX) - r.left;
+      var v = Math.max(0, Math.min(100, (x / r.width) * 100));
+      range.value = v; set(v);
+    }
+    box.addEventListener('pointerdown', function (e) { dragging = true; at(e); box.setPointerCapture(e.pointerId); });
+    box.addEventListener('pointermove', function (e) { if (dragging) at(e); });
+    box.addEventListener('pointerup', function () { dragging = false; });
+    box.addEventListener('pointercancel', function () { dragging = false; });
+  });
+})();
+
+/* ----------------------------- slideshows ------------------------- */
+(function () {
+  var shows = document.querySelectorAll('[data-show]');
+  if (!shows.length) return;
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  shows.forEach(function (fig) {
+    var frames = [].slice.call(fig.querySelectorAll('.show__f'));
+    var dots = [].slice.call(fig.querySelectorAll('.show__dot'));
+    if (frames.length < 2) return;
+    var i = 0, timer = null, gap = parseInt(fig.dataset.interval, 10) || 3800;
+    function go(n) {
+      frames[i].classList.remove('is-on'); if (dots[i]) dots[i].classList.remove('is-on');
+      i = (n + frames.length) % frames.length;
+      frames[i].classList.add('is-on'); if (dots[i]) dots[i].classList.add('is-on');
+    }
+    function play() { if (still || timer) return; timer = setInterval(function () { go(i + 1); }, gap); }
+    function stop() { clearInterval(timer); timer = null; }
+    dots.forEach(function (d, n) { d.addEventListener('click', function () { stop(); go(n); }); });
+    fig.addEventListener('mouseenter', stop);
+    fig.addEventListener('mouseleave', play);
+    fig.addEventListener('focusin', stop);
+    fig.addEventListener('focusout', play);
+    // only run while on screen
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (es) {
+        es.forEach(function (e) { e.isIntersecting ? play() : stop(); });
+      }, { threshold: 0.25 }).observe(fig);
+    } else { play(); }
+  });
+})();

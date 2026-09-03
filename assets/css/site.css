@@ -724,3 +724,61 @@ a.sheet__f:hover img{transform:scale(1.05)}
 .stage-cap{margin-top:.7rem!important;font-size:.78rem!important;line-height:1.5;color:var(--ink-3)!important;
   letter-spacing:normal!important;text-transform:none!important;max-width:58ch}
 @media(max-width:560px){.stage-shots{max-width:100%}}
+
+/* -------------------- BEFORE / AFTER SLIDER ----------------------
+   The seam is draggable across the whole image, not just the handle,
+   because on a phone a 20 px target is a joke. The range input stays in
+   the DOM and keyboard-operable; it is only visually hidden.
+   ---------------------------------------------------------------- */
+.ba-slide__box{position:relative;overflow:hidden;aspect-ratio:4/3;background:var(--night-2);touch-action:none;cursor:ew-resize}
+.ba-slide__box img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;user-select:none;-webkit-user-drag:none}
+.ba-slide__clip{position:absolute;inset:0;width:var(--x,50%);overflow:hidden;will-change:width}
+.ba-slide__clip img{width:100vw;max-width:none}
+.ba-slide__box .ba-slide__clip img{width:auto;height:100%;min-width:100%}
+.ba-slide__tag{
+  position:absolute;top:0;z-index:4;padding:.5em .85em;
+  font-size:.55rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+}
+.ba-slide__tag--b{left:0;background:var(--night);color:var(--on-night)}
+.ba-slide__tag--a{right:0;background:var(--brass-2);color:var(--night)}
+.ba-slide__handle{
+  position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--brass-2);z-index:3;
+  transform:translateX(-1px);pointer-events:none;
+}
+.ba-slide__handle::after{
+  content:"";position:absolute;top:50%;left:50%;width:44px;height:44px;
+  transform:translate(-50%,-50%);border:2px solid var(--brass-2);border-radius:50%;
+  background:rgba(15,22,20,.55);backdrop-filter:blur(3px);
+}
+.ba-slide__handle::before{
+  content:"";position:absolute;top:50%;left:50%;width:15px;height:9px;
+  transform:translate(-50%,-50%);
+  background:
+    linear-gradient(45deg,transparent 48%,var(--brass-2) 48% 52%,transparent 52%) left/7px 100% no-repeat,
+    linear-gradient(-45deg,transparent 48%,var(--brass-2) 48% 52%,transparent 52%) right/7px 100% no-repeat;
+  z-index:1;
+}
+.ba-slide__range{
+  position:absolute;inset:0;width:100%;height:100%;z-index:5;opacity:0;cursor:ew-resize;margin:0;
+}
+.ba-slide__range:focus-visible + .ba-slide__handle::after{outline:2px solid var(--brass-2);outline-offset:3px}
+@media(max-width:640px){.ba-slide__box{aspect-ratio:1}}
+
+/* ----------------------------- SLIDESHOW -------------------------
+   Cross-fade in place. No sliding, no easing curves fighting the
+   photography — the frames simply replace each other.
+   ---------------------------------------------------------------- */
+.show__box{position:relative;overflow:hidden}
+.show__f{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;
+  transition:opacity .9s var(--ease-2);z-index:1}
+.show__f.is-on{opacity:1;z-index:2}
+.show__dots{position:absolute;left:0;right:0;bottom:0;z-index:4;display:flex;gap:6px;
+  justify-content:center;padding:1rem}
+.show__dot{width:26px;height:2px;background:rgba(241,236,226,.35);border:0;padding:0;cursor:pointer;
+  transition:background .3s}
+.show__dot.is-on{background:var(--brass-2)}
+.show__dot:hover{background:rgba(241,236,226,.7)}
+@media(prefers-reduced-motion:reduce){.show__f{transition:none}}
+
+/* a badged hero: the label sits under the fixed header, not behind it */
+.hero__badge{top:auto;bottom:0;left:0;z-index:6}
