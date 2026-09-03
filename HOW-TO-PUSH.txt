@@ -1,0 +1,35 @@
+ELITE RENOVATIONS — PUSH THIS LIVE
+==================================
+
+This folder IS the website. 176 pages, 771 photographs, 171 clips, 311 MB.
+It is already a git repository with one commit ready to go.
+
+Run these two lines in Terminal. Copy the whole block.
+
+    cd ~/Desktop/elite-live
+    git remote add origin https://github.com/deeahmed-pixel/deeahmed-pixel.github.io.git
+    git push -u origin main --force
+
+If it says the remote already exists, skip the middle line and just push.
+
+The upload is 311 MB, so give it time on an Egyptian connection. It is a
+one-off: every push after this one only sends what changed.
+
+When it finishes the site is at:
+
+    https://deeahmed-pixel.github.io/
+
+Give GitHub two or three minutes to publish before you refresh.
+
+WHY NOT NETLIFY
+---------------
+Netlify's Frankfurt edge is unreachable from your networks — we proved that
+last time, and Wesha's site fails the same way. GitHub Pages works from
+your phone and your office, so that is what this is set up for.
+
+TO UPDATE IT LATER
+------------------
+    cd ~/Desktop/elite-renovations && node build.mjs
+    rm -rf ~/Desktop/elite-live/assets ~/Desktop/elite-live/*.html
+    cp -R ~/Desktop/elite-renovations/dist/. ~/Desktop/elite-live/
+    cd ~/Desktop/elite-live && git add -A && git commit -m "update" && git push
