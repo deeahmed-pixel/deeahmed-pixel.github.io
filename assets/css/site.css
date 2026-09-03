@@ -144,6 +144,9 @@ table{border-collapse:collapse;width:100%}
 .white{background:var(--paper-w)}
 
 .grid{display:grid;gap:clamp(1.6rem,2.6vw,3rem)}
+/* A department that honestly has one photograph gets one wide photograph,
+   not a two-column grid with a hole where the second one used to be. */
+.g1{grid-template-columns:minmax(0,min(760px,100%));justify-content:center}
 .g2{grid-template-columns:repeat(2,1fr)}
 .g3{grid-template-columns:repeat(3,1fr)}
 .g4{grid-template-columns:repeat(4,1fr)}
