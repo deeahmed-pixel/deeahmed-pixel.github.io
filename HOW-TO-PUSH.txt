@@ -1,7 +1,14 @@
 ELITE RENOVATIONS — PUSH THIS LIVE
 ==================================
 
-This folder IS the website. 176 pages, 771 photographs, 171 clips, 311 MB.
+This folder IS the website. 195 pages, 765 photographs, 171 clips.
+
+Six photographs are deliberately NOT in here. They turned out to be pictures of
+your own screen — four of the Claude window with your project list readable,
+two of Chrome with your tabs and bookmarks readable. Nothing was deleted; they
+are still in the project at static/assets/img/archive, just held back from the
+public site. The list is at the top of scripts/build-archive.mjs if you want
+any of them back.
 It is already a git repository with one commit ready to go.
 
 Run these two lines in Terminal. Copy the whole block.
