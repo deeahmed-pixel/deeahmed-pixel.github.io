@@ -1035,3 +1035,79 @@ a.sheet__f:hover img{transform:scale(1.05)}
   border-left:3px solid var(--brass);border-radius:2px}
 .pwatch h3{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;margin:0 0 .55rem;opacity:.72}
 .pwatch p{margin:0;line-height:1.6}
+
+/* ================================================================
+   ARABIC / RIGHT-TO-LEFT
+   ----------------------------------------------------------------
+   The Arabic site is not the English site flipped. Two things carry
+   most of the difference:
+
+   1. TYPE. Arabic set in a Latin face with a fallback looks machine
+      made, and it is the fastest way to lose a premium Egyptian
+      buyer. Tajawal carries the text and Amiri the display sizes —
+      both real Arabic faces, and Amiri has the presence at 60px that
+      Fraunces has in English.
+
+   2. RHYTHM. Arabic needs more leading than Latin at the same size
+      because of the descenders and the diacritic space, and it reads
+      slightly larger. Letter-spacing is removed everywhere: spacing
+      out an Arabic word breaks the joins between letters and renders
+      it close to unreadable. This is the single most common mistake
+      on bilingual sites.
+   ================================================================ */
+[dir="rtl"]{
+  --sans:"Tajawal",-apple-system,"Segoe UI",system-ui,sans-serif;
+  --serif:"Amiri","Tajawal",Georgia,serif;
+}
+[dir="rtl"] body{font-family:var(--sans);line-height:1.85}
+[dir="rtl"] .d1,[dir="rtl"] .d2,[dir="rtl"] .d3,[dir="rtl"] .d4,
+[dir="rtl"] h1,[dir="rtl"] h2,[dir="rtl"] h3,[dir="rtl"] h4{
+  font-family:var(--serif);letter-spacing:0}
+/* Amiri carries tall ascenders and deep descenders. At the leading that suits
+   Fraunces the lines physically collide, so display sizes get much more. */
+[dir="rtl"] .d1{line-height:1.5}
+[dir="rtl"] .d2{line-height:1.55}
+[dir="rtl"] .d3,[dir="rtl"] .d4{line-height:1.6}
+[dir="rtl"] h1,[dir="rtl"] h2,[dir="rtl"] h3,[dir="rtl"] h4{line-height:1.5}
+/* The wordmark is a fixed-width Latin lockup; in RTL it was being squeezed
+   by the flex row and clipping its own last letter. */
+[dir="rtl"] .lg{flex:none;min-width:max-content}
+[dir="rtl"] .hdr__in{gap:1rem}
+[dir="rtl"] .lede{line-height:1.9}
+
+/* Never letter-space Arabic — it breaks the letter joins. */
+[dir="rtl"] .kicker,[dir="rtl"] .card__eyebrow,[dir="rtl"] .pcard__k,
+[dir="rtl"] .menu-btn__label,[dir="rtl"] .lg__sub,[dir="rtl"] .hdr__tel,
+[dir="rtl"] .pwatch h3,[dir="rtl"] .ph__badge,[dir="rtl"] .skip{letter-spacing:0;text-transform:none}
+
+/* Latin fragments inside Arabic — phone numbers, stone names, sizes —
+   stay in the Latin face and stay left-to-right inside the Arabic run. */
+[dir="rtl"] .ltr,[dir="rtl"] .hdr__tel,[dir="rtl"] .spec td,
+[dir="rtl"] a[href^="tel:"],[dir="rtl"] .lg__name{
+  direction:ltr;unicode-bidi:isolate;font-family:"DM Sans",var(--sans)}
+[dir="rtl"] .spec th{text-align:right}
+/* A price is digits plus an Arabic unit. The digits are isolated LTR so the
+   thousands separator and the en-dash stay in order; the unit stays Arabic
+   and stays to their right, which is how a price is read aloud in Egypt. */
+.prange__u{font-size:.72em;opacity:.8;font-weight:500}
+
+/* Directional layout that logical properties do not cover. */
+[dir="rtl"] .pbuild li{padding-left:0;padding-right:2.6rem}
+[dir="rtl"] .pbuild li::before{left:auto;right:0}
+[dir="rtl"] .pwatch{border-left:0;border-right:3px solid var(--brass)}
+[dir="rtl"] .crumbs,[dir="rtl"] .sec-head,[dir="rtl"] .hero__c{text-align:right}
+[dir="rtl"] .wa-float{right:auto;left:1.2rem}
+/* The skip link hides itself with left:-9999px. Flipping that to left:auto
+   did not mirror it — it UN-hid it, pinning a permanently visible black bar
+   over the wordmark. It has to be hidden off the RIGHT edge in RTL and
+   revealed on focus, exactly as the LTR rule does on the left. */
+[dir="rtl"] .skip{left:auto;right:-9999px}
+[dir="rtl"] .skip:focus{left:auto;right:0}
+[dir="rtl"] .I-arrow,[dir="rtl"] .tlink svg,[dir="rtl"] .btn svg{transform:scaleX(-1)}
+
+/* The language switch sits beside the price button in both directions. */
+.hdr__lang{display:inline-flex;align-items:center;padding:.5rem .85rem;
+  border:1px solid rgba(255,255,255,.28);border-radius:2px;text-decoration:none;
+  color:inherit;font-size:.86rem;line-height:1;white-space:nowrap;transition:border-color .2s}
+.hdr__lang:hover{border-color:var(--brass-2)}
+@media(max-width:820px){.hdr__lang{display:none}}
