@@ -201,7 +201,8 @@
       var btn = form.querySelector('[type=submit]');
       var label = btn ? btn.textContent : '';
       sending = true;
-      if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+      // The label comes from the page so an Arabic form says it in Arabic.
+      if (btn) { btn.disabled = true; btn.textContent = btn.getAttribute('data-sending') || 'Sending…'; }
 
       var restore = function () {
         sending = false;

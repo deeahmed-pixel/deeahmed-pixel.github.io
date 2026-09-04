@@ -1082,7 +1082,7 @@ a.sheet__f:hover img{transform:scale(1.05)}
 
 /* Latin fragments inside Arabic — phone numbers, stone names, sizes —
    stay in the Latin face and stay left-to-right inside the Arabic run. */
-[dir="rtl"] .ltr,[dir="rtl"] .hdr__tel,[dir="rtl"] .spec td,
+[dir="rtl"] .ltr,[dir="rtl"] .hdr__tel,
 [dir="rtl"] a[href^="tel:"],[dir="rtl"] .lg__name{
   direction:ltr;unicode-bidi:isolate;font-family:"DM Sans",var(--sans)}
 [dir="rtl"] .spec th{text-align:right}

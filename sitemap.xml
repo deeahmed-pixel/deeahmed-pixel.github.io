@@ -2221,6 +2221,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://deeahmed-pixel.github.io/prices/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://deeahmed-pixel.github.io/ar/prices/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
