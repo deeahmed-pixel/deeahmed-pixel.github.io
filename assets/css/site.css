@@ -317,23 +317,34 @@ body.nav-open .menu{opacity:1;visibility:visible;pointer-events:auto;clip-path:i
    there is no photograph good enough to carry it, and there usually is not:
    the archive is a foreman's camera roll, and a phone snap stretched behind
    display type reads as a contractor's Facebook page, not a premium brand. */
-.stone-field{position:absolute;inset:0;background:#17140F;overflow:hidden}
+.stone-field{position:absolute;inset:0;background:#191510;overflow:hidden}
+/* The mass of the stone. Weighted to the RIGHT, because the type sits left and
+   the half of the canvas it leaves empty is exactly where a slab should be. */
 .stone-field::before{
   content:"";position:absolute;inset:-20%;
   background:
-    radial-gradient(52% 40% at 22% 26%,rgba(214,190,150,.20),transparent 66%),
-    radial-gradient(44% 34% at 78% 18%,rgba(196,166,120,.13),transparent 64%),
-    radial-gradient(38% 30% at 66% 76%,rgba(180,71,44,.10),transparent 62%),
-    radial-gradient(60% 46% at 40% 92%,rgba(226,214,192,.08),transparent 68%);
-  filter:blur(30px);animation:drift 46s var(--ease) infinite alternate;
+    radial-gradient(58% 52% at 74% 34%,rgba(216,190,148,.40),transparent 68%),
+    radial-gradient(46% 40% at 92% 66%,rgba(198,160,112,.28),transparent 66%),
+    radial-gradient(40% 34% at 62% 88%,rgba(176,74,46,.20),transparent 64%),
+    radial-gradient(52% 44% at 34% 16%,rgba(228,216,196,.14),transparent 70%),
+    radial-gradient(70% 60% at 18% 78%,rgba(120,104,84,.16),transparent 72%);
+  filter:blur(34px);animation:drift 46s var(--ease) infinite alternate;
 }
-/* the veining: two shallow angles, the way a bookmatched slab actually runs */
+/* The veining. Three shallow angles, the way a bookmatched slab actually runs —
+   a dominant seam, a finer companion, and the rust vein that carries the accent
+   colour through. Strong enough to read as stone at 1440, quiet under the type. */
 .stone-field::after{
-  content:"";position:absolute;inset:-12%;opacity:.5;filter:blur(3px);
+  content:"";position:absolute;inset:-12%;opacity:.9;filter:blur(2px);
   background-image:
-    repeating-linear-gradient(102deg,transparent 0 62px,rgba(233,222,201,.055) 62px 64px,transparent 64px 170px),
-    repeating-linear-gradient(97deg,transparent 0 132px,rgba(233,222,201,.032) 132px 133px,transparent 133px 310px),
-    repeating-linear-gradient(108deg,transparent 0 210px,rgba(180,71,44,.045) 210px 212px,transparent 212px 480px);
+    repeating-linear-gradient(102deg,transparent 0 58px,rgba(240,228,206,.10) 58px 61px,transparent 61px 164px),
+    repeating-linear-gradient(97deg,transparent 0 126px,rgba(240,228,206,.06) 126px 128px,transparent 128px 300px),
+    repeating-linear-gradient(108deg,transparent 0 196px,rgba(196,88,56,.09) 196px 199px,transparent 199px 452px),
+    repeating-linear-gradient(94deg,transparent 0 340px,rgba(240,228,206,.045) 340px 342px,transparent 342px 700px);
+}
+/* On a phone the type fills the frame, so the field steps back out of its way. */
+@media(max-width:760px){
+  .stone-field::before{filter:blur(28px);opacity:.72}
+  .stone-field::after{opacity:.55}
 }
 @media(prefers-reduced-motion:reduce){.stone-field::before{animation:none}}
 
