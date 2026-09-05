@@ -171,8 +171,13 @@
     </div>
   </nav>
   <main id="main">
-  <section class="hero hero--page" style="padding-bottom:0">
-    <div class="hero__bg"><img src="/assets/img/stones/brown-agate/brown-agate-surface.jpg" alt="" fetchpriority="high"></div>
+  <!-- This page builds its own hero rather than calling hero(), so the size
+       rule is applied here too: the only photograph most stones have is a
+       400x300 surface swatch, which is mush across 1440. A stone that has no
+       big enough frame leads with a field mixed from its OWN recorded colours
+       — base and two veins — so Galala reads cream and Black Aswan reads black. -->
+  <section class="hero hero--page hero--stone" style="padding-bottom:0">
+    <div class="hero__bg"><div class="stone-field stone-field--tinted" style="--sf-base:#8A6647;--sf-v1:#E6D2B655;--sf-v2:#4A322144"></div></div>
     <div class="wrap hero__in" style="padding-bottom:clamp(3rem,6vw,4.5rem)">
       <nav aria-label="Breadcrumb"><ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/catalogue/">Catalogue</a></li><li><a href="/catalogue/semi-precious/">Semi-Precious &amp; Onyx</a></li><li><span aria-current="page">Brown Agate</span></li></ol></nav>
       <p class="kicker">Semi-Precious &amp; Onyx · Brown</p>

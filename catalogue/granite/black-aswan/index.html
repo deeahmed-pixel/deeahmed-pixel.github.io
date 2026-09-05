@@ -171,8 +171,13 @@
     </div>
   </nav>
   <main id="main">
-  <section class="hero hero--page" style="padding-bottom:0">
-    <div class="hero__bg"><img src="/assets/img/stones/black-aswan/black-aswan-surface.jpg" alt="" fetchpriority="high"></div>
+  <!-- This page builds its own hero rather than calling hero(), so the size
+       rule is applied here too: the only photograph most stones have is a
+       400x300 surface swatch, which is mush across 1440. A stone that has no
+       big enough frame leads with a field mixed from its OWN recorded colours
+       — base and two veins — so Galala reads cream and Black Aswan reads black. -->
+  <section class="hero hero--page hero--stone" style="padding-bottom:0">
+    <div class="hero__bg"><div class="stone-field stone-field--tinted" style="--sf-base:#26241F;--sf-v1:#26241F55;--sf-v2:#26241F44"></div></div>
     <div class="wrap hero__in" style="padding-bottom:clamp(3rem,6vw,4.5rem)">
       <nav aria-label="Breadcrumb"><ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/catalogue/">Catalogue</a></li><li><a href="/catalogue/granite/">Granite</a></li><li><span aria-current="page">Black Aswan</span></li></ol></nav>
       <p class="kicker">Granite · Black</p>

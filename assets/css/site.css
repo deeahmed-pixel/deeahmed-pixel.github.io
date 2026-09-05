@@ -346,6 +346,27 @@ body.nav-open .menu{opacity:1;visibility:visible;pointer-events:auto;clip-path:i
   .stone-field::before{filter:blur(28px);opacity:.72}
   .stone-field::after{opacity:.55}
 }
+
+/* A stone's own page leads with a field mixed from ITS colours — the base and
+   the two vein values already recorded for all 94 stones in the catalogue.
+   Galala reads cream, Black Aswan reads black, Rosa El Nasr reads pink. The
+   only photograph most stones have is a 400px surface swatch, which is mush
+   stretched across 1440; its own colour, at any size, is not. */
+.stone-field--tinted{background:var(--sf-base,#191510)}
+.stone-field--tinted::before{
+  background:
+    radial-gradient(58% 52% at 74% 34%,var(--sf-v1,rgba(216,190,148,.40)),transparent 68%),
+    radial-gradient(46% 40% at 92% 66%,var(--sf-v2,rgba(198,160,112,.28)),transparent 66%),
+    radial-gradient(40% 34% at 62% 88%,rgba(176,74,46,.16),transparent 64%),
+    radial-gradient(70% 60% at 18% 78%,rgba(0,0,0,.34),transparent 72%);
+  mix-blend-mode:normal;
+}
+/* the type sits on this, so the whole field is dropped back behind a scrim */
+.stone-field--tinted::after{opacity:.55}
+.hero--stone .hero__bg::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(100deg,rgba(15,12,9,.90) 0%,rgba(15,12,9,.74) 46%,rgba(15,12,9,.42) 100%);
+}
 @media(prefers-reduced-motion:reduce){.stone-field::before{animation:none}}
 
 @media(prefers-reduced-motion:reduce){.marble-field::before{animation:none}.scroll-cue i{animation:none}}
