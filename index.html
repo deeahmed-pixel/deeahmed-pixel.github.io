@@ -77,8 +77,8 @@
       <div class="hdr__right">
         <a class="hdr__tel" href="tel:+201069262572">+20 106 926 2572</a>
         <a class="hdr__quote" href="/contact/">Get a price</a>
-        <a class="hdr__lang" href="/ar/" hreflang="ar-eg" lang="ar" aria-label="Switch to Arabic">العربية</a>
-        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+        <a class="hdr__lang" href="/ar/" hreflang="ar-eg" lang="ar">العربية</a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" data-open-label="Menu" data-close-label="Close">
           <span class="menu-btn__label">Menu</span>
           <span class="menu-btn__bars" aria-hidden="true"><i></i><i></i></span>
         </button>
@@ -95,8 +95,10 @@
 
   <nav class="menu" id="menu" aria-label="Primary">
     <div class="menu__reach">
-      <a class="btn btn--primary" href="tel:+201069262572">Call us +20 106 926 2572</a>
+      <a class="btn btn--primary" href="tel:+201069262572">Call us <span class="ltr" dir="ltr">+20 106 926 2572</span></a>
       <a class="btn btn--ghost" href="https://wa.me/201069262572?text=Hello%20Elite%20Renovations%20%E2%80%94%20I'd%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">Message us on WhatsApp</a>
+      
+      <a class="btn btn--ghost menu__lang" href="/ar/" hreflang="ar-eg" lang="ar">العربية</a>
     </div>
     <div class="menu__cols">
       <div>
@@ -180,7 +182,6 @@
       <h1 class="d1">The material,<br>and the people<br>who lay it.</h1>
       <p class="lede">Ninety-four stones cut on our own lines, plus cement, steel, sand, tile, paint, pipe and cable. Buy the material on its own, or hand us the whole house. Same company either way.</p>
       <div class="hero__meta"><span>20+ years</span><span>35 departments</span><span>One contract</span></div>
-      
     </div>
     <div class="scroll-cue"><i></i>Scroll</div>
   </section>
@@ -219,7 +220,7 @@
         <div><h3>Want supply only?</h3><p>We will sell you every material without installation, at the supplier&#39;s price, on a tax invoice in your name.</p></div><div><h3>Not sure where to start?</h3><p>Send us the details of the property and the budget you have. We will come back with a full costed schedule that gets the most out of it.</p></div>
       </div>
       <div class="money__cta reveal">
-        <a class="btn btn--primary" href="/contact/">Talk to us and find out exactly what you pay</a>
+        <a class="btn btn--primary" href="/contact/">Find out exactly what you pay</a>
         <a class="btn btn--ghost" href="https://wa.me/201069262572?text=Hello%20Elite%20%E2%80%94%20I%20would%20like%20to%20know%20more%20about%20paying%20the%20supplier%20directly." target="_blank" rel="noopener">WhatsApp</a>
       </div>
     </div>
@@ -270,9 +271,11 @@
           <p class="kicker" data-n="—">Before &amp; after</p>
           <h2 class="d2">Drag the seam.</h2>
         </div>
-        <p class="lede reveal" style="margin:0">Anyone can show you a finished room. These are the same wall from the same spot, months apart. Pull the handle across and nothing moves but the work. Twenty years of it, and this is still the only proof that means anything.</p>
+        <p class="lede reveal" style="margin:0">Anyone can show you a finished room. These are the same buildings, months apart: pull the handle across and watch the work arrive. Twenty years of it, and this is still the proof that means the most.</p>
       </div>
-      <div class="grid g2 reveal">
+      <!-- One pair, not two: the garden-room pair was two views of the finished
+           room (the pool is already there through the "before" glass). -->
+      <div class="reveal" style="max-width:58rem">
         <figure class="fig ba-slide" data-ba>
     <div class="ba-slide__box">
       <img class="ba-slide__after" src="/assets/img/archive/1198.jpg" alt="The same range in raked mud render with a crenellated parapet and palm-log window canopies" loading="eager" decoding="async">
@@ -286,20 +289,6 @@
       <span class="ba-slide__handle" aria-hidden="true"></span>
     </div>
     <figcaption>The Siwa lodge: bare block and sand, then raked mud render, a crenellated parapet and palm-log canopies over every window.</figcaption>
-  </figure>
-        <figure class="fig ba-slide" data-ba>
-    <div class="ba-slide__box">
-      <img class="ba-slide__after" src="/assets/img/archive/1291.jpg" alt="The same corner finished, striped pergola light on cream marble and the mosaic pool beyond" loading="lazy" decoding="async">
-      <div class="ba-slide__clip" style="--x:50%">
-        <img class="ba-slide__before" src="/assets/img/archive/1281.jpg" alt="A glazed garden room looking onto a bare dirt yard through dusty glass" loading="lazy" decoding="async">
-      </div>
-      <span class="ba-slide__tag ba-slide__tag--b">Before</span>
-      <span class="ba-slide__tag ba-slide__tag--a">After</span>
-      <input class="ba-slide__range" type="range" min="0" max="100" value="50"
-             aria-label="The garden room: the same corner, and the view through the glass — bare ground, then the pool we built in it.">
-      <span class="ba-slide__handle" aria-hidden="true"></span>
-    </div>
-    <figcaption>The garden room: the same corner, and the view through the glass — bare ground, then the pool we built in it.</figcaption>
   </figure>
       </div>
       <div class="mt-3" style="margin-top:clamp(2rem,4vw,3rem)"><a class="tlink" href="/projects/">Every project <svg width="15" height="9" viewBox="0 0 15 9" fill="none" aria-hidden="true"><path d="M0 4.5h13.5M10 1l3.5 3.5L10 8" stroke="currentColor" stroke-width="1.1"/></svg></a></div>
@@ -330,8 +319,9 @@
     <div class="bleed reveal moghra__show">
       <figure class="fig show" data-show data-interval="3200">
     <div class="ph ph--21x9 show__box">
-      <img class="show__f is-on" src="/assets/img/archive/699.jpg" alt="El Moghra facade at blue hour reflected in the courtyard pool" loading="eager" decoding="async"><img class="show__f" src="/assets/img/archive/704.jpg" alt="The courtyard at night under palm-log pergolas" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/739.jpg" alt="The floodlit entrance elevation and paved forecourt" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/732.jpg" alt="Mud-brick facade with uplit piers under a moon" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/727.jpg" alt="Lodge block with twin triangular uplights and carved doors" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/702.jpg" alt="The courtyard pool lit at night" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/705.jpg" alt="Looking up through the palm-log lattice pergola" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/737.jpg" alt="Crenellated parapet with triangular uplighting" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/734.jpg" alt="A passage of carved timber doors under an uplit parapet" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/709.jpg" alt="Interior corridor with layered uplights and pendant lanterns" loading="lazy" decoding="async">
-      <div class="show__dots"><button type="button" class="show__dot is-on" aria-label="Frame 1 of 10"></button><button type="button" class="show__dot" aria-label="Frame 2 of 10"></button><button type="button" class="show__dot" aria-label="Frame 3 of 10"></button><button type="button" class="show__dot" aria-label="Frame 4 of 10"></button><button type="button" class="show__dot" aria-label="Frame 5 of 10"></button><button type="button" class="show__dot" aria-label="Frame 6 of 10"></button><button type="button" class="show__dot" aria-label="Frame 7 of 10"></button><button type="button" class="show__dot" aria-label="Frame 8 of 10"></button><button type="button" class="show__dot" aria-label="Frame 9 of 10"></button><button type="button" class="show__dot" aria-label="Frame 10 of 10"></button></div>
+      <img class="show__f is-on" src="/assets/img/archive/699.jpg" alt="El Moghra lodge lit at night across the courtyard pool" loading="eager" decoding="async"><img class="show__f" src="/assets/img/archive/704.jpg" alt="The courtyard at night under two pine lattice pergolas" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/739.jpg" alt="The floodlit entrance elevation and paved forecourt" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/732.jpg" alt="Mud-brick facade with uplit piers under a moon" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/727.jpg" alt="Lodge block with twin triangular uplights and carved doors" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/702.jpg" alt="The courtyard pool lit at night" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/705.jpg" alt="Looking up through the palm-log lattice pergola" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/737.jpg" alt="Crenellated parapet with triangular uplighting" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/734.jpg" alt="A passage of carved timber doors under an uplit parapet" loading="lazy" decoding="async"><img class="show__f" src="/assets/img/archive/709.jpg" alt="Interior corridor with layered uplights and pendant lanterns" loading="lazy" decoding="async">
+      
+      <div class="show__dots"><button type="button" class="show__dot is-on" aria-current="true" aria-label="Frame 1 of 10"></button><button type="button" class="show__dot" aria-label="Frame 2 of 10"></button><button type="button" class="show__dot" aria-label="Frame 3 of 10"></button><button type="button" class="show__dot" aria-label="Frame 4 of 10"></button><button type="button" class="show__dot" aria-label="Frame 5 of 10"></button><button type="button" class="show__dot" aria-label="Frame 6 of 10"></button><button type="button" class="show__dot" aria-label="Frame 7 of 10"></button><button type="button" class="show__dot" aria-label="Frame 8 of 10"></button><button type="button" class="show__dot" aria-label="Frame 9 of 10"></button><button type="button" class="show__dot" aria-label="Frame 10 of 10"></button></div>
     </div>
     
   </figure>
@@ -666,7 +656,7 @@
         <span class="stonestrip__n">Samaha</span>
         <span class="stonestrip__o">Minya Governorate, Upper Egypt &middot; marble</span>
       </a><a href="/catalogue/marble/hashma-beige/" class="stonestrip__i" aria-label="Hashma Beige">
-        <span class="stone__media" style="aspect-ratio:3/4;margin:0;display:block"><img src="/assets/img/stones/hashma-beige/hashma-beige-surface.jpg" alt="A uniform warm apricot-tan, matte, finely pitted granular surface with no veining at all - a sandstone texture" loading="lazy" decoding="async"></span>
+        <span class="stone__media" style="aspect-ratio:3/4;margin:0;display:block"><img src="/assets/img/stones/hashma-beige/hashma-beige-surface.jpg" alt="Hashma Beige — marble from Eastern Desert, Egypt" loading="lazy" decoding="async"></span>
         <span class="stonestrip__n">Hashma Beige</span>
         <span class="stonestrip__o">Eastern Desert, Egypt &middot; marble</span>
       </a><a href="/catalogue/marble/sinai-pearl/" class="stonestrip__i" aria-label="Sinai Pearl">
@@ -693,7 +683,7 @@
       </div>
       <div class="grid g3">
         <a class="card reveal" href="/areas/north-coast-sahel/">
-          <div class="card__media"><div class="ph ph--4x3"><img src="/assets/img/projects/nc-a-pool-pergola.jpg" alt="A dark-stained timber slat pergola on square timber posts attached to a villa clad in split-face beige stone, with a black-framed sliding glass door, a small shuttered window, a terracotta-tiled roof edge, a slatted timber privacy screen at right, and a bare concrete terrace with timber offcuts and a paint tin in the foreground; no pool in frame" loading="lazy" decoding="async"></div></div>
+          <div class="card__media"><div class="ph ph--4x3"><img src="/assets/img/projects/nc-a-pool-pergola.jpg" alt="Timber louvre pergola over a pool beside a split-face stone-clad villa" loading="lazy" decoding="async"></div></div>
           <div class="card__body">
             <span class="card__eyebrow">Sahel</span>
             <h3 class="card__title">North Coast (Sahel)</h3>
@@ -707,7 +697,7 @@
             <p class="card__text">New Cairo is dominated by two jobs: finishing a core-and-shell delivery from scratch, and gutting a villa that was finished a decade ago to a standard nobody would accept today.</p>
             <span class="card__foot">View <svg width="15" height="9" viewBox="0 0 15 9" fill="none" aria-hidden="true"><path d="M0 4.5h13.5M10 1l3.5 3.5L10 8" stroke="currentColor" stroke-width="1.1"/></svg></span>
           </div></a><a class="card reveal" href="/areas/alexandria/">
-          <div class="card__media"><div class="ph ph--4x3"><img src="/assets/img/projects/fur-workshop-stack.jpg" alt="Reddish-brown lacquered wardrobe doors with carved lattice inserts leaned against a wall, a matching wooden desk with drawers, and a red-brown roller shutter behind them, on a beige tiled floor - a furniture workshop or showroom stack" loading="lazy" decoding="async"></div></div>
+          <div class="card__media"><div class="ph ph--4x3"><img src="/assets/img/projects/fur-workshop-stack.jpg" alt="Seafront apartment renovation, Corniche view — San Stefano" loading="lazy" decoding="async"></div></div>
           <div class="card__body">
             <span class="card__eyebrow">Alexandria</span>
             <h3 class="card__title">Alexandria</h3>
@@ -729,7 +719,7 @@
         <p class="lede reveal" style="margin:0">Photographed on our own sites, by our own people, while the work was going on.</p>
       </div>
       <div class="grid g3"><a class="card reveal" href="/projects/el-moghra/">
-    <div class="card__media"><div class="ph ph--4x3"><img src="/assets/img/archive/699.jpg" alt="El Moghra — El Moghra, Siwa" loading="lazy" decoding="async"></div></div>
+    <div class="card__media"><div class="ph ph--4x3"><img src="/assets/img/archive/699.jpg" alt="El Moghra lodge lit at night across the courtyard pool" loading="lazy" decoding="async"></div></div>
     <div class="card__body">
       <span class="card__eyebrow">El Moghra, Siwa — 2026</span>
       <h3 class="card__title">El Moghra</h3>
@@ -781,15 +771,15 @@
       </div>
       <div class="grid g3">
         <div class="reveal">
-          
+          <figure class="fig"><div class="ph ph--4x3"><img src="/assets/img/projects/log-slab-strapped.jpg" alt="Stone leaves our yard" loading="lazy" decoding="async"></div></figure>
           <h3 class="d4" style="margin:1.2rem 0 .6rem">Stone leaves our yard</h3>
           <p style="font-size:.885rem;line-height:1.62;color:var(--ink-2)">Slabs strapped upright and padded, cut and edged before they are loaded, so nothing is templated twice or trimmed on a client’s terrace.</p>
         </div><div class="reveal">
-          <figure class="fig"><div class="ph ph--4x3"><img src="/assets/img/projects/log-pipe-delivery.jpg" alt="We carry our own first fix" loading="lazy" decoding="async"></div></figure>
+          
           <h3 class="d4" style="margin:1.2rem 0 .6rem">We carry our own first fix</h3>
           <p style="font-size:.885rem;line-height:1.62;color:var(--ink-2)">Pipe, conduit, boxes and fittings bought as a job lot and delivered by us. No half day lost because a merchant sent the wrong diameter.</p>
         </div><div class="reveal">
-          <figure class="fig"><div class="ph ph--4x3"><img src="/assets/img/projects/kit-panel-marked.jpg" alt="A top-down view into an installed white lacquered bathroom vanity carcass beneath a mirror with an LED strip: two plumbing stub-outs in the marble-look tiled wall behind, blue-marker Arabic numerals (a cut size) on the dusty top rail, and the doors below still wearing their &#39;LAK PANEL / LACQUERED PANEL&#39; protective film" loading="lazy" decoding="async"></div><figcaption>A top-down view into an installed white lacquered bathroom vanity carcass beneath a mirror with an LED strip: two plumbing stub-outs in the marble-look tiled wall behind, blue-marker Arabic numerals (a cut size) on the dusty top rail, and the doors below still wearing their &#39;LAK PANEL / LACQUERED PANEL&#39; protective film</figcaption></figure>
+          <figure class="fig"><div class="ph ph--4x3"><img src="/assets/img/projects/kit-panel-marked.jpg" alt="Cabinet panels marked with their cut sizes before assembly" loading="lazy" decoding="async"></div><figcaption>Cabinet panels marked with their cut sizes before assembly</figcaption></figure>
           <h3 class="d4" style="margin:1.2rem 0 .6rem">Made to your measurements</h3>
           <p style="font-size:.885rem;line-height:1.62;color:var(--ink-2)">Every panel leaves the workshop with its cut size written on the film. If a wall is out of square, that is settled at the bench, not with a grinder on site.</p>
         </div>

@@ -77,8 +77,8 @@
       <div class="hdr__right">
         <a class="hdr__tel" href="tel:+201069262572">+20 106 926 2572</a>
         <a class="hdr__quote" href="/contact/">Get a price</a>
-        <a class="hdr__lang" href="/ar/contact/" hreflang="ar-eg" lang="ar" aria-label="Switch to Arabic">العربية</a>
-        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+        <a class="hdr__lang" href="/ar/contact/" hreflang="ar-eg" lang="ar">العربية</a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" data-open-label="Menu" data-close-label="Close">
           <span class="menu-btn__label">Menu</span>
           <span class="menu-btn__bars" aria-hidden="true"><i></i><i></i></span>
         </button>
@@ -95,8 +95,10 @@
 
   <nav class="menu" id="menu" aria-label="Primary">
     <div class="menu__reach">
-      <a class="btn btn--primary" href="tel:+201069262572">Call us +20 106 926 2572</a>
+      <a class="btn btn--primary" href="tel:+201069262572">Call us <span class="ltr" dir="ltr">+20 106 926 2572</span></a>
       <a class="btn btn--ghost" href="https://wa.me/201069262572?text=Hello%20Elite%20Renovations%20%E2%80%94%20I'd%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">Message us on WhatsApp</a>
+      
+      <a class="btn btn--ghost menu__lang" href="/ar/contact/" hreflang="ar-eg" lang="ar">العربية</a>
     </div>
     <div class="menu__cols">
       <div>
@@ -180,7 +182,6 @@
       <h1 class="d1">Free survey.<br><em>Fixed, itemised price.</em></h1>
       <p class="lede">Send drawings, photographs or just an address. We reply within one working day, survey at no charge, and come back with a written specification and a price you can hold us to.</p>
       
-      
     </div>
     
   </section>
@@ -191,6 +192,9 @@
         <p class="kicker" data-n="01">Enquiry</p>
         <h2 class="d2" style="margin-bottom:1.5rem">Tell us about the project.</h2>
         <form class="form" data-quote-form method="post" data-whatsapp="201069262572"
+              data-prefill-stone="I would like a price on {x}. "
+              data-prefill-service="I am interested in {x}. "
+              data-wa-labels="{&quot;title&quot;:&quot;New enquiry from the website&quot;,&quot;name&quot;:&quot;Name&quot;,&quot;phone&quot;:&quot;Phone&quot;,&quot;email&quot;:&quot;Email&quot;,&quot;area&quot;:&quot;Location&quot;,&quot;property&quot;:&quot;Property&quot;,&quot;service&quot;:&quot;Service&quot;,&quot;timeline&quot;:&quot;Timeline&quot;}"
               data-endpoint="https://jnmuurxmxlonqrjmqdfh.supabase.co/functions/v1/elite-lead" novalidate>
           <div class="hp" aria-hidden="true"><label for="f-website">Website</label><input id="f-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off"></div>
           <div class="field--2">
@@ -232,7 +236,7 @@
               <select id="f-service" name="service">
                 <option value="">Select</option>
                 <option>Full turnkey renovation</option>
-                <option>Marble</option><option>Granite</option><option>Quartz &amp; Sintered Stone</option><option>Kitchens</option><option>Bathrooms</option><option>Bedrooms &amp; Furniture</option><option>Shutters &amp; Sun Control</option><option>Windows &amp; Doors</option><option>Steel &amp; Ironwork</option><option>Electrical &amp; Smart Home</option><option>Outdoor &amp; Terraces</option><option>Solar Energy</option><option>Water Tanks &amp; Pumping</option><option>Fire Fighting, Alarm &amp; Security</option><option>Swimming Pools</option><option>Landscape &amp; Hardscape</option><option>Stables &amp; Equestrian</option><option>Furniture Manufacturing</option><option>Build From Land</option><option>Restaurants, Cafés &amp; Shops</option><option>Air Conditioning &amp; Ventilation</option><option>Gypsum &amp; Decorative Ceilings</option><option>Painting &amp; Decorative Finishes</option><option>Aluminium &amp; Glass Works</option><option>Stone Artwork &amp; Engineered Marble</option><option>Cement</option><option>Steel &amp; Rebar</option><option>Sand, Gravel &amp; Aggregate</option><option>Blocks &amp; Bricks</option><option>Tiles, Porcelain &amp; Ceramics</option><option>Paint &amp; Coatings</option><option>Plumbing &amp; Sanitary Supply</option><option>Electrical Supply</option><option>Design &amp; Engineering</option>
+                <option data-slug="marble">Marble</option><option data-slug="granite">Granite</option><option data-slug="quartz">Quartz &amp; Sintered Stone</option><option data-slug="kitchens">Kitchens</option><option data-slug="bathrooms">Bathrooms</option><option data-slug="bedrooms-furniture">Bedrooms &amp; Furniture</option><option data-slug="shutters">Shutters &amp; Sun Control</option><option data-slug="windows-doors">Windows &amp; Doors</option><option data-slug="steel-iron">Steel &amp; Ironwork</option><option data-slug="electrical">Electrical &amp; Smart Home</option><option data-slug="outdoor-terraces">Outdoor &amp; Terraces</option><option data-slug="solar-energy">Solar Energy</option><option data-slug="water-systems">Water Tanks &amp; Pumping</option><option data-slug="fire-security">Fire Fighting, Alarm &amp; Security</option><option data-slug="swimming-pools">Swimming Pools</option><option data-slug="landscape-hardscape">Landscape &amp; Hardscape</option><option data-slug="equestrian">Stables &amp; Equestrian</option><option data-slug="furniture">Furniture Manufacturing</option><option data-slug="build-from-land">Build From Land</option><option data-slug="commercial-fitout">Restaurants, Cafés &amp; Shops</option><option data-slug="hvac">Air Conditioning &amp; Ventilation</option><option data-slug="gypsum-ceilings">Gypsum &amp; Decorative Ceilings</option><option data-slug="painting-finishes">Painting &amp; Decorative Finishes</option><option data-slug="aluminium-glass">Aluminium &amp; Glass Works</option><option data-slug="stone-artwork">Stone Artwork &amp; Engineered Marble</option><option data-slug="cement">Cement</option><option data-slug="steel-rebar">Steel &amp; Rebar</option><option data-slug="sand-aggregate">Sand, Gravel &amp; Aggregate</option><option data-slug="blocks-bricks">Blocks &amp; Bricks</option><option data-slug="tiles-ceramics">Tiles, Porcelain &amp; Ceramics</option><option data-slug="paints-coatings">Paint &amp; Coatings</option><option data-slug="plumbing-materials">Plumbing &amp; Sanitary Supply</option><option data-slug="electrical-materials">Electrical Supply</option><option data-slug="design-engineering">Design &amp; Engineering</option>
                 <option>Supply-only materials</option><option>Not sure yet</option>
               </select>
             </div>
@@ -291,14 +295,14 @@
 
         <h3 class="d4" style="margin:2.5rem 0 1rem">Showroom</h3>
         <address style="font-style:normal;color:var(--ink-soft);line-height:1.7">
-          El Deresa<br>Alexandria، Alexandria Governorate، Egypt
+          El Deresa<br>Alexandria, Alexandria Governorate, Egypt
         </address>
         <p style="margin-top:.8rem"><a class="tlink" href="https://www.google.com/maps/search/?api=1&query=El%20Deresa%2C%20Alexandria%2C%20Egypt" target="_blank" rel="noopener">Open in Maps <svg width="15" height="9" viewBox="0 0 15 9" fill="none" aria-hidden="true"><path d="M0 4.5h13.5M10 1l3.5 3.5L10 8" stroke="currentColor" stroke-width="1.1"/></svg></a></p>
 
         
         <h3 class="d4" style="margin:2.5rem 0 1rem">Head Office</h3>
         <address style="font-style:normal;color:var(--ink-soft);line-height:1.7">
-          El Ibrahimya<br>Alexandria، Egypt
+          El Ibrahimya<br>Alexandria, Egypt
         </address>
         <p style="margin-top:.8rem"><a class="tlink" href="https://www.google.com/maps/search/?api=1&query=El%20Ibrahimya%2C%20Alexandria%2C%20Egypt" target="_blank" rel="noopener">Open in Maps <svg width="15" height="9" viewBox="0 0 15 9" fill="none" aria-hidden="true"><path d="M0 4.5h13.5M10 1l3.5 3.5L10 8" stroke="currentColor" stroke-width="1.1"/></svg></a></p>
         <p class="muted" style="margin-top:1.4rem;font-size:.88rem">Slab and finish viewing by appointment — or we bring the samples to your property.</p>

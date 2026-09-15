@@ -5,6 +5,14 @@
 
   /* ---------- header state ---------- */
   var hdr = document.querySelector('.hdr');
+  /* The real header height, for the sticky catalogue toolbar and the menu's
+     top padding. It is 150–173px on a phone, not the 76px the CSS assumed. */
+  var setHdrH = function () {
+    if (hdr) document.documentElement.style.setProperty('--hdr-h', hdr.offsetHeight + 'px');
+  };
+  setHdrH();
+  window.addEventListener('resize', setHdrH, { passive: true });
+  window.addEventListener('load', setHdrH);
   if (hdr) {
     var solid = function () {
       var on = window.scrollY > 24;
@@ -21,9 +29,16 @@
   if (menuBtn && menu) {
     var setMenu = function (open) {
       document.body.classList.toggle('nav-open', open);
+      document.documentElement.classList.toggle('nav-open', open);
       menuBtn.setAttribute('aria-expanded', String(open));
       var label = menuBtn.querySelector('.menu-btn__label');
-      if (label) label.textContent = open ? 'Close' : 'Menu';
+      // the words come from the page, so an Arabic page says them in Arabic
+      if (label) label.textContent = open ? (menuBtn.getAttribute('data-close-label') || 'Close') : (menuBtn.getAttribute('data-open-label') || 'Menu');
+      if (open) {
+        setHdrH();
+        var first = menu.querySelector('a');
+        if (first) setTimeout(function () { try { first.focus({ preventScroll: true }); } catch (e) { first.focus(); } }, 60);
+      }
     };
     menuBtn.addEventListener('click', function () {
       setMenu(menuBtn.getAttribute('aria-expanded') !== 'true');
@@ -80,17 +95,29 @@
     var key = chips.length && chips[0].hasAttribute('data-colour') ? 'colour' : 'family';
     var active = 'all';
 
+    /* Fold the spellings Egyptians actually type: أ/إ/آ→ا, ة→ه, ى→ي, no
+       tashkeel or tatweel. جلاله and جلالة, اونيكس and أونيكس find the same stone. */
+    function norm(x) {
+      return String(x || '').toLowerCase()
+        .replace(/[\u064B-\u0652\u0640]/g, '')
+        .replace(/[\u0623\u0625\u0622]/g, '\u0627')
+        .replace(/\u0629/g, '\u0647')
+        .replace(/\u0649/g, '\u064A');
+    }
+    tiles.forEach(function (t) { t._s = norm(t.getAttribute('data-search')); });
     function apply() {
-      var q = (searchEl && searchEl.value || '').trim().toLowerCase();
+      var q = norm((searchEl && searchEl.value || '').trim());
+      var words = q.split(/\s+/).filter(Boolean);
       var shown = 0;
       tiles.forEach(function (t) {
         var okCat = active === 'all' || t.getAttribute('data-' + key) === active;
-        var okQ = !q || (t.getAttribute('data-search') || '').indexOf(q) > -1;
+        // every word must appear, in any order: "calacatta white" finds "White Calacatta"
+        var okQ = !words.length || words.every(function (w) { return t._s.indexOf(w) > -1; });
         var vis = okCat && okQ;
         t.hidden = !vis;
         if (vis) shown++;
       });
-      if (countEl) countEl.textContent = shown + (shown === 1 ? ' stone' : ' stones');
+      if (countEl) countEl.textContent = shown + ' ' + (shown === 1 ? (countEl.getAttribute('data-one') || 'stone') : (countEl.getAttribute('data-many') || 'stones'));
       if (emptyEl) emptyEl.hidden = shown !== 0;
     }
 
@@ -120,15 +147,19 @@
   (function () {
     var qp = new URLSearchParams(location.search);
     var stone = qp.get('stone'), service = qp.get('service');
-    var msg = document.querySelector('form[data-quote-form] [name=message]');
+    var f = document.querySelector('form[data-quote-form]');
+    var msg = f && f.querySelector('[name=message]');
+    // the sentence comes from the page (per language); the stone's display name from ?name=
+    var name = qp.get('name') || (stone || '').replace(/-/g, ' ');
     if (msg && !msg.value) {
-      if (stone) msg.value = 'I would like a price on ' + stone.replace(/-/g, ' ') + '. ';
-      else if (service) msg.value = 'I am interested in ' + service.replace(/-/g, ' ') + '. ';
+      if (stone) msg.value = (f.getAttribute('data-prefill-stone') || 'I would like a price on {x}. ').replace('{x}', name);
+      else if (service) msg.value = (f.getAttribute('data-prefill-service') || 'I am interested in {x}. ').replace('{x}', service.replace(/-/g, ' '));
     }
-    var sel = document.querySelector('form[data-quote-form] [name=service]');
+    var sel = f && f.querySelector('[name=service]');
     if (sel && service) {
+      var flat = function (x) { return String(x || '').toLowerCase().replace(/[^a-z]/g, ''); };
       [].slice.call(sel.options).forEach(function (o) {
-        if (o.value.toLowerCase().replace(/[^a-z]/g, '') === service.replace(/[^a-z]/g, '')) sel.value = o.value;
+        if (o.getAttribute('data-slug') === service || (flat(o.value) && flat(o.value) === flat(service))) sel.value = o.value;
       });
     }
   })();
@@ -144,24 +175,36 @@
     var endpoint = form.dataset.endpoint || '';
     var sending = false;
 
+    /* Arabic-Indic (٠-٩) and Persian (۰-۹) digits become 0-9: the office
+       endpoint only reads ASCII digits and rejected a phone typed in Arabic. */
+    var asciiDigits = function (x) {
+      return String(x || '').replace(/[\u0660-\u0669]/g, function (d) { return String(d.charCodeAt(0) - 0x0660); })
+        .replace(/[\u06F0-\u06F9]/g, function (d) { return String(d.charCodeAt(0) - 0x06F0); });
+    };
     var val = function (n) {
       var el = form.querySelector('[name=' + n + ']');
-      return el ? el.value.trim() : '';
+      var v = el ? el.value.trim() : '';
+      return n === 'phone' ? asciiDigits(v) : v;
     };
 
+    var waLabels = (function () {
+      try { return JSON.parse(form.getAttribute('data-wa-labels') || 'null'); } catch (e) { return null; }
+    })() || { title: 'New enquiry from the website', name: 'Name', phone: 'Phone', email: 'Email', area: 'Location', property: 'Property', service: 'Service', timeline: 'Timeline' };
+
     function waMessage() {
-      var lines = ['New enquiry from the website', ''];
-      [['Name', 'name'], ['Phone', 'phone'], ['Email', 'email'], ['Location', 'area'],
-       ['Property', 'property'], ['Service', 'service'], ['Timeline', 'timeline']]
-        .forEach(function (pair) { if (val(pair[1])) lines.push(pair[0] + ': ' + val(pair[1])); });
+      var lines = [waLabels.title, ''];
+      ['name', 'phone', 'email', 'area', 'property', 'service', 'timeline']
+        .forEach(function (k) { if (val(k)) lines.push(waLabels[k] + ': ' + val(k)); });
       if (val('message')) lines.push('', val('message'));
       return lines.join('\n');
     }
 
+    function waUrl() {
+      return 'https://wa.me/' + form.dataset.whatsapp + '?text=' + encodeURIComponent(waMessage());
+    }
     function openWhatsApp() {
       if (!form.dataset.whatsapp) return;
-      window.open('https://wa.me/' + form.dataset.whatsapp + '?text=' + encodeURIComponent(waMessage()),
-        '_blank', 'noopener');
+      window.open(waUrl(), '_blank', 'noopener');
     }
 
     /* `captured` says whether the office actually has the enquiry. Telling a
@@ -173,6 +216,11 @@
       panel.querySelectorAll('[data-done-if]').forEach(function (el) {
         el.hidden = (el.dataset.doneIf === 'captured') !== !!captured;
       });
+      // every WhatsApp button in the panel carries the visitor's full enquiry,
+      // so one tap recovers it even if the pop-up was blocked
+      if (form.dataset.whatsapp) {
+        panel.querySelectorAll('a[href*="wa.me"]').forEach(function (a) { a.href = waUrl(); });
+      }
       panel.hidden = false;
       form.hidden = true;
       panel.setAttribute('tabindex', '-1');
@@ -185,10 +233,15 @@
       if (sending) return;
 
       var ok = true;
-      form.querySelectorAll('[required]').forEach(function (input) {
+      form.querySelectorAll('[required], input[type=email]').forEach(function (input) {
         var field = input.closest('.field');
-        var valid = input.value.trim() !== '' && input.checkValidity();
+        var raw = input.value.trim();
+        var valid;
+        if (input.type === 'email') valid = raw === '' || input.checkValidity();
+        else if (input.name === 'phone') valid = asciiDigits(raw).replace(/\D/g, '').length >= 8;
+        else valid = raw !== '' && input.checkValidity();
         if (field) field.classList.toggle('invalid', !valid);
+        input.setAttribute('aria-invalid', String(!valid));
         if (!valid && ok) { ok = false; input.focus(); }
       });
       if (!ok) return;
@@ -222,15 +275,17 @@
       // Do not let a slow network hold the visitor: hand off after 6 seconds
       // regardless, and let the POST finish in the background.
       var handedOff = false;
-      var handOff = function (captured) {
+      var handOff = function (captured, late) {
         if (handedOff) return;
         handedOff = true;
         restore();
-        openWhatsApp();
+        // A pop-up opened six seconds after the tap is blocked by Safari; on
+        // that path the panel's WhatsApp button (prefilled) does the job.
+        if (!late) openWhatsApp();
         done(captured);
       };
       // A hand-off forced by the timeout has NOT been confirmed captured.
-      var timer = setTimeout(function () { handOff(false); }, 6000);
+      var timer = setTimeout(function () { handOff(false, true); }, 6000);
 
       fetch(endpoint, {
         method: 'POST',
@@ -240,7 +295,8 @@
         return r.ok ? r.json().catch(function () { return {}; }) : null;
       }).then(function (res) {
         clearTimeout(timer);
-        handOff(!!(res && (res.stored || res.emailed || res.ok)));
+        // a bare {ok:true} is the honeypot answer, not a stored lead
+        handOff(!!(res && (res.stored || res.emailed)));
       }).catch(function () { clearTimeout(timer); handOff(false); });
     });
 
@@ -295,9 +351,9 @@
     if (frames.length < 2) return;
     var i = 0, timer = null, gap = parseInt(fig.dataset.interval, 10) || 3800;
     function go(n) {
-      frames[i].classList.remove('is-on'); if (dots[i]) dots[i].classList.remove('is-on');
+      frames[i].classList.remove('is-on'); if (dots[i]) { dots[i].classList.remove('is-on'); dots[i].removeAttribute('aria-current'); }
       i = (n + frames.length) % frames.length;
-      frames[i].classList.add('is-on'); if (dots[i]) dots[i].classList.add('is-on');
+      frames[i].classList.add('is-on'); if (dots[i]) { dots[i].classList.add('is-on'); dots[i].setAttribute('aria-current', 'true'); }
     }
     function play() { if (still || timer) return; timer = setInterval(function () { go(i + 1); }, gap); }
     function stop() { clearInterval(timer); timer = null; }
@@ -328,7 +384,9 @@
       var v = e.target;
       if (e.isIntersecting) {
         if (still) return;
-        if (v.preload === 'none') v.preload = 'auto';
+        // 'metadata', not 'auto': auto kept downloading every clip to the end
+        // after it scrolled away (16 MB on one scroll of the home page)
+        if (v.preload === 'none') v.preload = 'metadata';
         var play = v.play();
         if (play && play.catch) play.catch(function () { /* autoplay refused: poster stands */ });
       } else if (!v.paused) { v.pause(); }
