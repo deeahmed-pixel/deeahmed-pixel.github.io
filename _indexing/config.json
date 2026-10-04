@@ -10,7 +10,8 @@
         "https://leadsupcallcenter.com/sitemap.xml"
       ],
       "indexnow_key": "11e8ac2284d19f26e34712f6578d2b8d",
-      "gsc_account": "deeahmed@leadsupcallcenter.com"
+      "gsc_account": "deeahmed@leadsupcallcenter.com",
+      "daily_quota": 5
     },
     "leadsupdata.com": {
       "property": "https://leadsupdata.com/",
@@ -20,7 +21,8 @@
       "sitemaps": [
         "https://leadsupdata.com/sitemap.xml"
       ],
-      "indexnow_key": "3c94e44978e35515a4ffa8afa62bdb9e"
+      "indexnow_key": "3c94e44978e35515a4ffa8afa62bdb9e",
+      "daily_quota": 5
     },
     "weshastones.com": {
       "property": "sc-domain:weshastones.com",
