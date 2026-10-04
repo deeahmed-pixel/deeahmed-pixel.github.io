@@ -1,6 +1,6 @@
-# Indexing plan: leadsupcallcenter.com · weshastones.com · weshamarble.com
+# Indexing plan: leadsupcallcenter.com · leadsupdata.com · weshastones.com · weshamarble.com
 
-This folder runs the indexing work for the three sites. The Claude Code session
+This folder runs the indexing work for the four sites. The Claude Code session
 "Page indexing for three domains" is where it happens: a routine wakes that
 session every morning and it posts the day's URLs. The folder name starts with
 an underscore, so GitHub Pages (Jekyll) never publishes it with this site.
@@ -10,45 +10,63 @@ an underscore, so GitHub Pages (Jekyll) never publishes it with this site.
 | Site | Search Console property | Known state |
 |---|---|---|
 | leadsupcallcenter.com | `https://leadsupcallcenter.com/` (URL prefix), verified 1 Sep 2026 | No indexing alerts so far. `data.leadsupcallcenter.com` is a separate property with its own "Blocked by robots.txt" and "Duplicate without user-selected canonical" alerts. It's outside this plan. |
-| weshastones.com | `sc-domain:weshastones.com` (Domain), verified 26 Aug 2026 | Getting impressions since 26 Aug. It reached 30 clicks in 28 days on 21 Sep. Open alerts: **Not found (404)**, **Excluded by 'noindex' tag**, **Alternate page with proper canonical**, and **Crawled – currently not indexed** (validation partly failed on 16 Sep). |
+| leadsupdata.com | `https://leadsupdata.com/` (URL prefix), verified 23 Sep 2026 | Impressions since 24 Sep. Structured-data alerts on 1 Oct. **Datasets** has a critical problem, a missing `description`, so those pages can't show as dataset results until it's fixed. It also has two non-critical ones: `creator` has the wrong type and `license` is missing. **Product snippets** has two non-critical ones: missing `review` and `aggregateRating`. None of them blocks indexing. |
+| weshastones.com | `sc-domain:weshastones.com` (Domain), verified 26 Aug 2026 by deeahmed@leadsupcallcenter.com | Getting impressions since 26 Aug. It reached 30 clicks in 28 days on 21 Sep. Open alerts: **Not found (404)**, **Excluded by 'noindex' tag**, **Alternate page with proper canonical**, and **Crawled – currently not indexed** (validation partly failed on 16 Sep). |
 | weshamarble.com | `sc-domain:weshamarble.com` (Domain), owned by **adnan@weshamarble.com** | Verified. Search Console emailed adnan@weshamarble.com on 20 Sep about new reasons preventing indexing. That inbox isn't connected here, so the reasons are still unread on this side. |
 
 **Pages and finish dates** (first sync on 4 Oct 2026, 10 requests per site per
-day, all three sites in parallel):
+day, all four sites in parallel):
 
 | Site | Pages in sitemap | Batches | First batch | Last batch |
 |---|---|---|---|---|
 | leadsupcallcenter.com | 42 | 5 | Sun 4 Oct | Thu 8 Oct 2026 |
+| leadsupdata.com | 54 (24 of them under `/florida/`) | 6 | Sun 4 Oct | Fri 9 Oct 2026 |
 | weshamarble.com | 307 (302 root + 5 `/en/`) | 31 | Sun 4 Oct | Tue 3 Nov 2026 |
 | weshastones.com | 1,029 in 9 languages (en 152, it 142, de 139, es 139, fr 138, tr 138, hu 134, ar 46, zh 1) | 103 | Sun 4 Oct | Thu 14 Jan 2027 |
 
 `check` fetched every page on 4 Oct. None returned an error or a redirect,
-carried `noindex`, or pointed its canonical at another URL, so all 1,378 pages
+carried `noindex`, or pointed its canonical at another URL, so all 1,432 pages
 are eligible. The last-batch dates are the worst case. Pages Google indexes on
 its own drop out as soon as they're confirmed, through the `inspect` API or
 because you saw "URL is on Google".
 
-## Which Chrome profile requests which site
+## One Google account per site
 
-Request indexing only works from a Google account that has access to the
-property. Each site's links go in that account's Chrome profile.
+Each site is worked from its own Google account, in its own Chrome profile:
 
-| Site | Chrome profile / Google account | How we know |
+| Chrome profile / Google account | Sites | Search Console access today |
 |---|---|---|
-| leadsupcallcenter.com | **deeahmed@leadsupcallcenter.com** | Search Console verification emails for `https://leadsupcallcenter.com/` go to this inbox |
-| weshastones.com | **deeahmed@leadsupcallcenter.com** | All weshastones.com Search Console emails go to this inbox |
-| weshamarble.com | **adnan@weshamarble.com** | Its Search Console alert (20 Sep) arrived in this inbox |
+| **deeahmed@leadsupcallcenter.com** | leadsupcallcenter.com, leadsupdata.com | Verified owner of both |
+| **info@weshastones.com** | weshastones.com | **Needs adding.** deeahmed@leadsupcallcenter.com verified this property, so info@ only gets access once it's added as an owner (step 1 below) |
+| **adnan@weshamarble.com** | weshamarble.com | Verified owner |
 
-The info@weshastones.com profile isn't needed. Even if it's also an owner of
-weshastones.com, the quota of about 10 requests a day belongs to the
-property, not the account. A second profile doesn't add requests.
+The daily checklist is grouped by these profiles. Each link carries
+`authuser=<that account>`. Open each group's links in its own Chrome window. A
+link opened in the wrong profile gets "You don't have access to this property".
 
-The daily checklist puts the right account above each site's links. Each link
-also carries `authuser=<that account>`, which picks the account when several
-are signed in to one Chrome profile. In practice: click the leadsupcallcenter
-and weshastones links from the deeahmed@leadsupcallcenter.com window. Copy the
-weshamarble links into the adnan@weshamarble.com window. If you click those
-from the deeahmed window, Search Console says you don't have access.
+The daily quota of about 10 requests belongs to the property, so splitting
+accounts keeps things organised but doesn't add requests.
+
+**Moving weshastones.com to info@weshastones.com:**
+
+1. **Give info@ access (1 minute, needed).** In the deeahmed@leadsupcallcenter.com
+   window, open Search Console, then the `weshastones.com` property, then
+   Settings, Users and permissions, and **Add user**. Enter
+   `info@weshastones.com` and set Permission to **Owner**. info@ can now use
+   the property and receives its alerts.
+2. **Take deeahmed out (optional, only for a full split).** Do this from the
+   info@weshastones.com window:
+   - Settings, then Ownership verification: verify with its own DNS TXT
+     record, added at the weshastones.com DNS host.
+   - Settings, then Users and permissions: open ⋮ next to
+     deeahmed@leadsupcallcenter.com, then Manage property owners, and
+     **Unverify** it.
+   - Delete deeahmed's old `google-site-verification` TXT record from DNS.
+     Otherwise Google re-verifies it on its own.
+
+   After this step, weshastones.com Search Console emails only reach
+   info@weshastones.com. That inbox isn't connected to the session, so the
+   session asks you about weshastones alerts instead of reading them.
 
 ## Why the old routine couldn't work
 
@@ -100,29 +118,30 @@ quota allows.
    | Site | File to upload at the site root |
    |---|---|
    | leadsupcallcenter.com | `11e8ac2284d19f26e34712f6578d2b8d.txt` |
+   | leadsupdata.com | `3c94e44978e35515a4ffa8afa62bdb9e.txt` |
    | weshastones.com | `8e78ff8430fb758377b0f1471e8fe529.txt` |
    | weshamarble.com | `8a3e9c14127f496749a9fd285f33d9c1.txt` |
 
 7. *(Optional: lets the session confirm "indexed" by itself.)* In Google Cloud,
    create a service account and enable the **Google Search Console API**. Add
    the service account's email as a **Full** user on each property in Search
-   Console (Settings, then Users and permissions). Do it from the deeahmed
-   profile for leadsupcallcenter.com and weshastones.com, and from the adnan
-   profile for weshamarble.com. Store the key JSON in this
+   Console (Settings, then Users and permissions). Add it on each site from
+   that site's own profile (see "One Google account per site"). For
+   weshastones.com, that works once step 1 of the move is done. Store the key JSON in this
    environment's settings as the variable `GSC_SERVICE_ACCOUNT_JSON`. Never
    paste it into chat. Without it, you mark pages indexed from what Search
    Console shows.
 
 ### Phase 1: daily batches (every day from Mon 5 Oct, 09:56 Cairo time)
 
-All three sites start as soon as their URL lists are in. Until a site's list
+All four sites start as soon as their URL lists are in. Until a site's list
 is loaded (network access, or an `import`), the morning run for that site has
 nothing to post and just names what's blocking it.
 
 | When | Who | What |
 |---|---|---|
 | 09:56 | routine → session | `sync` → `check` → `today`. Posts up to **10 URLs per property**, each linking straight to its URL Inspection page. Pages that broke since the last run are set aside as fix items. |
-| any time that day | you | Open each link in the profile named above it and press **Request indexing**. That's about 30 a day across the three sites, around 1 minute each. |
+| any time that day | you | Open each link in the profile named above it and press **Request indexing**. That's up to 40 a day across the four sites, around 1 minute each. |
 | after | you → session | Reply **done**, or "done except …". The session runs `mark requested` and commits. |
 
 Batch order per site:
@@ -158,8 +177,8 @@ A missed day doesn't break the plan. Unrequested URLs slide forward on the next
 
 ### Finish line
 
-The plan is finished when every live sitemap URL on all three sites is
-`indexed`, or deliberately `excluded` (thank-you pages, duplicates). The three
+The plan is finished when every live sitemap URL on all four sites is
+`indexed`, or deliberately `excluded` (thank-you pages, duplicates). The four
 sites run in parallel, so each takes about **pages ÷ 10** days of requests:
 100 pages take about 10 days, 300 pages about 30. `schedule.md` gives the exact
 date for each site after the first sync. The daily routine is deleted once

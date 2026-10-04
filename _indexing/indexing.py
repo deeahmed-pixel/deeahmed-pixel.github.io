@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Indexing tracker for leadsupcallcenter.com, weshastones.com and weshamarble.com.
+"""Indexing tracker for leadsupcallcenter.com, leadsupdata.com, weshastones.com and weshamarble.com.
 
 Google's "Request indexing" button (URL Inspection) has no public API and a
 small daily quota per property, so this tool does the bookkeeping around it:
@@ -187,7 +187,7 @@ def crawl_sitemaps(domain, cfg):
 
 # ---------------------------------------------------------------- ranking & planning
 
-LOW_VALUE = re.compile(r"privacy|terms|cookie|thank-you|legal|disclaimer", re.I)
+LOW_VALUE = re.compile(r"privacy|terms|cookie|thank-you|legal|disclaimer|acceptable-use|refund|dmca", re.I)
 
 
 def rank_key(url, info, cfg):

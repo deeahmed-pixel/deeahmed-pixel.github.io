@@ -12,6 +12,16 @@
       "indexnow_key": "11e8ac2284d19f26e34712f6578d2b8d",
       "gsc_account": "deeahmed@leadsupcallcenter.com"
     },
+    "leadsupdata.com": {
+      "property": "https://leadsupdata.com/",
+      "gsc_verified": true,
+      "gsc_account": "deeahmed@leadsupcallcenter.com",
+      "start": "2026-10-04",
+      "sitemaps": [
+        "https://leadsupdata.com/sitemap.xml"
+      ],
+      "indexnow_key": "3c94e44978e35515a4ffa8afa62bdb9e"
+    },
     "weshastones.com": {
       "property": "sc-domain:weshastones.com",
       "gsc_verified": true,
@@ -20,7 +30,7 @@
         "https://weshastones.com/sitemap.xml"
       ],
       "indexnow_key": "8e78ff8430fb758377b0f1471e8fe529",
-      "gsc_account": "deeahmed@leadsupcallcenter.com",
+      "gsc_account": "info@weshastones.com",
       "lang_order": [
         "",
         "ar",
