@@ -221,7 +221,7 @@
           "last_inspected": null,
           "priority": 0.5,
           "requested": [],
-          "scheduled": "2026-10-08",
+          "scheduled": "2026-10-07",
           "source": "sitemap",
           "status": "scheduled"
         },
@@ -548,7 +548,7 @@
           "requested": [],
           "scheduled": "2026-10-07",
           "source": "sitemap",
-          "status": "scheduled"
+          "status": "indexed"
         }
       }
     },

@@ -2,7 +2,15 @@
 
 This folder runs the indexing work for the four sites. The Claude Code session
 "Page indexing for three domains" is where it happens: a routine wakes that
-session every morning and it posts the day's URLs. The folder name starts with
+session every morning, and it refreshes the **timetable page**:
+https://claude.ai/artifact/RYo5J2S8my4gHALMqzU1re
+
+The page shows each day's links grouped by Chrome profile. It has a
+"Requested" tick and an "On Google" button for each page, and the full
+calendar and progress for every site. Ticks are saved with the page, and the
+morning run reads them, so nothing has to be reported back by hand.
+`indexing.py page` builds `timetable.html` from `state.json` and
+`timetable_template.html`. The folder name starts with
 an underscore, so GitHub Pages (Jekyll) never publishes it with this site.
 
 ## Where each site stands (4 Oct 2026, from the Search Console emails)
@@ -50,13 +58,15 @@ accounts keeps things organised but doesn't add requests.
 
 **Moving weshastones.com to info@weshastones.com:**
 
-1. **Give info@ access (1 minute, needed; setup step 1).** In the deeahmed@leadsupcallcenter.com
+1. ✅ *Done by 4 Oct: info@weshastones.com can open the property.* **Give info@ access.** In the deeahmed@leadsupcallcenter.com
    window, open Search Console, then the `weshastones.com` property, then
    Settings, Users and permissions, and **Add user**. Enter
    `info@weshastones.com` and set Permission to **Owner**. info@ can now use
    the property and receives its alerts.
-2. **Take deeahmed out (optional, only for a full split).** Do this from the
-   info@weshastones.com window:
+2. **Take deeahmed out** (asked for on 4 Oct). Do this from the
+   info@weshastones.com window, in this order. weshastones.com always needs
+   at least one verified owner; if deeahmed is removed before info@ is
+   verified, nobody may be left who can manage it.
    - Settings, then Ownership verification: verify with its own DNS TXT
      record, added at the weshastones.com DNS host.
    - Settings, then Users and permissions: open ⋮ next to
@@ -100,11 +110,10 @@ Each step names the Chrome profile to do it in.
 
 **In Search Console (about 20 minutes)**
 
-1. **info@weshastones.com: give it access to weshastones.com.** Do this in the
-   deeahmed@leadsupcallcenter.com profile. Go to Search Console, then
-   weshastones.com, then Settings, Users and permissions, and Add user. Enter
-   `info@weshastones.com` with permission **Owner**. Removing deeahmed
-   completely is optional and covered in "One Google account per site".
+1. **Take weshastones.com off the deeahmed account.** info@weshastones.com can
+   already open it (done by 4 Oct). Removing deeahmed follows the order in
+   "One Google account per site": verify info@ first, then unverify deeahmed,
+   then delete deeahmed's TXT record.
 2. **Point data.leadsupcallcenter.com at leadsupdata.com.** Do this in the
    deeahmed@leadsupcallcenter.com profile. Go to Search Console, then
    `https://data.leadsupcallcenter.com/`, then Settings, then **Change of
@@ -116,12 +125,19 @@ Each step names the Chrome profile to do it in.
    Sitemaps. Type `sitemap.xml` and press Submit. Do it from each site's own
    profile:
    - leadsupcallcenter.com and leadsupdata.com in the deeahmed profile.
-   - weshastones.com in the info@ profile (or deeahmed until step 1 is done).
-   - weshamarble.com in the adnan@ profile.
-4. **weshamarble.com: read the 20 Sep alert.** In the adnan@weshamarble.com
-   profile, open Gmail and find "New reasons prevent pages from being
-   indexed". Tell the session which reasons it lists. All 307 sitemap pages
-   check out today, so the alert is probably about URLs outside the sitemap.
+   - weshastones.com: ✅ already done. Submitted 17 Sep, read 3 Oct, Success,
+     1,030 pages.
+   - weshamarble.com in the adnan@ profile. **Submit it again even if it's
+     already listed.** URL Inspection shows "Sitemaps: Temporary processing
+     error" for weshamarble pages, so Google failed to read it once.
+4. **weshamarble.com: why pages aren't indexed.** URL Inspection on
+   `/marble/asian-emperador/` (4 Oct) says **Crawled – currently not indexed**.
+   The last crawl was 17 Sep, before the site's 22 Sep update. The page itself
+   is fine now (200, self-canonical), and its old `/en/` twin 301s to it.
+   Search URLs like `/showroom/?q=…` canonicalise to `/showroom/`, which is
+   fine. The fix is fresh crawls, and the daily requests give it exactly
+   that. If the 20 Sep alert in the adnan@ inbox names another reason, tell
+   the session.
 5. **Delete the old routine** in the Claude desktop app's scheduled tasks,
    if it's still there.
 
@@ -162,9 +178,9 @@ nothing to post and just names what's blocking it.
 
 | When | Who | What |
 |---|---|---|
-| 09:56 | routine → session | `sync` → `check` → `today`. Posts up to **10 URLs per property**, each linking straight to its URL Inspection page. Pages that broke since the last run are set aside as fix items. |
-| any time that day | you | Open each link in the profile named above it and press **Request indexing**. That's up to 40 a day across the four sites, around 1 minute each. |
-| after | you → session | Reply **done**, or "done except …". The session runs `mark requested` and commits. |
+| 09:56 | routine → session | Reads the page's ticks (`apply-ticks`), then `sync` → `check` → `page`, and republishes the timetable page. Up to **10 URLs per property** a day. Pages that broke since the last run are set aside as fix items. |
+| any time that day | you | On the timetable page, open each group's links in that group's Chrome profile. Press **Request indexing** and tick the box, or press **On Google** if it's already indexed. That's up to 40 a day across the four sites. |
+| next morning | routine → session | Files the ticks. Unticked pages slide to the next day. |
 
 Batch order per site:
 
@@ -233,4 +249,5 @@ The same works with a downloaded `sitemap.xml`.
 | `config.json` | Properties, sitemap URLs, daily quota, timezone, IndexNow keys |
 | `state.json` | Every URL with its status (`scheduled` → `requested` → `indexed`; also `fix`, `excluded` and `dropped`), its problem if any, its internal link count, and its request history |
 | `schedule.md` / `schedule.csv` | The full day-by-day timetable |
-| `today.md` | Today's checklist |
+| `today.md` | Today's checklist (plain-text copy) |
+| `timetable_template.html` / `timetable.html` | The timetable page: the template, and the built page that gets published |

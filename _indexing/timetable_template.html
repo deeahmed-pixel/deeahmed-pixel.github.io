@@ -1,0 +1,411 @@
+<title>Indexing Timetable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one working column. The chosen day's batch comes first, grouped by
+   Chrome profile; progress and the full calendar sit underneath. */
+:root{
+  --bg:#f2f4f6; --surface:#ffffff; --ink:#16202a; --muted:#5a6775; --line:#d8dee5;
+  --accent:#1d5bd0; --accent-ink:#ffffff; --focus:#1d5bd0;
+  --p1:#0d7a70; --p1-soft:#e1f2ef;   /* deeahmed@leadsupcallcenter.com */
+  --p2:#a35d12; --p2-soft:#f6ebdd;   /* info@weshastones.com */
+  --p3:#6a4db0; --p3-soft:#ece7f8;   /* adnan@weshamarble.com */
+  --ok:#1b7a3d; --ok-soft:#e0f2e6; --done-row:#f4f8fd;
+  --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1318; --surface:#161d25; --ink:#e5eaef; --muted:#94a2b1; --line:#2a3541;
+  --accent:#7ca8ff; --accent-ink:#0a1222; --focus:#7ca8ff;
+  --p1:#4fc4b7; --p1-soft:#11302c; --p2:#e2a55e; --p2-soft:#33261a; --p3:#b19bf2; --p3-soft:#261f3e;
+  --ok:#62d08a; --ok-soft:#14301f; --done-row:#18222d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1318; --surface:#161d25; --ink:#e5eaef; --muted:#94a2b1; --line:#2a3541;
+  --accent:#7ca8ff; --accent-ink:#0a1222; --focus:#7ca8ff;
+  --p1:#4fc4b7; --p1-soft:#11302c; --p2:#e2a55e; --p2-soft:#33261a; --p3:#b19bf2; --p3-soft:#261f3e;
+  --ok:#62d08a; --ok-soft:#14301f; --done-row:#18222d; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--f-body)}
+.wrap{max-width:880px;margin:0 auto;padding-inline:16px;padding-block:28px 64px;display:grid;gap:28px}
+h1,h2,h3{font-family:var(--f-display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(1.7rem,4vw,2.3rem);font-weight:800;line-height:1.1}
+h2{font-size:1.15rem;font-weight:800}
+h3{font-size:.98rem;font-weight:600}
+p{margin:0}
+.eyebrow{font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.muted{color:var(--muted)}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:6px}
+
+.top{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:end;justify-content:space-between}
+.top .lede{display:grid;gap:6px;min-width:0}
+.daynav{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.daynav button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 11px;line-height:1.2}
+.daynav button:disabled{opacity:.4;cursor:default}
+#dayLabel{font-family:var(--f-display);font-weight:600;min-width:9.5em;text-align:center;font-variant-numeric:tabular-nums}
+.chip-today{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin-left:6px}
+
+.note{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:10px 14px;font-size:.9rem;color:var(--muted)}
+
+.groups{display:grid;gap:18px}
+.group{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--p);border-radius:var(--r);overflow:hidden}
+.group > header{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;padding:14px 16px;background:var(--p-soft)}
+.group > header .who{display:grid;gap:2px;min-width:0}
+.group > header h2{font-size:1rem;overflow-wrap:anywhere}
+.group > header p{font-size:.82rem;color:var(--muted)}
+.copy{border:1px solid var(--p);color:var(--p);background:var(--surface);border-radius:8px;padding:6px 12px;font-size:.85rem;font-weight:600}
+.copy[data-done]{background:var(--p);color:var(--surface)}
+.site{padding:12px 16px 14px;display:grid;gap:8px}
+.site + .site{border-top:1px solid var(--line)}
+.site h3{display:flex;gap:10px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}
+.count{font-family:var(--f-mono);font-size:.78rem;color:var(--muted);font-weight:400;font-variant-numeric:tabular-nums}
+.rows{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;padding:6px 8px;border-radius:8px}
+.row:hover{background:var(--bg)}
+.row.is-done{background:var(--done-row)}
+.row input{width:18px;height:18px;accent-color:var(--accent);margin:0}
+.row a{font-family:var(--f-mono);font-size:.84rem;overflow-wrap:anywhere;text-decoration-color:var(--line);text-underline-offset:3px}
+.row a:hover{text-decoration-color:currentColor}
+.row.is-done a{color:var(--muted)}
+.og{border:1px solid var(--line);background:transparent;border-radius:999px;padding:2px 10px;font-size:.76rem;color:var(--muted);white-space:nowrap}
+.og[aria-pressed="true"]{border-color:var(--ok);background:var(--ok-soft);color:var(--ok);font-weight:600}
+.badge{font-size:.74rem;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap}
+.badge.req{background:var(--done-row);color:var(--accent);border:1px solid var(--line)}
+.badge.idx{background:var(--ok-soft);color:var(--ok)}
+.empty{font-size:.86rem;color:var(--muted);padding:2px 8px}
+
+.steps{display:grid;gap:10px;margin:0;padding:0;list-style:none;counter-reset:s}
+.steps li{display:grid;grid-template-columns:4.2em minmax(0,1fr);gap:12px;align-items:baseline}
+.steps time{font-family:var(--f-mono);font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
+
+.progress{display:grid;gap:14px}
+.prow{display:grid;gap:6px}
+.prow .head{display:flex;justify-content:space-between;gap:8px 16px;flex-wrap:wrap;align-items:baseline}
+.prow .head span{font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.bar{display:flex;height:10px;border-radius:999px;overflow:hidden;background:var(--line)}
+.bar i{display:block;height:100%}
+.bar .b-idx{background:var(--ok)}
+.bar .b-req{background:var(--accent)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.8rem;color:var(--muted)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+
+.cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(98px,1fr));gap:6px}
+.cell{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:7px 8px 8px;text-align:left;display:grid;gap:5px}
+.cell[aria-current="date"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.cell .d{font-size:.78rem;font-weight:600;font-variant-numeric:tabular-nums;display:flex;justify-content:space-between;gap:4px}
+.cell .d em{font-style:normal;color:var(--ok)}
+.cell .mini{display:grid;gap:2px}
+.cell .mini i{display:block;height:4px;border-radius:2px;background:var(--c);opacity:.85}
+.cell.past{opacity:.72}
+section{display:grid;gap:12px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<main class="wrap">
+  <header class="top">
+    <div class="lede">
+      <p class="eyebrow">Search Console · Request indexing</p>
+      <h1>Indexing Timetable</h1>
+      <p class="muted" id="sub"></p>
+    </div>
+    <nav class="daynav" aria-label="Choose day">
+      <button id="prev" aria-label="Previous day">‹</button>
+      <div id="dayLabel" aria-live="polite"></div>
+      <button id="next" aria-label="Next day">›</button>
+      <button id="todayBtn">Today</button>
+    </nav>
+  </header>
+
+  <p class="note" id="saveNote">Loading saved ticks…</p>
+
+  <div class="groups" id="groups"></div>
+
+  <section aria-labelledby="h-how">
+    <h2 id="h-how">Every day</h2>
+    <ol class="steps">
+      <li><time>09:56</time><span>Claude updates this page with the day's links: up to 10 per site.</span></li>
+      <li><time>any time</time><span>For each group, open the links in that group's Chrome profile. Copy links puts them all on the clipboard for pasting into the other profile's window.</span></li>
+      <li><time>each link</time><span>Press <strong>Request indexing</strong> in Search Console, then tick the box here. If it already says <strong>URL is on Google</strong>, press <em>On Google</em> instead.</span></li>
+      <li><time>next day</time><span>Claude reads the ticks, files them, and moves anything left over to the next day.</span></li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="h-prog">
+    <h2 id="h-prog">Progress</h2>
+    <div class="legend"><span style="--c:var(--ok)">Indexed</span><span style="--c:var(--accent)">Requested</span><span style="--c:var(--line)">Waiting</span></div>
+    <div class="progress" id="progress"></div>
+  </section>
+
+  <section aria-labelledby="h-cal">
+    <h2 id="h-cal">Calendar</h2>
+    <p class="muted" style="font-size:.86rem">One box per day. The coloured lines show how many pages each site has that day. A tick means everything that day is done.</p>
+    <div class="cal" id="calendar"></div>
+  </section>
+</main>
+
+<script>
+const DATA = /*DATA*/null;
+
+const $ = s => document.querySelector(s);
+const enc = encodeURIComponent;
+const HUES = ["--p1", "--p2", "--p3"];
+const fmtDay = new Intl.DateTimeFormat("en-GB", {weekday: "short", day: "numeric", month: "short", timeZone: "UTC"});
+const nice = d => fmtDay.format(new Date(d + "T00:00:00Z"));
+const todayStr = () => new Intl.DateTimeFormat("en-CA", {timeZone: DATA.tz, year: "numeric", month: "2-digit", day: "2-digit"}).format(new Date());
+
+const sites = DATA.sites;
+const profiles = [...new Set(sites.map(s => s.account))];
+const urls = DATA.urls.map(([id, si, path, day, st]) => ({id, si, path, day, st, url: "https://" + sites[si].name + path}));
+const days = [...new Set(urls.map(u => u.day).filter(Boolean))].sort();
+const byDay = new Map();
+for (const u of urls) if (u.day) (byDay.get(u.day) || byDay.set(u.day, []).get(u.day)).push(u);
+
+const inspect = u => {
+  const s = sites[u.si];
+  return "https://search.google.com/search-console/inspect?resource_id=" + enc(s.property) + "&id=" + enc(u.url) + "&authuser=" + enc(s.account);
+};
+
+let ticks = new Map();          // id -> {state}
+let db = null, canSave = false;
+const pending = new Set();
+
+function pickDay() {
+  const t = todayStr();
+  if (byDay.has(t)) return t;
+  return days.find(d => d >= t) || days[days.length - 1] || t;
+}
+let day = pickDay();
+
+function stateOf(u) {
+  if (u.st === "i") return "indexed";
+  if (u.st === "r") return "requested";
+  const t = ticks.get(u.id);
+  return t ? t.state : "open";
+}
+
+function renderHeader() {
+  const total = urls.length;
+  $("#sub").textContent = sites.length + " sites · " + total.toLocaleString("en") + " pages · up to " + DATA.quota + " requests per site per day · updated " + DATA.generated;
+  const i = days.indexOf(day);
+  $("#dayLabel").innerHTML = "";
+  $("#dayLabel").append(nice(day));
+  if (day === todayStr()) { const c = document.createElement("span"); c.className = "chip-today"; c.textContent = "today"; $("#dayLabel").append(c); }
+  $("#prev").disabled = i <= 0;
+  $("#next").disabled = i < 0 || i >= days.length - 1;
+}
+
+function renderGroups() {
+  const box = $("#groups");
+  box.innerHTML = "";
+  const list = byDay.get(day) || [];
+  profiles.forEach((acct, pi) => {
+    const hue = HUES[pi % HUES.length];
+    const g = document.createElement("article");
+    g.className = "group";
+    g.style.setProperty("--p", "var(" + hue + ")");
+    g.style.setProperty("--p-soft", "var(" + hue + "-soft)");
+    const mine = sites.map((s, si) => ({s, si})).filter(x => x.s.account === acct);
+    const hdr = document.createElement("header");
+    hdr.innerHTML = '<div class="who"><h2></h2><p>Open these links in this Chrome profile</p></div>';
+    hdr.querySelector("h2").textContent = acct;
+    const open = list.filter(u => mine.some(m => m.si === u.si) && stateOf(u) === "open");
+    const copy = document.createElement("button");
+    copy.className = "copy";
+    copy.type = "button";
+    copy.textContent = open.length ? "Copy " + open.length + " links" : "Nothing to copy";
+    copy.disabled = !open.length;
+    copy.addEventListener("click", () => copyLinks(copy, open.map(inspect).join("\n")));
+    hdr.append(copy);
+    g.append(hdr);
+    for (const {s, si} of mine) {
+      const rows = list.filter(u => u.si === si);
+      const sec = document.createElement("div");
+      sec.className = "site";
+      const h = document.createElement("h3");
+      h.textContent = s.name;
+      const c = document.createElement("span");
+      c.className = "count";
+      const done = rows.filter(u => stateOf(u) !== "open").length;
+      c.textContent = rows.length ? done + " of " + rows.length + " done" : "";
+      h.append(c);
+      sec.append(h);
+      if (!rows.length) {
+        const left = urls.some(u => u.si === si && u.st === "s" && u.day > day);
+        const e = document.createElement("p");
+        e.className = "empty";
+        e.textContent = left ? "Nothing scheduled for this site on this day." : "All of this site's pages have been through the timetable.";
+        sec.append(e);
+      } else {
+        const ol = document.createElement("ol");
+        ol.className = "rows";
+        rows.forEach(u => ol.append(rowEl(u)));
+        sec.append(ol);
+      }
+      g.append(sec);
+    }
+    box.append(g);
+  });
+}
+
+function rowEl(u) {
+  const st = stateOf(u);
+  const li = document.createElement("li");
+  li.className = "row" + (st === "open" ? "" : " is-done");
+  const a = document.createElement("a");
+  a.href = inspect(u);
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.textContent = u.path;
+  if (u.st === "r" || u.st === "i") {
+    const box = document.createElement("span");
+    box.textContent = "✓";
+    box.setAttribute("aria-hidden", "true");
+    box.style.cssText = "width:18px;text-align:center;color:var(--ok)";
+    const b = document.createElement("span");
+    b.className = "badge " + (u.st === "i" ? "idx" : "req");
+    b.textContent = u.st === "i" ? "Indexed" : "Requested";
+    li.append(box, a, b);
+    return li;
+  }
+  const cb = document.createElement("input");
+  cb.type = "checkbox";
+  cb.id = "t-" + u.id;
+  cb.checked = st === "requested";
+  cb.disabled = !canSave || pending.has(u.id) || st === "on_google";
+  cb.setAttribute("aria-label", "Requested indexing for " + u.path);
+  cb.addEventListener("change", () => save(u, cb.checked ? "requested" : null));
+  const og = document.createElement("button");
+  og.type = "button";
+  og.className = "og";
+  og.textContent = "On Google";
+  og.setAttribute("aria-pressed", String(st === "on_google"));
+  og.disabled = !canSave || pending.has(u.id);
+  og.addEventListener("click", () => save(u, st === "on_google" ? null : "on_google"));
+  li.append(cb, a, og);
+  return li;
+}
+
+async function copyLinks(btn, text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    btn.textContent = "Copied";
+    btn.dataset.done = "";
+  } catch {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.cssText = "width:100%;height:8em;font:12px var(--f-mono)";
+    btn.closest("header").after(ta);
+    ta.select();
+    btn.textContent = "Select and copy";
+  }
+}
+
+async function save(u, state) {
+  if (!db || pending.has(u.id)) return;
+  pending.add(u.id);
+  if (state) ticks.set(u.id, {state}); else ticks.delete(u.id);
+  render();
+  const ref = db.collection("ticks").doc(u.id);
+  try {
+    if (state) await ref.set({url: u.url, site: sites[u.si].name, state, day: u.day, at: new Date().toISOString()});
+    else await ref.delete();
+  } catch (e) {
+    $("#saveNote").textContent = e && e.code === "invalid_argument"
+      ? "Your access to this page is view-only, so ticks can't be saved. Reply \"done\" in the Claude session instead."
+      : "That tick didn't save (" + ((e && e.code) || "error") + "). Try it again.";
+    canSave = !(e && e.code === "invalid_argument");
+  } finally {
+    pending.delete(u.id);
+    render();
+  }
+}
+
+function renderProgress() {
+  const box = $("#progress");
+  box.innerHTML = "";
+  sites.forEach((s, si) => {
+    const mine = urls.filter(u => u.si === si);
+    let idx = 0, req = 0;
+    for (const u of mine) { const st = stateOf(u); if (st === "indexed" || st === "on_google") idx++; else if (st === "requested") req++; }
+    const n = mine.length || 1;
+    const last = mine.reduce((m, u) => (u.day > m ? u.day : m), "");
+    const row = document.createElement("div");
+    row.className = "prow";
+    row.innerHTML = '<div class="head"><h3></h3><span></span></div><div class="bar" role="img"><i class="b-idx"></i><i class="b-req"></i></div>';
+    row.querySelector("h3").textContent = s.name;
+    row.querySelector(".head span").textContent = idx + " indexed · " + req + " requested · " + (mine.length - idx - req) + " waiting · last batch " + (last ? nice(last) : "–");
+    row.querySelector(".b-idx").style.width = (idx / n * 100) + "%";
+    row.querySelector(".b-req").style.width = (req / n * 100) + "%";
+    row.querySelector(".bar").setAttribute("aria-label", s.name + ": " + idx + " indexed, " + req + " requested of " + mine.length);
+    box.append(row);
+  });
+}
+
+function renderCalendar() {
+  const box = $("#calendar");
+  box.innerHTML = "";
+  const t = todayStr();
+  for (const d of days) {
+    const list = byDay.get(d);
+    const allDone = list.every(u => stateOf(u) !== "open");
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "cell" + (d < t ? " past" : "");
+    if (d === day) b.setAttribute("aria-current", "date");
+    const head = document.createElement("span");
+    head.className = "d";
+    head.textContent = nice(d);
+    if (allDone) { const em = document.createElement("em"); em.textContent = "✓"; em.setAttribute("aria-label", "done"); head.append(em); }
+    const mini = document.createElement("span");
+    mini.className = "mini";
+    sites.forEach((s, si) => {
+      const k = list.filter(u => u.si === si).length;
+      if (!k) return;
+      const i = document.createElement("i");
+      i.style.setProperty("--c", "var(" + HUES[profiles.indexOf(s.account) % HUES.length] + ")");
+      i.style.width = (k / DATA.quota * 100) + "%";
+      i.title = s.name + ": " + k;
+      mini.append(i);
+    });
+    b.append(head, mini);
+    b.setAttribute("aria-label", nice(d) + ", " + list.length + " pages" + (allDone ? ", done" : ""));
+    b.addEventListener("click", () => { day = d; render(); window.scrollTo({top: 0}); });
+    box.append(b);
+  }
+}
+
+function render() { renderHeader(); renderGroups(); renderProgress(); renderCalendar(); }
+
+$("#prev").addEventListener("click", () => { const i = days.indexOf(day); if (i > 0) { day = days[i - 1]; render(); } });
+$("#next").addEventListener("click", () => { const i = days.indexOf(day); if (i < days.length - 1) { day = days[i + 1]; render(); } });
+$("#todayBtn").addEventListener("click", () => { day = pickDay(); render(); });
+
+render();
+
+(async () => {
+  db = window.claude ? await window.claude.use("db") : null;
+  if (!db) {
+    $("#saveNote").textContent = "Ticks can't be saved from this view. Open the page signed in to Claude, or reply \"done\" in the Claude session.";
+    return;
+  }
+  canSave = true;
+  $("#saveNote").textContent = "Ticks save as you go. Claude reads them each morning at 09:56.";
+  db.collection("ticks").onSnapshot(snap => {
+    const next = new Map();
+    for (const d of snap.docs) { const v = d.data(); if (v && v.state) next.set(d.id, {state: v.state}); }
+    for (const id of pending) if (ticks.has(id)) next.set(id, ticks.get(id)); else next.delete(id);
+    ticks = next;
+    render();
+  }, e => {
+    canSave = false;
+    $("#saveNote").textContent = "Saved ticks stopped loading (" + e.code + "). Reload the page.";
+    render();
+  });
+  render();
+})();
+</script>

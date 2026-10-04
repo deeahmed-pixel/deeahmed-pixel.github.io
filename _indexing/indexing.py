@@ -16,6 +16,8 @@ reports it indexed.
   python3 _indexing/indexing.py inspect            # GSC URL Inspection API (needs credentials)
   python3 _indexing/indexing.py submit-sitemaps    # GSC Sitemaps API (needs credentials)
   python3 _indexing/indexing.py indexnow           # Bing/Yandex/Seznam/Naver via IndexNow
+  python3 _indexing/indexing.py page               # build timetable.html (the published timetable page)
+  python3 _indexing/indexing.py apply-ticks F.json # apply ticks read from the page's `ticks` collection
   python3 _indexing/indexing.py status
 
 Standard library only. Search Console calls take an OAuth access token in
@@ -427,6 +429,70 @@ def cmd_check(args, config, state):
     plan(config, state, domains=args.domain)
 
 
+# ---------------------------------------------------------------- timetable page
+
+PAGE_TEMPLATE = os.path.join(HERE, "timetable_template.html")
+PAGE_OUT = os.path.join(HERE, "timetable.html")
+PAGE_STATUS = {"scheduled": "s", "pending": "s", "requested": "r", "indexed": "i"}
+
+
+def tick_id(url):
+    """Document id for a URL in the page's `ticks` collection (path-safe)."""
+    import hashlib
+    return "u" + hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
+
+
+def cmd_page(args, config, state):
+    sites, rows = [], []
+    for si, (name, cfg) in enumerate(config["domains"].items()):
+        sites.append({"name": name, "property": cfg["property"], "account": cfg.get("gsc_account", "")})
+        urls = state["domains"][name]["urls"]
+        for url, r in urls.items():
+            st = PAGE_STATUS.get(r["status"])
+            if st is None or not r.get("scheduled"):
+                continue
+            path = url.split(name, 1)[1] or "/"
+            rows.append((r["scheduled"], si, rank_key(url, r, cfg), [tick_id(url), si, path, r["scheduled"], st]))
+    rows.sort(key=lambda x: x[:3])
+    data = {"generated": dt.datetime.now(tz(config)).strftime("%-d %b %Y, %H:%M"), "tz": config.get("timezone", "UTC"),
+            "quota": int(config.get("daily_quota", 10)), "sites": sites, "urls": [r[3] for r in rows]}
+    with open(PAGE_TEMPLATE, encoding="utf-8") as f:
+        html = f.read()
+    marker = "/*DATA*/null"
+    assert html.count(marker) == 1, "template must contain exactly one /*DATA*/null"
+    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    with open(PAGE_OUT, "w", encoding="utf-8") as f:
+        f.write(html.replace(marker, payload))
+    print(f"wrote {os.path.relpath(PAGE_OUT)}: {len(rows)} scheduled/requested URLs, {len(set(r[0] for r in rows))} days")
+
+
+def cmd_apply_ticks(args, config, state):
+    """Apply ticks exported from the page's `ticks` collection (a JSON list of
+    documents, or an object with a `documents`/`docs` list)."""
+    with open(args.file, encoding="utf-8") as f:
+        raw = json.load(f)
+    docs = raw if isinstance(raw, list) else raw.get("documents") or raw.get("docs") or []
+    by_url = {}
+    for name in config["domains"]:
+        for url, rec in state["domains"][name]["urls"].items():
+            by_url[url] = rec
+    changed = {"requested": 0, "indexed": 0}
+    for d in docs:
+        body = d.get("data", d) if isinstance(d, dict) else {}
+        rec = by_url.get(body.get("url"))
+        if rec is None:
+            continue
+        if body.get("state") == "on_google" and rec["status"] != "indexed":
+            rec["status"] = "indexed"
+            changed["indexed"] += 1
+        elif body.get("state") == "requested" and rec["status"] in OPEN + ("fix",):
+            rec["status"] = "requested"
+            rec["requested"].append(body.get("at") or now_iso(config))
+            changed["requested"] += 1
+    print(f"applied ticks: {changed['requested']} requested, {changed['indexed']} already on Google")
+    plan(config, state)
+
+
 # ---------------------------------------------------------------- Search Console API
 
 def gsc_token():
@@ -693,6 +759,9 @@ def main():
     sp = with_domain(sub.add_parser("check", help="fetch each open URL; set aside ones that can't be indexed"))
     sp.add_argument("--all", action="store_true", help="also re-check requested and indexed URLs")
     sp.add_argument("--workers", type=int, default=6)
+    sub.add_parser("page", help="build timetable.html for the published timetable page")
+    sp = sub.add_parser("apply-ticks", help="apply ticks exported from the timetable page")
+    sp.add_argument("file")
     with_domain(sub.add_parser("submit-sitemaps", help="submit configured sitemaps through the GSC API"))
     sp = with_domain(sub.add_parser("indexnow", help="ping IndexNow engines"))
     sp.add_argument("--all", action="store_true", help="resend every URL, not just ones never sent")
@@ -701,7 +770,7 @@ def main():
     args = p.parse_args()
     config, state = load()
     handler = {"sync": cmd_sync, "import": cmd_import, "plan": cmd_plan, "today": cmd_today, "mark": cmd_mark,
-               "inspect": cmd_inspect, "check": cmd_check, "submit-sitemaps": cmd_submit_sitemaps, "indexnow": cmd_indexnow,
+               "inspect": cmd_inspect, "check": cmd_check, "page": cmd_page, "apply-ticks": cmd_apply_ticks, "submit-sitemaps": cmd_submit_sitemaps, "indexnow": cmd_indexnow,
                "status": cmd_status}[args.cmd]
     handler(args, config, state)
     save_json(STATE_PATH, state)

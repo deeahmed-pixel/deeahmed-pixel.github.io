@@ -1,10 +1,10 @@
 # Request-indexing timetable
 
-_Generated 2026-10-04T14:57:31+03:00 by `indexing.py plan`. Each row is one property's batch for that day; press **Request indexing** on each URL._
+_Generated 2026-10-04T15:05:30+03:00 by `indexing.py plan`. Each row is one property's batch for that day; press **Request indexing** on each URL._
 
 | Domain | Pages | Indexed | Requested | Waiting | Needs fix | Last batch day | Sync |
 |---|---|---|---|---|---|---|---|
-| leadsupcallcenter.com | 42 | 0 | 0 | 42 | 0 | 2026-10-08 | 2026-10-04T14:47:48+03:00 |
+| leadsupcallcenter.com | 42 | 1 | 0 | 41 | 0 | 2026-10-08 | 2026-10-04T14:47:48+03:00 |
 | leadsupdata.com | 54 | 0 | 0 | 54 | 0 | 2026-10-09 | 2026-10-04T14:56:46+03:00 |
 | weshastones.com | 1029 | 0 | 0 | 1029 | 0 | 2027-01-14 | 2026-10-04T14:47:53+03:00 |
 | weshamarble.com | 307 | 0 | 0 | 307 | 0 | 2026-11-03 | 2026-10-04T14:47:53+03:00 |
@@ -175,6 +175,7 @@ _Generated 2026-10-04T14:57:31+03:00 by `indexing.py plan`. Each row is one prop
 
 **leadsupcallcenter.com** (10) · open in the Chrome profile for **deeahmed@leadsupcallcenter.com**
 
+- [ ] [https://leadsupcallcenter.com/privacy](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Fprivacy&authuser=deeahmed%40leadsupcallcenter.com)
 - [ ] [https://leadsupcallcenter.com/roofing-leads](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Froofing-leads&authuser=deeahmed%40leadsupcallcenter.com)
 - [ ] [https://leadsupcallcenter.com/roofing-leads-cost](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Froofing-leads-cost&authuser=deeahmed%40leadsupcallcenter.com)
 - [ ] [https://leadsupcallcenter.com/services](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Fservices&authuser=deeahmed%40leadsupcallcenter.com)
@@ -184,7 +185,6 @@ _Generated 2026-10-04T14:57:31+03:00 by `indexing.py plan`. Each row is one prop
 - [ ] [https://leadsupcallcenter.com/website-design-seo](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Fwebsite-design-seo&authuser=deeahmed%40leadsupcallcenter.com)
 - [ ] [https://leadsupcallcenter.com/who-we-help](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Fwho-we-help&authuser=deeahmed%40leadsupcallcenter.com)
 - [ ] [https://leadsupcallcenter.com/wholesaling-cold-calling](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Fwholesaling-cold-calling&authuser=deeahmed%40leadsupcallcenter.com)
-- [ ] [https://leadsupcallcenter.com/wholesaling-cold-calling-script](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Fwholesaling-cold-calling-script&authuser=deeahmed%40leadsupcallcenter.com)
 
 **leadsupdata.com** (10) · open in the Chrome profile for **deeahmed@leadsupcallcenter.com**
 
@@ -227,9 +227,8 @@ _Generated 2026-10-04T14:57:31+03:00 by `indexing.py plan`. Each row is one prop
 
 ## 2026-10-08
 
-**leadsupcallcenter.com** (2) · open in the Chrome profile for **deeahmed@leadsupcallcenter.com**
+**leadsupcallcenter.com** (1) · open in the Chrome profile for **deeahmed@leadsupcallcenter.com**
 
-- [ ] [https://leadsupcallcenter.com/privacy](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Fprivacy&authuser=deeahmed%40leadsupcallcenter.com)
 - [ ] [https://leadsupcallcenter.com/terms](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fleadsupcallcenter.com%2F&id=https%3A%2F%2Fleadsupcallcenter.com%2Fterms&authuser=deeahmed%40leadsupcallcenter.com)
 
 **leadsupdata.com** (10) · open in the Chrome profile for **deeahmed@leadsupcallcenter.com**
