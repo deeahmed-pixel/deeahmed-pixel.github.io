@@ -63,21 +63,27 @@ accounts keeps things organised but doesn't add requests.
    Settings, Users and permissions, and **Add user**. Enter
    `info@weshastones.com` and set Permission to **Owner**. info@ can now use
    the property and receives its alerts.
-2. **Take deeahmed out** (asked for on 4 Oct). Do this from the
-   info@weshastones.com window, in this order. weshastones.com always needs
-   at least one verified owner; if deeahmed is removed before info@ is
-   verified, nobody may be left who can manage it.
-   - Settings, then Ownership verification: verify with its own DNS TXT
-     record, added at the weshastones.com DNS host.
-   - Settings, then Users and permissions: open ⋮ next to
-     deeahmed@leadsupcallcenter.com, then Manage property owners, and
-     **Unverify** it.
-   - Delete deeahmed's old `google-site-verification` TXT record from DNS.
-     Otherwise Google re-verifies it on its own.
+2. **Take deeahmed out** (asked for on 4 Oct). As of 4 Oct, Users and
+   permissions on weshastones.com lists three **verified owners**:
+   deeahmed@leadsupcallcenter.com, info@weshastones.com and
+   jack@leadsupcallcenter.com. info@ is already verified, so removing deeahmed
+   leaves the property safely owned.
+   - **Find deeahmed's DNS token.** In the deeahmed window, go to Settings, then
+     Ownership verification. Note the `google-site-verification=…` TXT value
+     shown there.
+   - **Unverify deeahmed.** In the info@weshastones.com window, go to Settings,
+     then Users and permissions. Open ⋮ next to Dee Ahmed, then Manage property
+     owners, and press **Unverify** on deeahmed@leadsupcallcenter.com.
+   - **Delete only that TXT record** at the weshastones.com DNS host. Keep
+     info@'s and jack's records, or they lose verification too. If deeahmed's
+     record stays, Google re-verifies it on its own.
+   - **jack@leadsupcallcenter.com is also a verified owner.** For weshastones.com
+     to have no LeadsUp accounts at all, remove jack the same way.
 
-   After this step, weshastones.com Search Console emails only reach
-   info@weshastones.com. That inbox isn't connected to the session, so the
-   session asks you about weshastones alerts instead of reading them.
+   After this step, weshastones.com Search Console emails reach
+   info@weshastones.com, and jack@ while jack is still an owner. Neither inbox
+   is connected to the session, so the session asks you about weshastones
+   alerts instead of reading them.
 
 ## Why the old routine couldn't work
 
