@@ -132,6 +132,7 @@ section{display:grid;gap:12px}
       <li><time>any time</time><span>For each group, open the links in that group's Chrome profile. Copy links puts them all on the clipboard for pasting into the other profile's window.</span></li>
       <li><time>each link</time><span>Press <strong>Request indexing</strong> in Search Console, then tick the box here. If it already says <strong>URL is on Google</strong>, press <em>On Google</em> instead.</span></li>
       <li><time>next day</time><span>Claude reads the ticks, files them, and moves anything left over to the next day.</span></li>
+      <li><time>later</time><span>When Search Console shows a requested page as <strong>URL is on Google</strong>, open its day in the calendar and press <em>confirm On Google</em>. A site is finished once every page is confirmed.</span></li>
     </ol>
   </section>
 
@@ -183,8 +184,8 @@ let day = pickDay();
 
 function stateOf(u) {
   if (u.st === "i") return "indexed";
-  if (u.st === "r") return "requested";
   const t = ticks.get(u.id);
+  if (u.st === "r") return t && t.state === "on_google" ? "on_google" : "requested";
   return t ? t.state : "open";
 }
 
@@ -266,10 +267,22 @@ function rowEl(u) {
     box.textContent = "✓";
     box.setAttribute("aria-hidden", "true");
     box.style.cssText = "width:18px;text-align:center;color:var(--ok)";
-    const b = document.createElement("span");
-    b.className = "badge " + (u.st === "i" ? "idx" : "req");
-    b.textContent = u.st === "i" ? "Indexed" : "Requested";
-    li.append(box, a, b);
+    if (u.st === "i" || st === "on_google" && !canSave) {
+      const b = document.createElement("span");
+      b.className = "badge idx";
+      b.textContent = u.st === "i" ? "Indexed" : "On Google";
+      li.append(box, a, b);
+      return li;
+    }
+    // Requested earlier: it can still be confirmed once Search Console shows it.
+    const og = document.createElement("button");
+    og.type = "button";
+    og.className = "og";
+    og.textContent = st === "on_google" ? "On Google" : "Requested · confirm On Google";
+    og.setAttribute("aria-pressed", String(st === "on_google"));
+    og.disabled = !canSave || pending.has(u.id);
+    og.addEventListener("click", () => save(u, st === "on_google" ? null : "on_google"));
+    li.append(box, a, og);
     return li;
   }
   const cb = document.createElement("input");

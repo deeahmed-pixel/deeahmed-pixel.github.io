@@ -176,7 +176,19 @@ Each step names the Chrome profile to do it in.
 Done 4 Oct: network access for the sites in the environment settings, and
 the GitHub connection.
 
-### Phase 1: daily batches (every day from Mon 5 Oct, 09:56 Cairo time)
+### Phase 1: daily batches (two routines, Cairo time)
+
+Two routines wake the session each morning. Both update the same timetable
+page, and each deletes itself once its sites are finished.
+
+| Routine | Time | Sites | Chrome profile | Ends |
+|---|---|---|---|---|
+| **LeadsUp indexing (daily)** | 09:24 | leadsupcallcenter.com, leadsupdata.com | deeahmed@leadsupcallcenter.com | When `done` reports both finished: every page requested, then confirmed On Google (page button or a Search Console export via `mark indexed --file`), or 14 days past its request |
+| **Wesha indexing (daily)** | 09:56 | weshastones.com, weshamarble.com | info@weshastones.com, adnan@weshamarble.com | The same, for the Wesha sites |
+
+As of 4 Oct, deeahmed@leadsupcallcenter.com's Search Console holds only
+leadsupcallcenter.com, leadsupdata.com and data.leadsupcallcenter.com;
+weshastones.com was removed from it.
 
 All four sites start as soon as their URL lists are in. Until a site's list
 is loaded (network access, or an `import`), the morning run for that site has
@@ -184,7 +196,7 @@ nothing to post and just names what's blocking it.
 
 | When | Who | What |
 |---|---|---|
-| 09:56 | routine → session | Reads the page's ticks (`apply-ticks`), then `sync` → `check` → `page`, and republishes the timetable page. Up to **10 URLs per property** a day. Pages that broke since the last run are set aside as fix items. |
+| 09:24 / 09:56 | routines → session | Reads the page's ticks (`apply-ticks`), then `sync` → `check` → `page`, and republishes the timetable page. Up to **10 URLs per property** a day. Pages that broke since the last run are set aside as fix items. |
 | any time that day | you | On the timetable page, open each group's links in that group's Chrome profile. Press **Request indexing** and tick the box, or press **On Google** if it's already indexed. That's up to 40 a day across the four sites. |
 | next morning | routine → session | Files the ticks. Unticked pages slide to the next day. |
 

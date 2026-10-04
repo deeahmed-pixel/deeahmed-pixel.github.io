@@ -303,10 +303,10 @@ def write_schedule(config, state):
         f.write("\n".join(lines) + "\n")
 
 
-def status_lines(config, state):
+def status_lines(config, state, domains=None):
     out = ["| Domain | Pages | Indexed | Requested | Waiting | Needs fix | Last batch day | Sync |",
            "|---|---|---|---|---|---|---|---|"]
-    for name in config["domains"]:
+    for name in pick_domains(config, domains):
         dom = state["domains"][name]
         urls = dom["urls"]
         counts = {}
@@ -554,6 +554,22 @@ def cmd_sync(args, config, state):
     plan(config, state, domains=args.domain)
 
 
+def read_url_file(path):
+    """URLs from a sitemap .xml, a .txt (one per line) or a .csv (first http cell per row)."""
+    with open(path, "rb") as f:
+        raw = f.read()
+    if raw.lstrip().startswith(b"<"):
+        return [u for u, _ in parse_sitemap(raw)[1]]
+    urls = []
+    for row in csv.reader(raw.decode("utf-8-sig", "replace").splitlines()):
+        for cell in row:
+            cell = cell.strip()
+            if cell.startswith("http"):
+                urls.append(cell)
+                break
+    return urls
+
+
 def cmd_import(args, config, state):
     name = args.domain_name
     pick_domains(config, [name])
@@ -621,10 +637,15 @@ def cmd_mark(args, config, state):
     changed = 0
     for name in pick_domains(config, args.domain):
         urls = state["domains"][name]["urls"]
-        targets = list(args.urls) if args.urls else batch_for(config, state, name, args.date or today(config).isoformat())
+        if args.file:
+            targets = [u for u in read_url_file(args.file) if host_of(u) == name]
+        elif args.urls:
+            targets = list(args.urls)
+        else:
+            targets = batch_for(config, state, name, args.date or today(config).isoformat())
         for url in targets:
             rec = urls.get(url)
-            if rec is None:
+            if rec is None or rec["status"] == args.status:
                 continue
             rec["status"] = args.status
             if args.status == "requested":
@@ -718,10 +739,38 @@ def cmd_indexnow(args, config, state):
                 state["domains"][name]["urls"][u]["indexnow"] = stamp
 
 
+def remaining(config, state, name):
+    """URLs on `name` that still need something: not yet requested, or
+    requested less than 14 days ago and not confirmed indexed. Requested 14+
+    days ago and still not indexed counts as finished for the timetable;
+    `status` lists those as fix items."""
+    cutoff = (dt.datetime.now(tz(config)) - dt.timedelta(days=14)).isoformat()
+    left = []
+    for url, r in state["domains"][name]["urls"].items():
+        if r["status"] in OPEN:
+            left.append(url)
+        elif r["status"] == "requested" and (not r["requested"] or r["requested"][0] >= cutoff):
+            left.append(url)
+    return left
+
+
+def cmd_done(args, config, state):
+    all_done = True
+    for name in pick_domains(config, args.domain):
+        left = remaining(config, state, name)
+        waiting = sum(1 for u in left if state["domains"][name]["urls"][u]["status"] in OPEN)
+        if left:
+            all_done = False
+            print(f"{name}: NOT DONE — {waiting} still to request, {len(left) - waiting} requested and awaiting confirmation")
+        else:
+            print(f"{name}: DONE")
+    print("ALL DONE" if all_done else "NOT DONE")
+
+
 def cmd_status(args, config, state):
-    print("\n".join(status_lines(config, state)))
+    print("\n".join(status_lines(config, state, args.domain)))
     t = today(config).isoformat()
-    for name in config["domains"]:
+    for name in pick_domains(config, args.domain):
         overdue = [u for u, r in state["domains"][name]["urls"].items()
                    if r["status"] == "scheduled" and r.get("scheduled") and r["scheduled"] < t]
         if overdue:
@@ -730,7 +779,8 @@ def cmd_status(args, config, state):
         stuck = [u for u, r in state["domains"][name]["urls"].items()
                  if r["status"] == "requested" and r["requested"] and r["requested"][0] < cutoff]
         if stuck:
-            print(f"{name}: {len(stuck)} URL(s) requested 14+ days ago and still not indexed — fix, don't re-request")
+            print(f"{name}: {len(stuck)} URL(s) requested 14+ days ago and not confirmed indexed — "
+                  "check them in Search Console; fix any that aren't indexed instead of re-requesting")
 
 
 def main():
@@ -752,6 +802,7 @@ def main():
     sp = with_domain(sub.add_parser("mark", help="mark a day's batch or given URLs"))
     sp.add_argument("status", choices=["requested", "indexed", "excluded", "scheduled"])
     sp.add_argument("--date", help="batch day to mark (default: today)")
+    sp.add_argument("--file", help="mark every URL listed in this .txt/.csv (e.g. a Search Console export)")
     sp.add_argument("urls", nargs="*")
     sp = with_domain(sub.add_parser("inspect", help="check index status through the URL Inspection API"))
     sp.add_argument("--limit", type=int, default=500, help="max inspections per domain (API allows 2000/day)")
@@ -766,12 +817,13 @@ def main():
     sp = with_domain(sub.add_parser("indexnow", help="ping IndexNow engines"))
     sp.add_argument("--all", action="store_true", help="resend every URL, not just ones never sent")
     with_domain(sub.add_parser("status", help="summary per domain"))
+    with_domain(sub.add_parser("done", help="say whether each domain is finished"))
 
     args = p.parse_args()
     config, state = load()
     handler = {"sync": cmd_sync, "import": cmd_import, "plan": cmd_plan, "today": cmd_today, "mark": cmd_mark,
                "inspect": cmd_inspect, "check": cmd_check, "page": cmd_page, "apply-ticks": cmd_apply_ticks, "submit-sitemaps": cmd_submit_sitemaps, "indexnow": cmd_indexnow,
-               "status": cmd_status}[args.cmd]
+               "status": cmd_status, "done": cmd_done}[args.cmd]
     handler(args, config, state)
     save_json(STATE_PATH, state)
 
