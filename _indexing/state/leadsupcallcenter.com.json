@@ -13,7 +13,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/about": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -26,7 +26,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/absentee-owner-leads": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -39,7 +39,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/appointment-setting": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -52,7 +52,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/audioproof": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -65,7 +65,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/best-real-estate-cold-calling-companies": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -78,7 +78,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/best-skip-tracing-service-for-wholesalers": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -88,10 +88,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-04T16:42:24+03:00"
+      ],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/cold-calling-script-pack": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -104,7 +106,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/cold-calling-vs-direct-mail": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -117,7 +119,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/cold-emailing": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -130,7 +132,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/contact": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -141,9 +143,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/guides": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -154,9 +156,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/lead-types": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -167,9 +169,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/locations": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -180,9 +182,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/motivated-seller-leads": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -193,9 +195,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/pricing": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -206,9 +208,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/privacy": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -219,7 +221,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -232,9 +234,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -245,9 +247,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-arizona": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -258,9 +260,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-california": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -271,9 +273,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-cost": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -284,9 +286,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-florida": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -297,9 +299,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-georgia": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -310,9 +312,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-north-carolina": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -323,9 +325,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-ohio": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -336,9 +338,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-scripts": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -349,7 +351,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -362,7 +364,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -375,7 +377,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -388,7 +390,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -401,7 +403,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -414,7 +416,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -427,7 +429,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -440,7 +442,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -453,7 +455,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -466,7 +468,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -479,7 +481,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -492,7 +494,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -505,7 +507,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -518,7 +520,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -531,7 +533,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },

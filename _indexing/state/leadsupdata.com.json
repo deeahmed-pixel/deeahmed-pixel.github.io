@@ -13,7 +13,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/about": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -24,7 +24,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -39,7 +39,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/acceptable-use": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -50,7 +50,7 @@
       "last_inspected": null,
       "priority": 0.3,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -63,9 +63,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/batchskiptracing-alternative": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -76,9 +76,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/bulk-skip-tracing": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -91,7 +91,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/compare": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -104,7 +104,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/contact": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -115,7 +115,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -128,9 +128,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/done-for-you": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -143,7 +143,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -154,9 +154,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/brevard-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -167,7 +167,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -180,7 +180,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -193,7 +193,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -206,9 +206,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/duval-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -219,7 +219,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -232,7 +232,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -245,7 +245,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -258,7 +258,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -271,7 +271,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -284,7 +284,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -297,7 +297,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -310,7 +310,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -323,7 +323,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -336,9 +336,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/palm-beach-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -349,7 +349,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -362,7 +362,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -375,7 +375,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -388,7 +388,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -401,7 +401,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -414,7 +414,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -427,7 +427,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -440,7 +440,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -453,7 +453,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -466,7 +466,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -479,9 +479,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/insurance-agent-leads": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -492,9 +492,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/is-skip-tracing-legal": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -505,7 +505,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -518,9 +518,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/pricing": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -533,7 +533,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/privacy": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -544,7 +544,7 @@
       "last_inspected": null,
       "priority": 0.3,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -557,9 +557,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/property-owner-phone-number": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -569,10 +569,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
-      "scheduled": "2026-10-05",
+      "requested": [
+        "2026-10-04T16:53:48+03:00"
+      ],
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/propstream-skip-tracing-alternative": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -583,9 +585,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/reiskip-alternative": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -596,9 +598,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/roofing-leads": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -611,7 +613,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/skip-genie-alternative": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -622,9 +624,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/skip-tracing": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -637,7 +639,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/skip-tracing-cost": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -648,9 +650,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/solar-leads": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -663,7 +665,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/support": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -674,7 +676,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -687,7 +689,7 @@
       "last_inspected": null,
       "priority": 0.3,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -702,7 +704,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     }
   }
 }
