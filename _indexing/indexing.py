@@ -43,7 +43,9 @@ from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(HERE, "config.json")
-STATE_PATH = os.path.join(HERE, "state.json")
+# One state file per site, so routines in different chats never edit the same file.
+STATE_DIR = os.path.join(HERE, "state")
+LEGACY_STATE_PATH = os.path.join(HERE, "state.json")
 SCHEDULE_MD = os.path.join(HERE, "schedule.md")
 SCHEDULE_CSV = os.path.join(HERE, "schedule.csv")
 TODAY_MD = os.path.join(HERE, "today.md")
@@ -77,14 +79,27 @@ def save_json(path, data):
     os.replace(tmp, path)
 
 
+def state_path(name):
+    return os.path.join(STATE_DIR, f"{name}.json")
+
+
 def load():
     config = load_json(CONFIG_PATH, None)
     if config is None:
         sys.exit(f"missing {CONFIG_PATH}")
-    state = load_json(STATE_PATH, {"domains": {}})
+    legacy = load_json(LEGACY_STATE_PATH, {"domains": {}})["domains"]
+    state = {"domains": {}}
     for name in config["domains"]:
-        state["domains"].setdefault(name, {"urls": {}, "last_sync": None, "sync_note": ""})
+        dom = load_json(state_path(name), None) or legacy.get(name)
+        state["domains"][name] = dom or {"urls": {}, "last_sync": None, "sync_note": ""}
     return config, state
+
+
+def save(config, state, domains=None):
+    """Write only the given sites' state files (all when None)."""
+    os.makedirs(STATE_DIR, exist_ok=True)
+    for name in pick_domains(config, domains):
+        save_json(state_path(name), state["domains"][name])
 
 
 def tz(config):
@@ -473,7 +488,7 @@ def cmd_apply_ticks(args, config, state):
         raw = json.load(f)
     docs = raw if isinstance(raw, list) else raw.get("documents") or raw.get("docs") or []
     by_url = {}
-    for name in config["domains"]:
+    for name in pick_domains(config, args.domain):
         for url, rec in state["domains"][name]["urls"].items():
             by_url[url] = rec
     changed = {"requested": 0, "indexed": 0}
@@ -490,7 +505,7 @@ def cmd_apply_ticks(args, config, state):
             rec["requested"].append(body.get("at") or now_iso(config))
             changed["requested"] += 1
     print(f"applied ticks: {changed['requested']} requested, {changed['indexed']} already on Google")
-    plan(config, state)
+    plan(config, state, domains=args.domain)
 
 
 # ---------------------------------------------------------------- Search Console API
@@ -661,20 +676,21 @@ def cmd_inspect(args, config, state):
         sys.exit("no Search Console credentials: set GSC_ACCESS_TOKEN or GSC_SERVICE_ACCOUNT_JSON (see README)")
     limit = args.limit
     min_age = dt.timedelta(days=args.min_age_days)
+    give_up = dt.timedelta(days=args.fix_after_days)
     now = dt.datetime.now(tz(config))
     for name in pick_domains(config, args.domain):
         cfg = config["domains"][name]
         urls = state["domains"][name]["urls"]
         todo = []
         for url, r in urls.items():
-            if r["status"] in DONE:
+            if r["status"] in DONE or r["status"] == "fix" and not str(r.get("issue", "")).startswith("Google:"):
                 continue
             last = r["requested"][-1] if r["requested"] else None
             if r["status"] == "requested" and last and now - dt.datetime.fromisoformat(last) < min_age:
                 continue
             todo.append(url)
         todo.sort(key=lambda u: (urls[u].get("last_inspected") or "", rank_key(u, urls[u], cfg)))
-        n_idx = 0
+        n_idx = n_fix = 0
         for url in todo[:limit]:
             code, res = gsc_call("POST", "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect", token,
                                  {"inspectionUrl": url, "siteUrl": cfg["property"]})
@@ -689,8 +705,17 @@ def cmd_inspect(args, config, state):
             rec["coverage"] = idx.get("coverageState")
             if idx.get("verdict") == "PASS":
                 rec["status"] = "indexed"
+                rec.pop("not_indexed_since", None)
                 n_idx += 1
-        print(f"{name}: inspected {min(len(todo), limit)}, {n_idx} newly confirmed indexed")
+                continue
+            # Not indexed. After `fix_after_days` of that, stop waiting and list it
+            # as a fix item with Google's own reason.
+            since = rec.setdefault("not_indexed_since", now_iso(config))
+            if now - dt.datetime.fromisoformat(since) >= give_up and rec["status"] != "fix":
+                rec["status"] = "fix"
+                rec["issue"] = f"Google: {rec['coverage'] or 'not indexed'} for {give_up.days}+ days"
+                n_fix += 1
+        print(f"{name}: inspected {min(len(todo), limit)}, {n_idx} newly confirmed indexed, {n_fix} moved to fix list")
     plan(config, state, domains=args.domain)
 
 
@@ -761,7 +786,7 @@ def cmd_done(args, config, state):
         waiting = sum(1 for u in left if state["domains"][name]["urls"][u]["status"] in OPEN)
         if left:
             all_done = False
-            print(f"{name}: NOT DONE — {waiting} still to request, {len(left) - waiting} requested and awaiting confirmation")
+            print(f"{name}: NOT DONE — {waiting} not yet confirmed on Google, {len(left) - waiting} requested and awaiting confirmation")
         else:
             print(f"{name}: DONE")
     print("ALL DONE" if all_done else "NOT DONE")
@@ -807,11 +832,13 @@ def main():
     sp = with_domain(sub.add_parser("inspect", help="check index status through the URL Inspection API"))
     sp.add_argument("--limit", type=int, default=500, help="max inspections per domain (API allows 2000/day)")
     sp.add_argument("--min-age-days", type=int, default=3, help="skip URLs requested more recently than this")
+    sp.add_argument("--fix-after-days", type=int, default=28,
+                    help="list a page as a fix item once Google has kept it unindexed this long")
     sp = with_domain(sub.add_parser("check", help="fetch each open URL; set aside ones that can't be indexed"))
     sp.add_argument("--all", action="store_true", help="also re-check requested and indexed URLs")
     sp.add_argument("--workers", type=int, default=6)
     sub.add_parser("page", help="build timetable.html for the published timetable page")
-    sp = sub.add_parser("apply-ticks", help="apply ticks exported from the timetable page")
+    sp = with_domain(sub.add_parser("apply-ticks", help="apply ticks exported from the timetable page"))
     sp.add_argument("file")
     with_domain(sub.add_parser("submit-sitemaps", help="submit configured sitemaps through the GSC API"))
     sp = with_domain(sub.add_parser("indexnow", help="ping IndexNow engines"))
@@ -825,7 +852,8 @@ def main():
                "inspect": cmd_inspect, "check": cmd_check, "page": cmd_page, "apply-ticks": cmd_apply_ticks, "submit-sitemaps": cmd_submit_sitemaps, "indexnow": cmd_indexnow,
                "status": cmd_status, "done": cmd_done}[args.cmd]
     handler(args, config, state)
-    save_json(STATE_PATH, state)
+    if args.cmd not in ("page", "done", "status", "today"):
+        save(config, state, getattr(args, "domain", None))
 
 
 if __name__ == "__main__":

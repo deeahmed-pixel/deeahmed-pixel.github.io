@@ -1,17 +1,33 @@
 # Indexing plan: leadsupcallcenter.com · leadsupdata.com · weshastones.com · weshamarble.com
 
-This folder runs the indexing work for the four sites. The Claude Code session
-"Page indexing for three domains" is where it happens: a routine wakes that
-session every morning, and it refreshes the **timetable page**:
-https://claude.ai/artifact/RYo5J2S8my4gHALMqzU1re
+This folder runs the indexing work for the four sites, **with nothing for you
+to press**. Each website has a fixed daily routine in its own Claude chat. The
+routine pulls this branch, does the day's work for its site, pushes, and
+reports in that chat:
 
-The page shows each day's links grouped by Chrome profile. It has a
-"Requested" tick and an "On Google" button for each page, and the full
-calendar and progress for every site. Ticks are saved with the page, and the
-morning run reads them, so nothing has to be reported back by hand.
-`indexing.py page` builds `timetable.html` from `state.json` and
-`timetable_template.html`. The folder name starts with
-an underscore, so GitHub Pages (Jekyll) never publishes it with this site.
+| Routine | Chat (session) | Sites | Time (Cairo) | Google account |
+|---|---|---|---|---|
+| **LeadsUp indexing** | LeadsUpCallCenter.com (`session_01PY6abgPAHkZ9DBVKpY2c8r`) | leadsupcallcenter.com, leadsupdata.com | 09:24 daily | deeahmed@leadsupcallcenter.com |
+| **Wesha Stones indexing** | Wesha Stones (`session_01JoGi5xGQoHreNvuJsgz453`) | weshastones.com | 09:40 daily | info@weshastones.com |
+| **Wesha Marble indexing** | Wesha Marble (`session_01J4rNyEGw29QXNng9nwsWD6`) | weshamarble.com | 09:56 daily | adnan@weshamarble.com |
+
+**Update routing.** Each routine reports in its own chat. The LeadsUp routine
+also sends the leadsupdata.com and data.leadsupcallcenter.com part to the
+**LeadsUp Data** chat (`session_016Snr4x31EXWQoMbUHdyqyQ`) with
+`send_message`, marked "no reply needed". The update covers the daily run, new
+Search Console issues, account or ownership changes, and milestones.
+
+The chat "Page indexing for three domains" (`session_012Lx3hN3n8BmE1sQ2CPc9ic`)
+built this tool and is where changes to it are made.
+
+The **timetable page** (https://claude.ai/artifact/RYo5J2S8my4gHALMqzU1re) is
+now optional. It shows progress for every site, plus each day's links for
+anyone who wants to press Request indexing by hand, which still speeds
+things up. Ticks there are filed by the next run.
+
+The folder name starts with an underscore, so GitHub Pages (Jekyll) never
+publishes it with this site. Each site's progress lives in
+`state/<site>.json`, so the three routines never edit the same file.
 
 ## Where each site stands (4 Oct 2026, from the Search Console emails)
 
@@ -165,80 +181,62 @@ Each step names the Chrome profile to do it in.
    to each Dataset block. That one is critical. Also set `creator` to an
    Organization object and add a `license`.
 
-**Optional: lets the session confirm "indexed" by itself**
+**Needed for the automatic Google status checks**
 
-8. In Google Cloud, create a service account and enable the **Google Search
-   Console API**. Add the service account's email as a **Full** user on each
-   property (Settings, then Users and permissions), from that site's own
-   profile. Store the key JSON in this environment's settings as the
-   variable `GSC_SERVICE_ACCOUNT_JSON`. Never paste it into chat.
+8. **Service account (needed for the no-press mode, about 10 minutes).**
+   - In any Google account (deeahmed is fine), open
+     https://console.cloud.google.com and create a project, for example
+     `site-indexing`.
+   - **APIs & Services → Library**: enable **Google Search Console API**.
+   - **IAM & Admin → Service accounts → Create service account**: name it
+     `indexing-bot` and finish (no roles needed).
+   - Open it, then **Keys → Add key → Create new key → JSON**. A `.json` file
+     downloads.
+   - Copy the service account's email (`indexing-bot@…iam.gserviceaccount.com`).
+     Add it as a user with **Full** permission on every property, from that
+     site's own profile: Search Console → site → Settings → Users and
+     permissions → Add user.
+     - deeahmed window: leadsupcallcenter.com and leadsupdata.com.
+     - info@ window: weshastones.com.
+     - adnan@ window: weshamarble.com.
+   - In this cloud environment's settings (environment name in the title bar
+     → Edit → Environment variables), add `GSC_SERVICE_ACCOUNT_JSON` with
+     the whole contents of the `.json` file on one line. Never paste it into
+     chat. New runs pick it up.
 
 Done 4 Oct: network access for the sites in the environment settings, and
 the GitHub connection.
 
-### Phase 1: daily batches (two routines, Cairo time)
+### Phase 1: the daily run (automatic, every routine)
 
-Two routines wake the session each morning. Both update the same timetable
-page, and each deletes itself once its sites are finished.
+Google's **Request indexing** button has no API, so no routine can press it.
+On 4 Oct you chose to automate everything else:
 
-| Routine | Time | Sites | Chrome profile | Ends |
-|---|---|---|---|---|
-| **LeadsUp indexing (daily)** | 09:24 | leadsupcallcenter.com, leadsupdata.com | deeahmed@leadsupcallcenter.com | When `done` reports both finished: every page requested, then confirmed On Google (page button or a Search Console export via `mark indexed --file`), or 14 days past its request |
-| **Wesha indexing (daily)** | 09:56 | weshastones.com, weshamarble.com | info@weshastones.com, adnan@weshamarble.com | The same, for the Wesha sites |
-
-As of 4 Oct, deeahmed@leadsupcallcenter.com's Search Console holds only
-leadsupcallcenter.com, leadsupdata.com and data.leadsupcallcenter.com;
-weshastones.com was removed from it.
-
-All four sites start as soon as their URL lists are in. Until a site's list
-is loaded (network access, or an `import`), the morning run for that site has
-nothing to post and just names what's blocking it.
-
-| When | Who | What |
+| Step | What the routine does | Needs |
 |---|---|---|
-| 09:24 / 09:56 | routines → session | Reads the page's ticks (`apply-ticks`), then `sync` → `check` → `page`, and republishes the timetable page. Up to **10 URLs per property** a day. Pages that broke since the last run are set aside as fix items. |
-| any time that day | you | On the timetable page, open each group's links in that group's Chrome profile. Press **Request indexing** and tick the box, or press **On Google** if it's already indexed. That's up to 40 a day across the four sites. |
-| next morning | routine → session | Files the ticks. Unticked pages slide to the next day. |
+| 1 | `git pull`, then file any ticks from the timetable page (`apply-ticks`) | — |
+| 2 | `sync` picks up new or removed sitemap pages | network access (done) |
+| 3 | `check` fetches the pages it still tracks and sets aside errors, redirects, `noindex` pages and foreign canonicals as fix items | network access (done) |
+| 4 | `inspect` asks Google for each page's real status. Indexed pages close out. A page Google keeps out for 28+ days becomes a fix item, with Google's reason ("Crawled – currently not indexed" and so on) | **service account** (setup step 8) |
+| 5 | Mondays: `submit-sitemaps` resubmits each sitemap, and `indexnow` pings Bing, Yandex and the others with every page not sent yet | service account; IndexNow key files (step 6) |
+| 6 | `page` rebuilds the timetable page and republishes it | — |
+| 7 | Reports in its chat: new indexed pages, new fix items, the `status` table. Commits its site's state file and pushes | — |
 
-Batch order per site:
+Without the service account, steps 4 and 5 can't run. The routines then
+track and check pages but can't see what Google has indexed, and they remind
+you about the service account once a week.
 
-1. The homepage.
-2. Each language in turn. weshastones.com goes English, Arabic, Italian,
-   French, Spanish, German, Turkish, Hungarian, then Chinese (`lang_order` in
-   `config.json`). weshamarble.com does its root pages before `/en/`.
-3. Within a language, sitemap priority first. Then the pages most linked from
-   the rest of the site, so hubs and categories come before deep product
-   pages.
-4. Privacy and terms pages go last.
-
-Each language version is its own URL and takes its own slot. Requesting
-English first also exposes the other languages to Google through hreflang, so
-many of them may be indexed before their turn comes.
-
-If a link opens on **"URL is on Google"**, there's nothing to request. Tell
-the session, for example "done, 3 were already on Google", and those get
-marked indexed.
-A missed day doesn't break the plan. Unrequested URLs slide forward on the next
-`plan` run.
-
-### Phase 2: status loop (runs alongside Phase 1)
-
-- **Daily** (only if step 7 is done): `inspect` checks URLs requested 3 or more
-  days ago, and confirmed-indexed URLs close out.
-- **Mondays**: `sync` picks up new pages, `indexnow` sends any URL not yet
-  sent, and the session reads the Search Console Page indexing report emails.
-- **URLs still not indexed 14 days after their request** are not requested
-  again. Repeating doesn't help, and the session lists them as content or
-  technical fixes instead.
+Pressing Request indexing by hand stays optional. The timetable page still
+lists 10 links per site per day (home first, then language by language,
+most-linked pages first, legal pages last). Ticks there are filed by the next
+run.
 
 ### Finish line
 
-The plan is finished when every live sitemap URL on all four sites is
-`indexed`, or deliberately `excluded` (thank-you pages, duplicates). The four
-sites run in parallel, so each takes about **pages ÷ 10** days of requests:
-100 pages take about 10 days, 300 pages about 30. `schedule.md` gives the exact
-date for each site after the first sync. The daily routine is deleted once
-`status` shows nothing waiting.
+A site is finished when `done` reports it: every sitemap page is confirmed
+indexed, or is on the fix list with a reason (Google kept it out for 28+
+days, or the page is broken). The routine then posts the fix list and
+deletes itself. Fix items need changes to the site, not more requests.
 
 ## Commands
 
@@ -250,7 +248,10 @@ python3 _indexing/indexing.py plan [--start 2026-10-06]
 python3 _indexing/indexing.py today                 # writes today.md
 python3 _indexing/indexing.py mark requested        # today's batch; or --date D, or list URLs
 python3 _indexing/indexing.py mark excluded URL...  # deliberately not indexed
-python3 _indexing/indexing.py inspect               # needs GSC credentials
+python3 _indexing/indexing.py inspect [--limit N]   # Google status per page; 28+ days unindexed → fix list (needs GSC credentials)
+python3 _indexing/indexing.py done                  # is each site finished?
+python3 _indexing/indexing.py apply-ticks F.json    # file ticks read from the timetable page
+python3 _indexing/indexing.py page                  # rebuild timetable.html
 python3 _indexing/indexing.py submit-sitemaps       # needs GSC credentials
 python3 _indexing/indexing.py indexnow              # needs key files live on each site
 python3 _indexing/indexing.py status
@@ -265,7 +266,7 @@ The same works with a downloaded `sitemap.xml`.
 | File | What |
 |---|---|
 | `config.json` | Properties, sitemap URLs, daily quota, timezone, IndexNow keys |
-| `state.json` | Every URL with its status (`scheduled` → `requested` → `indexed`; also `fix`, `excluded` and `dropped`), its problem if any, its internal link count, and its request history |
-| `schedule.md` / `schedule.csv` | The full day-by-day timetable |
-| `today.md` | Today's checklist (plain-text copy) |
-| `timetable_template.html` / `timetable.html` | The timetable page: the template, and the built page that gets published |
+| `state/<site>.json` | One file per site. Every URL with its status (`scheduled` → `requested` → `indexed`; also `fix`, `excluded` and `dropped`), its problem if any, Google's coverage state, its internal link count, and its request history |
+| `schedule.md` / `schedule.csv` | The full day-by-day timetable (generated locally, not committed) |
+| `today.md` | Today's checklist (generated locally, not committed) |
+| `timetable_template.html` / `timetable.html` | The timetable page: the template (committed), and the built page that gets published (not committed) |
