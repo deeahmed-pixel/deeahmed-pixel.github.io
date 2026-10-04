@@ -11,12 +11,34 @@ an underscore, so GitHub Pages (Jekyll) never publishes it with this site.
 |---|---|---|
 | leadsupcallcenter.com | `https://leadsupcallcenter.com/` (URL prefix), verified 1 Sep 2026 | No indexing alerts so far. `data.leadsupcallcenter.com` is a separate property with its own "Blocked by robots.txt" and "Duplicate without user-selected canonical" alerts. It's outside this plan. |
 | weshastones.com | `sc-domain:weshastones.com` (Domain), verified 26 Aug 2026 | Getting impressions since 26 Aug. It reached 30 clicks in 28 days on 21 Sep. Open alerts: **Not found (404)**, **Excluded by 'noindex' tag**, **Alternate page with proper canonical**, and **Crawled – currently not indexed** (validation partly failed on 16 Sep). |
-| weshamarble.com | none found | Search Console has never emailed about it, so the property is probably not verified yet. It needs setup step 3 before anything else. |
+| weshamarble.com | `sc-domain:weshamarble.com` (Domain), owned by **adnan@weshamarble.com** | Verified. Search Console emailed adnan@weshamarble.com on 20 Sep about new reasons preventing indexing. That inbox isn't connected here, so the reasons are still unread on this side. |
 
 **Page counts aren't known yet.** This cloud environment's network policy
 blocks all three domains, so the sitemaps couldn't be read. The first `sync`
 after access opens fills `state.json` and produces the full calendar in
 `schedule.md`.
+
+## Which Chrome profile requests which site
+
+Request indexing only works from a Google account that has access to the
+property. Each site's links go in that account's Chrome profile.
+
+| Site | Chrome profile / Google account | How we know |
+|---|---|---|
+| leadsupcallcenter.com | **deeahmed@leadsupcallcenter.com** | Search Console verification emails for `https://leadsupcallcenter.com/` go to this inbox |
+| weshastones.com | **deeahmed@leadsupcallcenter.com** | All weshastones.com Search Console emails go to this inbox |
+| weshamarble.com | **adnan@weshamarble.com** | Its Search Console alert (20 Sep) arrived in this inbox |
+
+The info@weshastones.com profile isn't needed. Even if it's also an owner of
+weshastones.com, the quota of about 10 requests a day belongs to the
+property, not the account. A second profile doesn't add requests.
+
+The daily checklist puts the right account above each site's links. Each link
+also carries `authuser=<that account>`, which picks the account when several
+are signed in to one Chrome profile. In practice: click the leadsupcallcenter
+and weshastones links from the deeahmed@leadsupcallcenter.com window. Copy the
+weshamarble links into the adnan@weshamarble.com window. If you click those
+from the deeahmed window, Search Console says you don't have access.
 
 ## Why the old routine couldn't work
 
@@ -53,10 +75,11 @@ quota allows.
    and keep the default package-manager list. Add `leadsupcallcenter.com`,
    `www.leadsupcallcenter.com`, `weshastones.com`, `www.weshastones.com`,
    `weshamarble.com`, `www.weshamarble.com` and `api.indexnow.org`.
-3. **Verify weshamarble.com in Search Console** as a Domain property with the
-   DNS TXT record. If weshamarble.com only redirects to weshastones.com, it has
-   nothing of its own to index. Say so and it drops out of the plan.
+3. **weshamarble.com: read the 20 Sep alert** in the adnan@weshamarble.com
+   inbox ("New reasons prevent pages from being indexed"). Fix whatever it
+   names before that site's batches start, the same as step 5.
 4. **Submit the sitemap** for each property in Search Console under Sitemaps.
+   Use the profile from the table above.
 5. **weshastones.com: fix before you request.** URLs that return 404 or carry
    `noindex` waste the daily quota. Take them out of the sitemap, or fix them,
    before their batch comes up. `sync` drops any URL that leaves the sitemap.
@@ -73,22 +96,23 @@ quota allows.
 7. *(Optional: lets the session confirm "indexed" by itself.)* In Google Cloud,
    create a service account and enable the **Google Search Console API**. Add
    the service account's email as a **Full** user on each property in Search
-   Console (Settings, then Users and permissions). Store the key JSON in this
+   Console (Settings, then Users and permissions). Do it from the deeahmed
+   profile for leadsupcallcenter.com and weshastones.com, and from the adnan
+   profile for weshamarble.com. Store the key JSON in this
    environment's settings as the variable `GSC_SERVICE_ACCOUNT_JSON`. Never
    paste it into chat. Without it, you mark pages indexed from what Search
    Console shows.
 
 ### Phase 1: daily batches (every day from Mon 5 Oct, 09:56 Cairo time)
 
-leadsupcallcenter.com and weshastones.com can start as soon as their URL
-lists are in. weshamarble.com starts the day after it's verified. Until a
-site's list is loaded (network access, or an `import`), the morning run
-for that site has nothing to post and just names what's blocking it.
+All three sites start as soon as their URL lists are in. Until a site's list
+is loaded (network access, or an `import`), the morning run for that site has
+nothing to post and just names what's blocking it.
 
 | When | Who | What |
 |---|---|---|
 | 09:56 | routine → session | `sync` → `plan` → `today`. Posts up to **10 URLs per property**, each linking straight to its URL Inspection page. |
-| any time that day | you | Open each link and press **Request indexing**. That's about 30 a day across the three sites, around 1 minute each. |
+| any time that day | you | Open each link in the profile named above it and press **Request indexing**. That's about 30 a day across the three sites, around 1 minute each. |
 | after | you → session | Reply **done**, or "done except …". The session runs `mark requested` and commits. |
 
 Batch order per site: the homepage first, then pages by sitemap priority, then

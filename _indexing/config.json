@@ -9,7 +9,8 @@
       "sitemaps": [
         "https://leadsupcallcenter.com/sitemap.xml"
       ],
-      "indexnow_key": "11e8ac2284d19f26e34712f6578d2b8d"
+      "indexnow_key": "11e8ac2284d19f26e34712f6578d2b8d",
+      "gsc_account": "deeahmed@leadsupcallcenter.com"
     },
     "weshastones.com": {
       "property": "sc-domain:weshastones.com",
@@ -18,16 +19,18 @@
       "sitemaps": [
         "https://weshastones.com/sitemap.xml"
       ],
-      "indexnow_key": "8e78ff8430fb758377b0f1471e8fe529"
+      "indexnow_key": "8e78ff8430fb758377b0f1471e8fe529",
+      "gsc_account": "deeahmed@leadsupcallcenter.com"
     },
     "weshamarble.com": {
       "property": "sc-domain:weshamarble.com",
-      "gsc_verified": false,
-      "start": "2026-10-06",
+      "gsc_verified": true,
+      "start": "2026-10-05",
       "sitemaps": [
         "https://weshamarble.com/sitemap.xml"
       ],
-      "indexnow_key": "8a3e9c14127f496749a9fd285f33d9c1"
+      "indexnow_key": "8a3e9c14127f496749a9fd285f33d9c1",
+      "gsc_account": "adnan@weshamarble.com"
     }
   }
 }

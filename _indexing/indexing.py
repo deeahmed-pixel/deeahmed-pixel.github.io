@@ -229,8 +229,17 @@ def plan(config, state, start=None, domains=None):
 
 
 def inspect_link(cfg, url):
-    q = urllib.parse.urlencode({"resource_id": cfg["property"], "id": url})
-    return f"https://search.google.com/search-console/inspect?{q}"
+    params = {"resource_id": cfg["property"], "id": url}
+    # Picks the right Google account when several are signed in to one Chrome
+    # profile. Across separate Chrome profiles the link still has to be opened
+    # in the profile that owns the property.
+    if cfg.get("gsc_account"):
+        params["authuser"] = cfg["gsc_account"]
+    return f"https://search.google.com/search-console/inspect?{urllib.parse.urlencode(params)}"
+
+
+def account_note(cfg):
+    return f"open in the Chrome profile for **{cfg['gsc_account']}**" if cfg.get("gsc_account") else ""
 
 
 def write_schedule(config, state):
@@ -258,7 +267,8 @@ def write_schedule(config, state):
             batch = by_day[day].get(name)
             if not batch:
                 continue
-            lines.append(f"\n**{name}** ({len(batch)})\n")
+            note = account_note(config["domains"][name])
+            lines.append(f"\n**{name}** ({len(batch)}){' · ' + note if note else ''}\n")
             for status, url in batch:
                 box = "x" if status == "requested" else " "
                 lines.append(f"- [{box}] [{url}]({inspect_link(config['domains'][name], url)})")
@@ -389,6 +399,8 @@ def cmd_today(args, config, state):
         cfg = config["domains"][name]
         batch = batch_for(config, state, name, day)
         lines.append(f"## {name}  ·  property `{cfg['property']}`")
+        if cfg.get("gsc_account"):
+            lines.append(f"Open these in the Chrome profile signed in as **{cfg['gsc_account']}**.")
         if not cfg.get("gsc_verified", True):
             lines.append("> Not verified in Search Console yet — verify the property first (see README).")
         if not batch:
