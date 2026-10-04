@@ -24,7 +24,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -50,7 +50,7 @@
       "last_inspected": null,
       "priority": 0.3,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -167,7 +167,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -232,7 +232,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -245,7 +245,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -258,7 +258,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -284,7 +284,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -297,7 +297,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -310,9 +310,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/osceola-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -349,7 +349,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -388,7 +388,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -414,7 +414,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -440,9 +440,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/volusia-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -453,7 +453,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -466,7 +466,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -505,7 +505,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -544,7 +544,7 @@
       "last_inspected": null,
       "priority": 0.3,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -676,7 +676,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -689,7 +689,7 @@
       "last_inspected": null,
       "priority": 0.3,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
