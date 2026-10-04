@@ -23,10 +23,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-08",
+      "requested": [
+        "2026-10-04T19:01:19+03:00"
+      ],
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/absentee-owner-list": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -50,9 +52,9 @@
       "last_inspected": null,
       "priority": 0.3,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/batchleads-alternative": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -115,9 +117,9 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/dealmachine-alternative": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -169,7 +171,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/broward-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -180,9 +182,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/collier-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -193,9 +195,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/company-owned-homes": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -219,9 +221,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/hillsborough-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -234,7 +236,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/lake-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -247,7 +249,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/lee-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -260,7 +262,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/manatee-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -271,9 +273,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/marion-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -284,9 +286,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/miami-dade-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -297,9 +299,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/orange-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -323,9 +325,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/out-of-state-owners": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -349,9 +351,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/pasco-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -362,9 +364,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/pinellas-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -375,9 +377,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/polk-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -390,7 +392,7 @@
       "requested": [],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/sarasota-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -401,9 +403,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/seminole-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -414,9 +416,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/st-lucie-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -427,9 +429,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/florida/statistics": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -453,9 +455,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/guides": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -466,9 +468,9 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/how-to-skip-trace": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -504,10 +506,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
-      "scheduled": "2026-10-08",
+      "requested": [
+        "2026-10-04T19:03:02+03:00"
+      ],
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/llc-owner-lookup": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -544,9 +548,9 @@
       "last_inspected": null,
       "priority": 0.3,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/probate-leads": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -676,9 +680,9 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/terms": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -689,9 +693,9 @@
       "last_inspected": null,
       "priority": 0.3,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupdata.com/try": {
       "checked": "2026-10-04T14:56:51+03:00",
