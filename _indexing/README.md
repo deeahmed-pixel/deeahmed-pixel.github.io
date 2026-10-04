@@ -13,10 +13,20 @@ an underscore, so GitHub Pages (Jekyll) never publishes it with this site.
 | weshastones.com | `sc-domain:weshastones.com` (Domain), verified 26 Aug 2026 | Getting impressions since 26 Aug. It reached 30 clicks in 28 days on 21 Sep. Open alerts: **Not found (404)**, **Excluded by 'noindex' tag**, **Alternate page with proper canonical**, and **Crawled – currently not indexed** (validation partly failed on 16 Sep). |
 | weshamarble.com | `sc-domain:weshamarble.com` (Domain), owned by **adnan@weshamarble.com** | Verified. Search Console emailed adnan@weshamarble.com on 20 Sep about new reasons preventing indexing. That inbox isn't connected here, so the reasons are still unread on this side. |
 
-**Page counts aren't known yet.** This cloud environment's network policy
-blocks all three domains, so the sitemaps couldn't be read. The first `sync`
-after access opens fills `state.json` and produces the full calendar in
-`schedule.md`.
+**Pages and finish dates** (first sync on 4 Oct 2026, 10 requests per site per
+day, all three sites in parallel):
+
+| Site | Pages in sitemap | Batches | First batch | Last batch |
+|---|---|---|---|---|
+| leadsupcallcenter.com | 42 | 5 | Sun 4 Oct | Thu 8 Oct 2026 |
+| weshamarble.com | 307 (302 root + 5 `/en/`) | 31 | Sun 4 Oct | Tue 3 Nov 2026 |
+| weshastones.com | 1,029 in 9 languages (en 152, it 142, de 139, es 139, fr 138, tr 138, hu 134, ar 46, zh 1) | 103 | Sun 4 Oct | Thu 14 Jan 2027 |
+
+`check` fetched every page on 4 Oct. None returned an error or a redirect,
+carried `noindex`, or pointed its canonical at another URL, so all 1,378 pages
+are eligible. The last-batch dates are the worst case. Pages Google indexes on
+its own drop out as soon as they're confirmed, through the `inspect` API or
+because you saw "URL is on Google".
 
 ## Which Chrome profile requests which site
 
@@ -70,7 +80,7 @@ quota allows.
 1. **Delete the old routine.** It isn't in the cloud Routines list for this
    account, so it's likely a local scheduled task in the Claude desktop app.
    Delete it there.
-2. **Open network access for this environment.** Open the cloud environment
+2. ✅ *Done 4 Oct.* **Open network access for this environment.** Open the cloud environment
    menu in the session title bar, then Edit, then Network access. Choose Custom
    and keep the default package-manager list. Add `leadsupcallcenter.com`,
    `www.leadsupcallcenter.com`, `weshastones.com`, `www.weshastones.com`,
@@ -111,13 +121,28 @@ nothing to post and just names what's blocking it.
 
 | When | Who | What |
 |---|---|---|
-| 09:56 | routine → session | `sync` → `plan` → `today`. Posts up to **10 URLs per property**, each linking straight to its URL Inspection page. |
+| 09:56 | routine → session | `sync` → `check` → `today`. Posts up to **10 URLs per property**, each linking straight to its URL Inspection page. Pages that broke since the last run are set aside as fix items. |
 | any time that day | you | Open each link in the profile named above it and press **Request indexing**. That's about 30 a day across the three sites, around 1 minute each. |
 | after | you → session | Reply **done**, or "done except …". The session runs `mark requested` and commits. |
 
-Batch order per site: the homepage first, then pages by sitemap priority, then
-by depth (top-level services and categories before deep product pages). The
-English and Arabic versions of a page are separate URLs and each takes a slot.
+Batch order per site:
+
+1. The homepage.
+2. Each language in turn. weshastones.com goes English, Arabic, Italian,
+   French, Spanish, German, Turkish, Hungarian, then Chinese (`lang_order` in
+   `config.json`). weshamarble.com does its root pages before `/en/`.
+3. Within a language, sitemap priority first. Then the pages most linked from
+   the rest of the site, so hubs and categories come before deep product
+   pages.
+4. Privacy and terms pages go last.
+
+Each language version is its own URL and takes its own slot. Requesting
+English first also exposes the other languages to Google through hreflang, so
+many of them may be indexed before their turn comes.
+
+If a link opens on **"URL is on Google"**, there's nothing to request. Tell
+the session, for example "done, 3 were already on Google", and those get
+marked indexed.
 A missed day doesn't break the plan. Unrequested URLs slide forward on the next
 `plan` run.
 
@@ -145,6 +170,7 @@ date for each site after the first sync. The daily routine is deleted once
 ```bash
 python3 _indexing/indexing.py sync                  # read sitemaps (robots.txt Sitemap: lines too), re-plan
 python3 _indexing/indexing.py import weshastones.com export.csv   # add URLs from a GSC export / .txt / sitemap file
+python3 _indexing/indexing.py check [--all]         # fetch pages: errors, redirects, noindex, foreign canonicals; count internal links
 python3 _indexing/indexing.py plan [--start 2026-10-06]
 python3 _indexing/indexing.py today                 # writes today.md
 python3 _indexing/indexing.py mark requested        # today's batch; or --date D, or list URLs
@@ -164,6 +190,6 @@ The same works with a downloaded `sitemap.xml`.
 | File | What |
 |---|---|
 | `config.json` | Properties, sitemap URLs, daily quota, timezone, IndexNow keys |
-| `state.json` | Every URL with its status (`scheduled` → `requested` → `indexed`; also `excluded` and `dropped`) and request history |
+| `state.json` | Every URL with its status (`scheduled` → `requested` → `indexed`; also `fix`, `excluded` and `dropped`), its problem if any, its internal link count, and its request history |
 | `schedule.md` / `schedule.csv` | The full day-by-day timetable |
 | `today.md` | Today's checklist |

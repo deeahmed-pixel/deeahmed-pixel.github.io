@@ -5,7 +5,7 @@
     "leadsupcallcenter.com": {
       "property": "https://leadsupcallcenter.com/",
       "gsc_verified": true,
-      "start": "2026-10-05",
+      "start": "2026-10-04",
       "sitemaps": [
         "https://leadsupcallcenter.com/sitemap.xml"
       ],
@@ -15,22 +15,37 @@
     "weshastones.com": {
       "property": "sc-domain:weshastones.com",
       "gsc_verified": true,
-      "start": "2026-10-05",
+      "start": "2026-10-04",
       "sitemaps": [
         "https://weshastones.com/sitemap.xml"
       ],
       "indexnow_key": "8e78ff8430fb758377b0f1471e8fe529",
-      "gsc_account": "deeahmed@leadsupcallcenter.com"
+      "gsc_account": "deeahmed@leadsupcallcenter.com",
+      "lang_order": [
+        "",
+        "ar",
+        "it",
+        "fr",
+        "es",
+        "de",
+        "tr",
+        "hu",
+        "zh"
+      ]
     },
     "weshamarble.com": {
       "property": "sc-domain:weshamarble.com",
       "gsc_verified": true,
-      "start": "2026-10-05",
+      "start": "2026-10-04",
       "sitemaps": [
         "https://weshamarble.com/sitemap.xml"
       ],
       "indexnow_key": "8a3e9c14127f496749a9fd285f33d9c1",
-      "gsc_account": "adnan@weshamarble.com"
+      "gsc_account": "adnan@weshamarble.com",
+      "lang_order": [
+        "",
+        "en"
+      ]
     }
   }
 }

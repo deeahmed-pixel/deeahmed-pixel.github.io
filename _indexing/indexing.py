@@ -10,6 +10,7 @@ reports it indexed.
   python3 _indexing/indexing.py sync               # pull sitemaps, add new URLs
   python3 _indexing/indexing.py import D FILE      # add URLs from a sitemap/txt/csv export
   python3 _indexing/indexing.py plan               # (re)deal unrequested URLs into daily batches
+  python3 _indexing/indexing.py check              # fetch pages; set aside 404s, redirects, noindex, foreign canonicals
   python3 _indexing/indexing.py today              # today's batch, with URL Inspection links
   python3 _indexing/indexing.py mark requested --date 2026-10-05
   python3 _indexing/indexing.py inspect            # GSC URL Inspection API (needs credentials)
@@ -27,12 +28,15 @@ import csv
 import datetime as dt
 import gzip
 import json
+import re
 import os
 import sys
 import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
+from html.parser import HTMLParser
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -48,6 +52,8 @@ GSC_SCOPE = "https://www.googleapis.com/auth/webmasters"
 
 # Statuses a URL moves through. "requested" means the Request Indexing button
 # was pressed; "indexed" comes from the URL Inspection API or a manual mark.
+# "fix" means the page can't be indexed as it stands (error, redirect, noindex,
+# canonical elsewhere); `check` sets it and clears it once the page is fixed.
 OPEN = ("pending", "scheduled")
 DONE = ("indexed", "excluded", "dropped")
 
@@ -181,10 +187,21 @@ def crawl_sitemaps(domain, cfg):
 
 # ---------------------------------------------------------------- ranking & planning
 
-def rank_key(url, info):
+LOW_VALUE = re.compile(r"privacy|terms|cookie|thank-you|legal|disclaimer", re.I)
+
+
+def rank_key(url, info, cfg):
+    """Homepage, then language order (config `lang_order`, "" = the root
+    language), then sitemap priority, then pages more of the site links to
+    (counted by `check`), then shallow before deep. Legal pages go last."""
     path = urllib.parse.urlsplit(url).path or "/"
-    depth = len([p for p in path.split("/") if p])
-    return (0 if path == "/" else 1, -info.get("priority", 0.5), depth, url)
+    parts = [p for p in path.split("/") if p]
+    order = cfg.get("lang_order", [""])
+    lang = parts[0] if parts and parts[0] in order else ""
+    lang_rank = order.index(lang) if lang in order else len(order)
+    depth = len(parts) - (1 if lang else 0)
+    low = 1 if LOW_VALUE.search(path) else 0
+    return (0 if path == "/" else 1, low, lang_rank, -info.get("priority", 0.5), -info.get("inlinks", 0), depth, url)
 
 
 def add_urls(state_dom, urls, config, source):
@@ -220,7 +237,7 @@ def plan(config, state, start=None, domains=None):
         urls = state["domains"][name]["urls"]
         open_urls = sorted(
             (u for u, r in urls.items() if r["status"] in OPEN),
-            key=lambda u: rank_key(u, urls[u]),
+            key=lambda u: rank_key(u, urls[u], cfg),
         )
         for i, url in enumerate(open_urls):
             urls[url]["status"] = "scheduled"
@@ -272,13 +289,21 @@ def write_schedule(config, state):
             for status, url in batch:
                 box = "x" if status == "requested" else " "
                 lines.append(f"- [{box}] [{url}]({inspect_link(config['domains'][name], url)})")
+    fixes = [(name, url, r.get("issue", "")) for name in config["domains"]
+             for url, r in sorted(state["domains"][name]["urls"].items()) if r["status"] == "fix"]
+    if fixes:
+        lines += ["", "## Needs fixing before it can be requested", "",
+                  "Found by `check`. These stay out of the batches until the page is fixed "
+                  "(or removed from the sitemap) and `check` passes.", "",
+                  "| Domain | URL | Problem |", "|---|---|---|"]
+        lines += [f"| {n} | {u} | {i} |" for n, u, i in fixes]
     with open(SCHEDULE_MD, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
 
 def status_lines(config, state):
-    out = ["| Domain | Pages | Indexed | Requested | Waiting | Last batch day | Sync |",
-           "|---|---|---|---|---|---|---|"]
+    out = ["| Domain | Pages | Indexed | Requested | Waiting | Needs fix | Last batch day | Sync |",
+           "|---|---|---|---|---|---|---|---|"]
     for name in config["domains"]:
         dom = state["domains"][name]
         urls = dom["urls"]
@@ -291,8 +316,115 @@ def status_lines(config, state):
         if dom.get("sync_note"):
             sync += f" ({dom['sync_note']})"
         out.append(f"| {name} | {live} | {counts.get('indexed', 0)} | {counts.get('requested', 0)} | "
-                   f"{counts.get('scheduled', 0) + counts.get('pending', 0)} | {max(days) if days else '-'} | {sync} |")
+                   f"{counts.get('scheduled', 0) + counts.get('pending', 0)} | {counts.get('fix', 0)} | "
+                   f"{max(days) if days else '-'} | {sync} |")
     return out
+
+
+# ---------------------------------------------------------------- page checks
+
+class PageParser(HTMLParser):
+    """Collects <meta name=robots|googlebot>, <link rel=canonical> and <a href> links."""
+
+    def __init__(self):
+        super().__init__()
+        self.robots, self.canonical, self.links = [], None, set()
+
+    def handle_starttag(self, tag, attrs):
+        a = {k.lower(): (v or "") for k, v in attrs}
+        if tag == "meta" and a.get("name", "").lower() in ("robots", "googlebot"):
+            self.robots.append(a.get("content", "").lower())
+        elif tag == "link" and "canonical" in a.get("rel", "").lower().split() and self.canonical is None:
+            self.canonical = a.get("href", "").strip()
+        elif tag == "a" and a.get("href"):
+            self.links.add(a["href"].strip())
+
+
+def norm(url):
+    s = urllib.parse.urlsplit(url)
+    return urllib.parse.urlunsplit((s.scheme.lower(), s.netloc.lower(), s.path or "/", s.query, ""))
+
+
+def check_url(url):
+    """Return (problem or None, set of absolute links on the page)."""
+    issue, final, links = _check(url)
+    return issue, {norm(urllib.parse.urljoin(final, h)) for h in links if not h.startswith(("#", "mailto:", "tel:"))}
+
+
+def _check(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            final, code = resp.geturl(), resp.status
+            xrobots = (resp.headers.get("X-Robots-Tag") or "").lower()
+            ctype = resp.headers.get("Content-Type") or ""
+            body = resp.read(1_000_000)
+    except urllib.error.HTTPError as e:
+        return f"HTTP {e.code}", url, set()
+    except Exception as e:  # noqa: BLE001
+        return f"unreachable: {e}", url, set()
+    if norm(final) != norm(url):
+        return f"redirects to {final}", final, set()
+    if code != 200:
+        return f"HTTP {code}", final, set()
+    if "noindex" in xrobots:
+        return "noindex (X-Robots-Tag header)", final, set()
+    if "html" not in ctype:
+        return None, final, set()
+    parser = PageParser()
+    charset = re.search(r"charset=([\w-]+)", ctype)
+    try:
+        parser.feed(body.decode(charset.group(1) if charset else "utf-8", "replace"))
+    except Exception:  # noqa: BLE001 - malformed HTML; judge on what was parsed
+        pass
+    if any("noindex" in r for r in parser.robots):
+        return "noindex (meta robots)", final, parser.links
+    if parser.canonical:
+        canon = urllib.parse.urljoin(final, parser.canonical)
+        if norm(canon) != norm(url):
+            return f"canonical points to {canon}", final, parser.links
+    return None, final, parser.links
+
+
+def cmd_check(args, config, state):
+    for name in pick_domains(config, args.domain):
+        urls = state["domains"][name]["urls"]
+        todo = [u for u, r in urls.items() if r["status"] in OPEN + ("fix",) or args.all and r["status"] != "dropped"]
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
+            checked = dict(zip(todo, pool.map(check_url, todo)))
+        results = {u: issue for u, (issue, _) in checked.items()}
+        # Inlinks: how many distinct checked pages link to each sitemap URL.
+        inlinks = {norm(u): 0 for u in urls}
+        for src, (_, links) in checked.items():
+            for dst in links - {norm(src)}:
+                if dst in inlinks:
+                    inlinks[dst] += 1
+        # A partial check only sees some of the linking pages, so it can raise a
+        # count but never lower it.
+        full = len(checked) >= sum(1 for r in urls.values() if r["status"] != "dropped")
+        for u, rec in urls.items():
+            n = inlinks[norm(u)]
+            rec["inlinks"] = n if full else max(rec.get("inlinks", 0), n)
+        bad = 0
+        for url, issue in results.items():
+            rec = urls[url]
+            rec["checked"] = now_iso(config)
+            rec["issue"] = issue
+            if issue:
+                bad += 1
+                if rec["status"] in OPEN + ("fix",):
+                    rec["status"] = "fix"
+            elif rec["status"] == "fix":
+                rec["status"] = "pending"
+        print(f"{name}: checked {len(todo)}, {bad} can't be indexed as they stand")
+        kinds = {}
+        for issue in results.values():
+            if issue:
+                k = issue.split(" to ")[0].split(":")[0]
+                kinds[k] = kinds.get(k, 0) + 1
+        for k, v in sorted(kinds.items(), key=lambda x: -x[1]):
+            print(f"  - {v} × {k}")
+    plan(config, state, domains=args.domain)
 
 
 # ---------------------------------------------------------------- Search Console API
@@ -345,7 +477,7 @@ def cmd_sync(args, config, state):
         added = add_urls(dom, urls, config, "sitemap")
         dropped = 0
         for url, rec in dom["urls"].items():
-            if rec["source"] == "sitemap" and url not in urls and rec["status"] in OPEN:
+            if rec["source"] == "sitemap" and url not in urls and rec["status"] in OPEN + ("fix",):
                 rec["status"] = "dropped"
                 dropped += 1
         dom["last_sync"] = now_iso(config)
@@ -388,7 +520,7 @@ def cmd_plan(args, config, state):
 def batch_for(config, state, name, day):
     urls = state["domains"][name]["urls"]
     return sorted((u for u, r in urls.items() if r.get("scheduled") == day and r["status"] in ("scheduled", "requested")),
-                  key=lambda u: rank_key(u, urls[u]))
+                  key=lambda u: rank_key(u, urls[u], config["domains"][name]))
 
 
 def cmd_today(args, config, state):
@@ -454,7 +586,7 @@ def cmd_inspect(args, config, state):
             if r["status"] == "requested" and last and now - dt.datetime.fromisoformat(last) < min_age:
                 continue
             todo.append(url)
-        todo.sort(key=lambda u: (urls[u].get("last_inspected") or "", rank_key(u, urls[u])))
+        todo.sort(key=lambda u: (urls[u].get("last_inspected") or "", rank_key(u, urls[u], cfg)))
         n_idx = 0
         for url in todo[:limit]:
             code, res = gsc_call("POST", "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect", token,
@@ -558,6 +690,9 @@ def main():
     sp = with_domain(sub.add_parser("inspect", help="check index status through the URL Inspection API"))
     sp.add_argument("--limit", type=int, default=500, help="max inspections per domain (API allows 2000/day)")
     sp.add_argument("--min-age-days", type=int, default=3, help="skip URLs requested more recently than this")
+    sp = with_domain(sub.add_parser("check", help="fetch each open URL; set aside ones that can't be indexed"))
+    sp.add_argument("--all", action="store_true", help="also re-check requested and indexed URLs")
+    sp.add_argument("--workers", type=int, default=6)
     with_domain(sub.add_parser("submit-sitemaps", help="submit configured sitemaps through the GSC API"))
     sp = with_domain(sub.add_parser("indexnow", help="ping IndexNow engines"))
     sp.add_argument("--all", action="store_true", help="resend every URL, not just ones never sent")
@@ -566,7 +701,7 @@ def main():
     args = p.parse_args()
     config, state = load()
     handler = {"sync": cmd_sync, "import": cmd_import, "plan": cmd_plan, "today": cmd_today, "mark": cmd_mark,
-               "inspect": cmd_inspect, "submit-sitemaps": cmd_submit_sitemaps, "indexnow": cmd_indexnow,
+               "inspect": cmd_inspect, "check": cmd_check, "submit-sitemaps": cmd_submit_sitemaps, "indexnow": cmd_indexnow,
                "status": cmd_status}[args.cmd]
     handler(args, config, state)
     save_json(STATE_PATH, state)
