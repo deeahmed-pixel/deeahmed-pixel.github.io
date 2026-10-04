@@ -9,7 +9,8 @@ an underscore, so GitHub Pages (Jekyll) never publishes it with this site.
 
 | Site | Search Console property | Known state |
 |---|---|---|
-| leadsupcallcenter.com | `https://leadsupcallcenter.com/` (URL prefix), verified 1 Sep 2026 | No indexing alerts so far. `data.leadsupcallcenter.com` is a separate property with its own "Blocked by robots.txt" and "Duplicate without user-selected canonical" alerts. It's outside this plan. |
+| leadsupcallcenter.com | `https://leadsupcallcenter.com/` (URL prefix), verified 1 Sep 2026 | No indexing alerts so far. |
+| data.leadsupcallcenter.com | `https://data.leadsupcallcenter.com/` (URL prefix), verified 1 Sep 2026 | **Moved.** Every URL now 301s to the same path on leadsupdata.com, so there's nothing left to request here. Its old alerts ("Blocked by robots.txt", "Duplicate without user-selected canonical") go away as Google follows the redirects. What it needs is **Change of address** to leadsupdata.com (setup step 2). |
 | leadsupdata.com | `https://leadsupdata.com/` (URL prefix), verified 23 Sep 2026 | Impressions since 24 Sep. Structured-data alerts on 1 Oct. **Datasets** has a critical problem, a missing `description`, so those pages can't show as dataset results until it's fixed. It also has two non-critical ones: `creator` has the wrong type and `license` is missing. **Product snippets** has two non-critical ones: missing `review` and `aggregateRating`. None of them blocks indexing. |
 | weshastones.com | `sc-domain:weshastones.com` (Domain), verified 26 Aug 2026 by deeahmed@leadsupcallcenter.com | Getting impressions since 26 Aug. It reached 30 clicks in 28 days on 21 Sep. Open alerts: **Not found (404)**, **Excluded by 'noindex' tag**, **Alternate page with proper canonical**, and **Crawled – currently not indexed** (validation partly failed on 16 Sep). |
 | weshamarble.com | `sc-domain:weshamarble.com` (Domain), owned by **adnan@weshamarble.com** | Verified. Search Console emailed adnan@weshamarble.com on 20 Sep about new reasons preventing indexing. That inbox isn't connected here, so the reasons are still unread on this side. |
@@ -36,7 +37,7 @@ Each site is worked from its own Google account, in its own Chrome profile:
 
 | Chrome profile / Google account | Sites | Search Console access today |
 |---|---|---|
-| **deeahmed@leadsupcallcenter.com** | leadsupcallcenter.com, leadsupdata.com | Verified owner of both |
+| **deeahmed@leadsupcallcenter.com** | leadsupcallcenter.com, leadsupdata.com (and data.leadsupcallcenter.com, for the change of address) | Verified owner of all three |
 | **info@weshastones.com** | weshastones.com | **Needs adding.** deeahmed@leadsupcallcenter.com verified this property, so info@ only gets access once it's added as an owner (step 1 below) |
 | **adnan@weshamarble.com** | weshamarble.com | Verified owner |
 
@@ -49,7 +50,7 @@ accounts keeps things organised but doesn't add requests.
 
 **Moving weshastones.com to info@weshastones.com:**
 
-1. **Give info@ access (1 minute, needed).** In the deeahmed@leadsupcallcenter.com
+1. **Give info@ access (1 minute, needed; setup step 1).** In the deeahmed@leadsupcallcenter.com
    window, open Search Console, then the `weshastones.com` property, then
    Settings, Users and permissions, and **Add user**. Enter
    `info@weshastones.com` and set Permission to **Owner**. info@ can now use
@@ -93,27 +94,43 @@ quota allows.
 
 ## Timetable
 
-### Phase 0: setup (Mon 5 Oct, about 30–45 min, you)
+### Phase 0: setup (one time, you)
 
-1. **Delete the old routine.** It isn't in the cloud Routines list for this
-   account, so it's likely a local scheduled task in the Claude desktop app.
-   Delete it there.
-2. ✅ *Done 4 Oct.* **Open network access for this environment.** Open the cloud environment
-   menu in the session title bar, then Edit, then Network access. Choose Custom
-   and keep the default package-manager list. Add `leadsupcallcenter.com`,
-   `www.leadsupcallcenter.com`, `weshastones.com`, `www.weshastones.com`,
-   `weshamarble.com`, `www.weshamarble.com` and `api.indexnow.org`.
-3. **weshamarble.com: read the 20 Sep alert** in the adnan@weshamarble.com
-   inbox ("New reasons prevent pages from being indexed"). Fix whatever it
-   names before that site's batches start, the same as step 5.
-4. **Submit the sitemap** for each property in Search Console under Sitemaps.
-   Use the profile from the table above.
-5. **weshastones.com: fix before you request.** URLs that return 404 or carry
-   `noindex` waste the daily quota. Take them out of the sitemap, or fix them,
-   before their batch comes up. `sync` drops any URL that leaves the sitemap.
+Each step names the Chrome profile to do it in.
+
+**In Search Console (about 20 minutes)**
+
+1. **info@weshastones.com: give it access to weshastones.com.** Do this in the
+   deeahmed@leadsupcallcenter.com profile. Go to Search Console, then
+   weshastones.com, then Settings, Users and permissions, and Add user. Enter
+   `info@weshastones.com` with permission **Owner**. Removing deeahmed
+   completely is optional and covered in "One Google account per site".
+2. **Point data.leadsupcallcenter.com at leadsupdata.com.** Do this in the
+   deeahmed@leadsupcallcenter.com profile. Go to Search Console, then
+   `https://data.leadsupcallcenter.com/`, then Settings, then **Change of
+   address**. Pick `https://leadsupdata.com/`, then Validate and update. Every
+   old URL already 301s to the same path on leadsupdata.com, so the move
+   passes Google's checks. Google then moves the old site's ranking signals
+   over and drops the old URLs on its own.
+3. **Submit each sitemap.** Go to Search Console, then the site, then
+   Sitemaps. Type `sitemap.xml` and press Submit. Do it from each site's own
+   profile:
+   - leadsupcallcenter.com and leadsupdata.com in the deeahmed profile.
+   - weshastones.com in the info@ profile (or deeahmed until step 1 is done).
+   - weshamarble.com in the adnan@ profile.
+4. **weshamarble.com: read the 20 Sep alert.** In the adnan@weshamarble.com
+   profile, open Gmail and find "New reasons prevent pages from being
+   indexed". Tell the session which reasons it lists. All 307 sitemap pages
+   check out today, so the alert is probably about URLs outside the sitemap.
+5. **Delete the old routine** in the Claude desktop app's scheduled tasks,
+   if it's still there.
+
+**For whoever edits the websites**
+
 6. **IndexNow key files.** Upload one text file to each site root. The file
-   name is `<key>.txt` and its only content is the key. Keys are in
-   `config.json`. They're meant to be public.
+   name is `<key>.txt` and its only content is the key. The keys are meant to
+   be public. Once the files are live, the Monday run sends every page to
+   Bing, Yandex and the other IndexNow engines.
 
    | Site | File to upload at the site root |
    |---|---|
@@ -122,15 +139,20 @@ quota allows.
    | weshastones.com | `8e78ff8430fb758377b0f1471e8fe529.txt` |
    | weshamarble.com | `8a3e9c14127f496749a9fd285f33d9c1.txt` |
 
-7. *(Optional: lets the session confirm "indexed" by itself.)* In Google Cloud,
-   create a service account and enable the **Google Search Console API**. Add
-   the service account's email as a **Full** user on each property in Search
-   Console (Settings, then Users and permissions). Add it on each site from
-   that site's own profile (see "One Google account per site"). For
-   weshastones.com, that works once step 1 of the move is done. Store the key JSON in this
-   environment's settings as the variable `GSC_SERVICE_ACCOUNT_JSON`. Never
-   paste it into chat. Without it, you mark pages indexed from what Search
-   Console shows.
+7. **leadsupdata.com: fix the Dataset structured data.** Add a `description`
+   to each Dataset block. That one is critical. Also set `creator` to an
+   Organization object and add a `license`.
+
+**Optional: lets the session confirm "indexed" by itself**
+
+8. In Google Cloud, create a service account and enable the **Google Search
+   Console API**. Add the service account's email as a **Full** user on each
+   property (Settings, then Users and permissions), from that site's own
+   profile. Store the key JSON in this environment's settings as the
+   variable `GSC_SERVICE_ACCOUNT_JSON`. Never paste it into chat.
+
+Done 4 Oct: network access for the sites in the environment settings, and
+the GitHub connection.
 
 ### Phase 1: daily batches (every day from Mon 5 Oct, 09:56 Cairo time)
 
