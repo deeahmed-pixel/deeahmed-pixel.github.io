@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-04T14:47:53+03:00",
+  "last_sync": "2026-10-05T02:45:37+03:00",
   "sync_note": "",
   "urls": {
     "https://weshastones.com/": {
@@ -37,7 +37,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -63,7 +63,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -93,6 +93,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://weshastones.com/ar/granite-countertops/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/ar/granite-kerbs/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -102,7 +112,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -128,7 +138,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -141,7 +151,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -154,7 +164,27 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/markets/jordan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/markets/kuwait/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -171,6 +201,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://weshastones.com/ar/markets/qatar/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/ar/markets/saudi-arabia/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -180,7 +220,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -193,7 +233,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -219,7 +259,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/beige-dune/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -232,7 +282,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -245,7 +295,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -258,7 +308,37 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/breccia-menia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/breccia-sinai/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/cleopatra/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -271,7 +351,37 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/egyptian-alabaster/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/egyptian-botticino/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/fillito/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -284,7 +394,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -297,7 +407,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -310,7 +420,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -323,7 +433,67 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/ghazal-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/ghiandone-aswan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/golden-cream-flower/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/golden-cream-vein/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/golden-sinai/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/goldi/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -336,7 +506,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -349,7 +519,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -362,7 +532,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/hashma-beige/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -375,7 +555,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -388,7 +568,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/imperial-grey-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -401,7 +591,27 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/katrina/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/khatmeya/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -414,7 +624,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -427,7 +637,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/new-milly-gray/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -440,7 +660,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -453,7 +673,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -466,7 +686,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -479,7 +699,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/rosa-sinai/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -492,7 +722,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/royal-grey/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -505,7 +745,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/samaha/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -518,7 +768,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -531,7 +781,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -544,7 +794,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -557,7 +807,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -570,7 +820,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-11-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/sunny-oro-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -583,7 +843,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -596,7 +856,27 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/verde-ghazal-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ar/stone/verde-ghazal/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -609,7 +889,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -622,7 +902,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -743,6 +1023,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://weshastones.com/de/granit-arbeitsplatten/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/de/granit-bodenfliesen/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -752,7 +1042,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -765,7 +1055,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -804,7 +1094,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -817,7 +1107,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -830,7 +1120,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -843,7 +1133,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -869,7 +1159,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -882,7 +1172,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -921,7 +1211,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -934,7 +1224,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -960,7 +1250,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -973,7 +1263,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -986,7 +1276,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -999,7 +1289,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1012,7 +1302,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1025,7 +1315,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1038,7 +1328,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1051,7 +1341,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1064,7 +1354,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1077,7 +1367,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1090,7 +1380,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1103,7 +1393,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1116,7 +1406,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1129,7 +1419,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1181,7 +1471,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1246,7 +1536,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1272,7 +1562,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1285,7 +1575,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1324,7 +1614,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1350,7 +1640,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1376,7 +1666,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1389,7 +1679,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1402,7 +1692,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1415,7 +1705,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1480,7 +1770,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1519,7 +1809,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1532,7 +1822,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1558,7 +1848,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1584,7 +1874,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1597,7 +1887,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1623,7 +1913,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1636,7 +1926,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1649,7 +1939,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1688,7 +1978,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1727,7 +2017,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1753,7 +2043,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1779,7 +2069,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1805,7 +2095,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1818,7 +2108,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1831,7 +2121,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1883,7 +2173,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1896,7 +2186,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1935,7 +2225,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1987,7 +2277,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2000,7 +2290,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2013,7 +2303,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2026,7 +2316,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2039,7 +2329,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2078,7 +2368,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2091,7 +2381,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2104,7 +2394,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2130,7 +2420,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2143,7 +2433,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2156,7 +2446,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2169,7 +2459,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2182,7 +2472,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2208,7 +2498,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2221,7 +2511,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2234,7 +2524,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2247,7 +2537,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2273,7 +2563,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2286,7 +2576,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2312,7 +2602,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2325,7 +2615,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2338,7 +2628,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2351,7 +2641,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2364,7 +2654,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2377,7 +2667,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2390,7 +2680,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2416,7 +2706,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2429,7 +2719,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2468,7 +2758,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2485,6 +2775,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://weshastones.com/egyptian-granite-countertops/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/egyptian-granite/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -2496,7 +2796,7 @@
       "requested": [],
       "scheduled": "2026-10-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "dropped"
     },
     "https://weshastones.com/egyptian-limestone/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -2510,6 +2810,16 @@
       "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshastones.com/egyptian-marble-granite-africa/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/egyptian-yellow-marble/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -2559,7 +2869,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2572,7 +2882,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2598,7 +2908,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/es/encimeras-de-granito/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2624,7 +2944,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2637,7 +2957,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2780,7 +3100,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2923,7 +3243,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3066,7 +3386,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3274,7 +3594,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3313,7 +3633,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3391,7 +3711,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3495,7 +3815,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/es/markets/dominican-republic/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3508,7 +3838,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/es/markets/equatorial-guinea/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3534,7 +3874,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3560,7 +3900,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3599,7 +3939,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3612,7 +3952,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3625,7 +3965,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3664,7 +4004,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3677,7 +4017,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3703,7 +4043,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3716,7 +4056,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3729,7 +4069,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3742,7 +4082,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3755,7 +4095,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3781,7 +4121,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3807,7 +4147,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3833,7 +4173,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3872,7 +4212,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3885,7 +4225,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3898,7 +4238,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3911,7 +4251,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3924,7 +4264,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3950,7 +4290,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3963,7 +4303,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4002,7 +4342,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4015,7 +4355,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4028,7 +4368,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4041,7 +4381,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4054,7 +4394,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4067,7 +4407,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4093,7 +4433,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4106,7 +4446,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4119,7 +4459,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4132,7 +4472,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4145,7 +4485,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4158,7 +4498,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4171,7 +4511,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4184,7 +4524,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4197,7 +4537,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4223,7 +4563,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4236,7 +4576,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4249,7 +4589,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4262,7 +4602,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4275,7 +4615,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4288,7 +4628,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4301,7 +4641,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4483,7 +4823,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4496,7 +4836,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4522,7 +4862,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4548,7 +4888,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4652,7 +4992,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4704,7 +5044,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4860,7 +5200,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5302,7 +5642,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5380,7 +5720,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/fr/marbre-granit-egyptien-afrique/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5410,6 +5760,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://weshastones.com/fr/markets/canada/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/fr/markets/china/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -5422,6 +5782,16 @@
       "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshastones.com/fr/markets/cote-d-ivoire/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/fr/markets/egypt/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -5445,7 +5815,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5458,7 +5828,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5484,7 +5854,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5523,7 +5893,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5536,7 +5906,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5588,7 +5958,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5601,7 +5971,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5640,7 +6010,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/fr/markets/senegal/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5653,7 +6033,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5748,6 +6128,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://weshastones.com/fr/plans-de-travail-granit/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/fr/quartz/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -5770,7 +6160,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5783,7 +6173,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5835,7 +6225,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5848,7 +6238,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5874,7 +6264,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -6095,7 +6485,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -6160,7 +6550,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -6654,7 +7044,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -6706,7 +7096,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/hu/granit-konyhapult/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -6849,7 +7249,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7096,7 +7496,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7564,7 +7964,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7577,7 +7977,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7590,7 +7990,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7603,7 +8003,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7655,7 +8055,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7681,7 +8081,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7694,7 +8094,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7707,7 +8107,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7733,7 +8133,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7759,7 +8159,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7772,7 +8172,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7798,7 +8198,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7811,7 +8211,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7824,7 +8224,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7837,7 +8237,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7850,7 +8250,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7876,7 +8276,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7928,7 +8328,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-12-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -7954,7 +8354,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8253,7 +8653,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-12-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8448,7 +8848,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8526,7 +8926,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8552,7 +8952,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8604,7 +9004,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8643,7 +9043,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8669,7 +9069,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8747,7 +9147,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8812,7 +9212,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -8864,7 +9264,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9072,7 +9472,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9111,7 +9511,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9124,7 +9524,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9319,7 +9719,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9345,7 +9745,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9371,7 +9771,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9410,7 +9810,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9423,7 +9823,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9436,7 +9836,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9449,7 +9849,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9488,7 +9888,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9514,7 +9914,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9553,7 +9953,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9566,7 +9966,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9696,7 +10096,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9722,7 +10122,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9735,7 +10135,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9774,7 +10174,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9787,7 +10187,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9917,7 +10317,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9943,7 +10343,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9956,7 +10356,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9982,7 +10382,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -9995,7 +10395,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -10047,7 +10447,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -10086,7 +10486,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -10125,7 +10525,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -10138,7 +10538,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -10164,7 +10564,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -10177,7 +10577,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -10190,7 +10590,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -10203,7 +10603,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -10232,6 +10632,16 @@
       "scheduled": "2026-10-22",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshastones.com/it/top-cucina-granito/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-11",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/marble/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -10729,6 +11139,26 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://weshastones.com/markets/australia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/markets/canada/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/markets/china/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -10741,6 +11171,26 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshastones.com/markets/cote-d-ivoire/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/markets/dominican-republic/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/markets/egypt/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -10756,6 +11206,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "requested"
+    },
+    "https://weshastones.com/markets/equatorial-guinea/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/markets/france/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -10782,6 +11242,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshastones.com/markets/ghana/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/markets/hungary/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -10849,6 +11319,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshastones.com/markets/kazakhstan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/markets/kenya/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -10930,6 +11410,36 @@
       "source": "sitemap",
       "status": "requested"
     },
+    "https://weshastones.com/markets/netherlands/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/markets/nigeria/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/markets/poland/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/markets/qatar/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -10958,6 +11468,16 @@
       "source": "sitemap",
       "status": "requested"
     },
+    "https://weshastones.com/markets/rwanda/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/markets/saudi-arabia/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -10970,6 +11490,26 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshastones.com/markets/senegal/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/markets/south-africa/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/markets/spain/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -11001,6 +11541,26 @@
       "source": "sitemap",
       "status": "requested"
     },
+    "https://weshastones.com/markets/tanzania/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/markets/thailand/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/markets/tunisia/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -11028,6 +11588,16 @@
       "scheduled": "2026-10-05",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshastones.com/markets/uganda/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/markets/united-arab-emirates/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -11070,6 +11640,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://weshastones.com/markets/zambia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://weshastones.com/partners/": {
       "checked": "2026-10-04T14:52:45+03:00",
       "coverage": null,
@@ -11082,6 +11662,1136 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshastones.com/pl/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/about/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/blaty-granitowe/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/contact/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/export/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/finishes/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granit-marmur-na-wymiar/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite-setts/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/aswan-red/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/bianco-halayeb/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/black-aswan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/breccia-fawakhir/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/forsan-red/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/gandola/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/ghazal-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/ghiandone-aswan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/grey-aswan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/grey-el-sherka/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/halayeb/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/hoody-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/hoody-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/hurghada-red/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/karnak-grey/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/new-halayeb/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/red-aswan-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/red-aswan-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/rosa-el-nasr/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/rosa-marwa/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/rosa-sinai/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/sahara-brown/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/verde-ghazal-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/verde-ghazal/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/white-aswan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/granite/white-safaga/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/krawezniki-granitowe/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/beige-dune/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/beige-menia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/breccia-menia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/breccia-sinai/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/cleopatra/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/crema-egypt/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/egyptian-alabaster/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/egyptian-botticino/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/fillito/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/galala-classic/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/galala-extra/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/galala-gold/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/golden-cream-flower/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/golden-cream-vein/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/golden-sinai/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/goldi/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/hashma-beige/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/imperial-grey-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/imperial-grey/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/katrina/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/khatmeya/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/milly-gray/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/new-milly-gray/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/perlato-galala/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/royal-beige/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/royal-grey/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/samaha/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/silvia-menia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/sinai-pearl/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/sunny-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/sunny-medium/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/sunny-menia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/sunny-oro-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/sunny-oro/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/marble/triesta/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/markets/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/markets/poland/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/plytki-granitowe/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/calacatta-nile/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/carrara-mist/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/cement-ash-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/concrete-grey-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/marquina-black-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/pure-white-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/sahara-gold-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/statuario-alba/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/super-white-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/quartz/terrazzo-nile-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/amethyst/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/apple-jasper/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/beige-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/blue-agate/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/brown-agate/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/brown-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/champagne-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/colorful-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/dumortierite/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/green-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/grey-agate/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/ice-quartz/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/ice-white-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/indian-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/light-green-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/ocean-jasper/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/onyx-miele-flower/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/onyx-miele/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/petrified-wood-retro/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/picture-jasper/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/red-dragon-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/rose-quartz/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/tiger-eye/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/semi-precious/yellow-quartz/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/stones-and-textures/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/pl/stones/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://weshastones.com/quartz/": {
       "checked": "2026-10-04T14:52:45+03:00",
@@ -11223,6 +12933,1136 @@
       "priority": 0.7,
       "requested": [],
       "scheduled": "2026-10-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/about/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/contact/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/export/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/finishes/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite-setts/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/aswan-red/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/bianco-halayeb/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/black-aswan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/breccia-fawakhir/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/forsan-red/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/gandola/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/ghazal-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/ghiandone-aswan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/grey-aswan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/grey-el-sherka/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/halayeb/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/hoody-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/hoody-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/hurghada-red/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/karnak-grey/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/new-halayeb/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/red-aswan-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/red-aswan-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/rosa-el-nasr/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/rosa-marwa/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/rosa-sinai/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/sahara-brown/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/verde-ghazal-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/verde-ghazal/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/white-aswan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granite/white-safaga/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granitnaya-plitka/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granitnye-stoleshnitsy/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/granitnyj-bordyur/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/beige-dune/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/beige-menia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/breccia-menia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/breccia-sinai/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/cleopatra/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/crema-egypt/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/egyptian-alabaster/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/egyptian-botticino/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/fillito/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/galala-classic/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/galala-extra/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/galala-gold/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/golden-cream-flower/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/golden-cream-vein/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/golden-sinai/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/goldi/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/hashma-beige/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/imperial-grey-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/imperial-grey/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/katrina/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/khatmeya/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/milly-gray/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/new-milly-gray/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/perlato-galala/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/royal-beige/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/royal-grey/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/samaha/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/silvia-menia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/sinai-pearl/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/sunny-dark/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/sunny-medium/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/sunny-menia/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/sunny-oro-light/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/sunny-oro/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/marble/triesta/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/markets/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/markets/kazakhstan/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/narezka-v-razmer/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/calacatta-nile/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/carrara-mist/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/cement-ash-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/concrete-grey-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/marquina-black-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/pure-white-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/sahara-gold-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/statuario-alba/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/super-white-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/quartz/terrazzo-nile-q/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/amethyst/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/apple-jasper/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/beige-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/blue-agate/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/brown-agate/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/brown-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/champagne-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/colorful-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/dumortierite/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/green-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/grey-agate/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/ice-quartz/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/ice-white-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/indian-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/light-green-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/ocean-jasper/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/onyx-miele-flower/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/onyx-miele/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/petrified-wood-retro/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/picture-jasper/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/red-dragon-onyx/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/rose-quartz/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/tiger-eye/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/semi-precious/yellow-quartz/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/stones-and-textures/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/ru/stones/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11614,7 +14454,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11666,7 +14506,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://weshastones.com/tr/granit-mutfak-tezgahi/": {
+      "coverage": null,
+      "first_seen": "2026-10-05T02:45:37+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11679,7 +14529,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11692,7 +14542,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11809,7 +14659,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11835,7 +14685,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11848,7 +14698,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11874,7 +14724,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11900,7 +14750,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -11978,7 +14828,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12004,7 +14854,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12095,7 +14945,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12121,7 +14971,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12173,7 +15023,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12186,7 +15036,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12277,7 +15127,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12342,7 +15192,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12355,7 +15205,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12368,7 +15218,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12394,7 +15244,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12407,7 +15257,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-12-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12420,7 +15270,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12433,7 +15283,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12550,7 +15400,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12576,7 +15426,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12589,7 +15439,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12602,7 +15452,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12615,7 +15465,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12641,7 +15491,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12667,7 +15517,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12719,7 +15569,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12758,7 +15608,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12771,7 +15621,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12784,7 +15634,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12797,7 +15647,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12810,7 +15660,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12875,7 +15725,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12953,7 +15803,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -12992,7 +15842,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -13122,7 +15972,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -13148,7 +15998,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -13174,7 +16024,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -13200,7 +16050,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -13252,7 +16102,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -13278,7 +16128,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -13291,7 +16141,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -13317,7 +16167,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -13343,7 +16193,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-12-03",
       "source": "sitemap",
       "status": "scheduled"
     },
