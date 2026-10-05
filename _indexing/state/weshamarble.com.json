@@ -335,10 +335,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-09",
+      "requested": [
+        "2026-10-05T18:24:19+03:00"
+      ],
+      "scheduled": "2026-10-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/granite/colour/blue/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -348,10 +350,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-08",
+      "requested": [
+        "2026-10-05T18:26:43+03:00"
+      ],
+      "scheduled": "2026-10-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/granite/colour/brown/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -362,7 +366,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -375,7 +379,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -401,7 +405,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -414,7 +418,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -973,7 +977,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1105,7 +1109,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1118,7 +1122,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1159,7 +1163,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1185,7 +1189,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1250,7 +1254,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1302,7 +1306,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1477,7 +1481,7 @@
       "requested": [],
       "scheduled": "2026-10-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/marble/asian-emperador/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1490,7 +1494,7 @@
       "requested": [],
       "scheduled": "2026-10-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/marble/asian-nero-marquina/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1501,7 +1505,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1526,10 +1530,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-06",
+      "requested": [
+        "2026-10-05T18:12:29+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/beige-dune/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1553,7 +1559,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1605,7 +1611,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1763,7 +1769,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1789,7 +1795,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1854,7 +1860,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2022,10 +2028,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-06",
+      "requested": [
+        "2026-10-05T18:05:46+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/dark-turkish-emperador/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2074,10 +2082,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-06",
+      "requested": [
+        "2026-10-05T18:09:18+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/fillito/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2088,7 +2098,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2205,7 +2215,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2244,7 +2254,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2270,7 +2280,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2322,9 +2332,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/marble/katrina/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2335,7 +2345,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2439,7 +2449,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2464,10 +2474,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-06",
+      "requested": [
+        "2026-10-05T18:16:12+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/ocean-white/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2503,10 +2515,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-06",
+      "requested": [
+        "2026-10-05T18:19:49+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/panda-white/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2595,7 +2609,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2673,7 +2687,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2712,7 +2726,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2738,7 +2752,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2764,7 +2778,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2777,7 +2791,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2790,7 +2804,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2803,7 +2817,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2974,7 +2988,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3054,7 +3068,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3158,7 +3172,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3197,7 +3211,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3249,7 +3263,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3301,7 +3315,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3431,7 +3445,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3470,7 +3484,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3509,7 +3523,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3563,7 +3577,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3589,7 +3603,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3616,10 +3630,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-06",
+      "requested": [
+        "2026-10-05T18:22:02+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/quartz/q-calacatta-white-02/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3656,7 +3672,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3669,7 +3685,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3682,7 +3698,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3695,7 +3711,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3708,7 +3724,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3734,7 +3750,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3760,9 +3776,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/quartz/q-pure-white-04/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3786,7 +3802,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3812,7 +3828,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3825,7 +3841,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3838,7 +3854,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },

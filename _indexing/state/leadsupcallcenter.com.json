@@ -46,10 +46,12 @@
       "first_seen": "2026-10-05T02:45:33+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-06",
+      "requested": [
+        "2026-10-05T17:07:29+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/appointment-setting": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -162,20 +164,24 @@
       "first_seen": "2026-10-05T02:45:33+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-05T16:36:34+03:00"
+      ],
       "scheduled": "2026-10-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/fsbo-script": {
       "coverage": null,
       "first_seen": "2026-10-05T02:45:33+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-05T16:41:08+03:00"
+      ],
       "scheduled": "2026-10-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/guides": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -195,20 +201,24 @@
       "first_seen": "2026-10-05T02:45:33+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-06",
+      "requested": [
+        "2026-10-05T17:09:58+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/is-real-estate-cold-calling-legal": {
       "coverage": null,
       "first_seen": "2026-10-05T02:45:33+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-07",
+      "requested": [
+        "2026-10-05T17:14:54+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/lead-types": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -241,10 +251,12 @@
       "first_seen": "2026-10-05T02:45:33+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-05T16:54:01+03:00"
+      ],
       "scheduled": "2026-10-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/motivated-seller-leads": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -446,20 +458,24 @@
       "first_seen": "2026-10-05T02:45:33+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-07",
+      "requested": [
+        "2026-10-05T17:12:26+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/real-estate-lead-manager": {
       "coverage": null,
       "first_seen": "2026-10-05T02:45:33+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-07",
+      "requested": [
+        "2026-10-05T17:01:08+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/real-estate-virtual-assistant": {
       "checked": "2026-10-04T15:18:20+03:00",

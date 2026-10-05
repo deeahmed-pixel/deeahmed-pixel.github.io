@@ -10,10 +10,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 1.0,
-      "requested": [],
-      "scheduled": "2026-10-06",
+      "requested": [
+        "2026-10-05T17:20:08+03:00"
+      ],
+      "scheduled": "2026-10-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/about": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -166,7 +168,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -232,7 +234,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -255,7 +257,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -321,7 +323,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -331,7 +333,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -436,7 +438,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -459,7 +461,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -468,10 +470,12 @@
       "first_seen": "2026-10-05T10:09:26+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
-      "scheduled": "2026-10-10",
+      "requested": [
+        "2026-10-05T17:17:37+03:00"
+      ],
+      "scheduled": "2026-10-09",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/florida/nassau-county": {
       "coverage": null,
@@ -498,10 +502,12 @@
       "first_seen": "2026-10-05T10:09:26+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-05T16:33:52+03:00"
+      ],
       "scheduled": "2026-10-11",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/florida/orange-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -600,7 +606,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -610,7 +616,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -646,7 +652,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -705,7 +711,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -715,7 +721,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -962,10 +968,12 @@
       "first_seen": "2026-10-05T10:09:26+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-05T16:43:28+03:00"
+      ],
       "scheduled": "2026-10-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/try": {
       "checked": "2026-10-04T14:56:51+03:00",
