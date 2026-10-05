@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-05T02:45:34+03:00",
+  "last_sync": "2026-10-05T10:09:26+03:00",
   "sync_note": "",
   "urls": {
     "https://leadsupdata.com/": {
@@ -11,7 +11,7 @@
       "last_inspected": null,
       "priority": 1.0,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -156,7 +156,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -166,7 +166,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -176,7 +176,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -212,7 +212,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -222,7 +222,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -232,7 +232,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -255,7 +255,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -291,7 +291,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -301,7 +301,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -311,7 +311,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -321,7 +321,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -331,7 +331,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -354,7 +354,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -364,7 +364,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -400,7 +400,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -436,7 +436,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -459,7 +459,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/multi-property-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-05T10:09:26+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -469,7 +479,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -479,7 +489,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/older-homes": {
+      "coverage": null,
+      "first_seen": "2026-10-05T10:09:26+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -580,7 +600,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -590,7 +610,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -626,7 +646,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -652,7 +672,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -662,7 +682,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -685,7 +705,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -695,7 +715,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -855,7 +875,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -907,7 +927,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-05",
+      "scheduled": "2026-10-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -936,6 +956,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupdata.com/tracerfy-alternative": {
+      "coverage": null,
+      "first_seen": "2026-10-05T10:09:26+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupdata.com/try": {
       "checked": "2026-10-04T14:56:51+03:00",
