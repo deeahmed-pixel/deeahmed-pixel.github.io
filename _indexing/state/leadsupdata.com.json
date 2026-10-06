@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-05T10:09:26+03:00",
+  "last_sync": "2026-10-06T11:21:07+03:00",
   "sync_note": "",
   "urls": {
     "https://leadsupdata.com/": {
@@ -158,7 +158,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -168,7 +168,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/alachua-county/gainesville": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -178,7 +188,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -194,6 +204,26 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupdata.com/florida/brevard-county/melbourne": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/brevard-county/palm-bay": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-16",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupdata.com/florida/broward-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -214,7 +244,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/charlotte-county/port-charlotte": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -224,7 +264,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -234,7 +274,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -251,13 +291,23 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/collier-county/naples": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/columbia-county": {
       "coverage": null,
       "first_seen": "2026-10-05T02:45:34+03:00",
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -293,7 +343,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/escambia-county/pensacola": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -303,7 +363,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/flagler-county/palm-coast": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -313,7 +383,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -323,7 +393,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/hernando-county/spring-hill": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -333,7 +413,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -350,13 +430,43 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/hillsborough-county/riverview": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/hillsborough-county/tampa": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/indian-river-county": {
       "coverage": null,
       "first_seen": "2026-10-05T02:45:34+03:00",
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/indian-river-county/vero-beach": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -366,7 +476,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -396,13 +506,43 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/lee-county/cape-coral": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/lee-county/fort-myers": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/lee-county/lehigh-acres": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/leon-county": {
       "coverage": null,
       "first_seen": "2026-10-05T02:45:34+03:00",
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -419,6 +559,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/manatee-county/bradenton": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/marion-county": {
       "checked": "2026-10-04T14:56:51+03:00",
       "coverage": null,
@@ -432,13 +582,23 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/marion-county/ocala": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/martin-county": {
       "coverage": null,
       "first_seen": "2026-10-05T02:45:34+03:00",
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -461,7 +621,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -483,7 +643,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -493,7 +653,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -522,6 +682,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/orange-county/orlando": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/osceola-county": {
       "checked": "2026-10-04T14:56:51+03:00",
       "coverage": null,
@@ -534,6 +704,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupdata.com/florida/osceola-county/kissimmee": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-19",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupdata.com/florida/out-of-state-owners": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -561,6 +741,46 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/palm-beach-county/boca-raton": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/palm-beach-county/boynton-beach": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/palm-beach-county/lake-worth": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/palm-beach-county/west-palm-beach": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/pasco-county": {
       "checked": "2026-10-04T14:56:51+03:00",
       "coverage": null,
@@ -573,6 +793,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupdata.com/florida/pasco-county/new-port-richey": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-20",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupdata.com/florida/pinellas-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -587,6 +817,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/pinellas-county/st-petersburg": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/polk-county": {
       "checked": "2026-10-04T14:56:51+03:00",
       "coverage": null,
@@ -600,13 +840,33 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/polk-county/davenport": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/polk-county/lakeland": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/putnam-county": {
       "coverage": null,
       "first_seen": "2026-10-05T02:45:34+03:00",
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -616,7 +876,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -632,6 +892,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupdata.com/florida/sarasota-county/sarasota": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-20",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupdata.com/florida/seminole-county": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -652,7 +922,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/florida/st-johns-county/st-augustine": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -669,6 +949,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/florida/st-lucie-county/port-st-lucie": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.6,
+      "requested": [],
+      "scheduled": "2026-11-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/florida/statistics": {
       "checked": "2026-10-04T14:56:51+03:00",
       "coverage": null,
@@ -678,7 +968,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -688,7 +978,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -711,7 +1001,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -721,7 +1011,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -792,6 +1082,586 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/north-carolina": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.8,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/alamance-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/beaufort-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/brunswick-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/buncombe-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/burke-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/caldwell-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/carteret-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/caswell-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/catawba-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/chatham-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/cleveland-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/columbus-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/company-owned-property": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/craven-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/cumberland-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/currituck-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/dare-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/davidson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/durham-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/edgecombe-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/forsyth-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/gaston-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/granville-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/harnett-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/haywood-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/henderson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/hertford-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/iredell-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/jackson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-18",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/johnston-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/lenoir-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/lincoln-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/mecklenburg-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/moore-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-19",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/multi-property-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/nash-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/new-hanover-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/older-buildings": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/out-of-state-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-20",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/pender-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/pitt-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/randolph-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/robeson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/rockingham-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-21",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/rowan-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/rutherford-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/sampson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/stanly-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/statistics": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/stokes-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/surry-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/union-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/wake-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/watauga-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/wayne-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/wilkes-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/wilson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/pricing": {
       "checked": "2026-10-04T14:56:51+03:00",
       "coverage": null,
@@ -859,6 +1729,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/propwire-skip-tracing": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/reiskip-alternative": {
       "checked": "2026-10-04T14:56:51+03:00",
       "coverage": null,
@@ -881,7 +1761,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -933,7 +1813,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-06",
+      "scheduled": "2026-10-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -962,6 +1842,1116 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupdata.com/texas": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.8,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/anderson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/angelina-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/aransas-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/atascosa-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/austin-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/bandera-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/bastrop-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/bexar-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/bosque-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/bowie-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/brazoria-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/brazos-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/brown-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/burleson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/burnet-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/caldwell-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/calhoun-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-27",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/cameron-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/cass-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/chambers-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/cherokee-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/collin-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-28",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/colorado-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/comal-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/company-owned-property": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/cooke-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/coryell-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/dallas-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/denton-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/eastland-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/ector-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/el-paso-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/ellis-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/fannin-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/fayette-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/fort-bend-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/freestone-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/galveston-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/gillespie-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/gonzales-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/gray-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/grayson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/gregg-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/grimes-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/guadalupe-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/hale-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/hardin-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/harrison-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/hays-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/henderson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/hidalgo-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/hill-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/hood-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/howard-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/hunt-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/hutchinson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/jasper-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/jefferson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/kaufman-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/kendall-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/kerr-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/kleberg-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/lamar-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/lampasas-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/liberty-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/llano-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/lubbock-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/matagorda-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/maverick-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/mclennan-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/medina-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/midland-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/milam-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/montgomery-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/multi-property-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/navarro-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/nueces-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/older-buildings": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/orange-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/out-of-state-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/parker-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/polk-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/potter-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/randall-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/rockwall-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/rusk-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/san-jacinto-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/san-patricio-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/shelby-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/smith-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/starr-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/statistics": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/tarrant-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/taylor-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/titus-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/tom-green-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/tyler-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/upshur-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/uvalde-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/val-verde-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/victoria-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/walker-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/waller-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/washington-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/webb-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/wichita-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/williamson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/wilson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/wise-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/wood-county": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:07+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-15",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupdata.com/tracerfy-alternative": {
       "coverage": null,

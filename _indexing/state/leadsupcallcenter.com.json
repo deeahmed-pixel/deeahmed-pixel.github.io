@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-05T10:09:25+03:00",
+  "last_sync": "2026-10-06T11:21:05+03:00",
   "sync_note": "",
   "urls": {
     "https://leadsupcallcenter.com/": {
@@ -107,6 +107,18 @@
       "source": "sitemap",
       "status": "requested"
     },
+    "https://leadsupcallcenter.com/circle-prospecting-script": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:05+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [
+        "2026-10-06T11:27:21+03:00"
+      ],
+      "scheduled": "2026-10-06",
+      "source": "sitemap",
+      "status": "requested"
+    },
     "https://leadsupcallcenter.com/cold-calling-script-pack": {
       "checked": "2026-10-04T15:18:20+03:00",
       "coverage": null,
@@ -158,6 +170,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupcallcenter.com/does-cold-calling-work-for-real-estate": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:05+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupcallcenter.com/expired-listing-script": {
       "coverage": null,
@@ -309,6 +331,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupcallcenter.com/questions-to-ask-motivated-sellers": {
+      "coverage": null,
+      "first_seen": "2026-10-06T11:21:05+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling": {
       "checked": "2026-10-04T15:18:20+03:00",
