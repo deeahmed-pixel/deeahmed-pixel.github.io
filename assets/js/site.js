@@ -631,6 +631,104 @@
   });
 })();
 
+/* ------------- site search (2026-10-07) -------------
+   /search/?q=… searches every page of the visitor's language from
+   /assets/search/<lang>.json (built by build.mjs). Arabic is folded the way
+   people type it (أ/إ/آ→ا, ة→ه, ى→ي, no tashkeel or tatweel), a leading "ال" /
+   "وال" / "بال" / "لل" is dropped from the query words, and common singular /
+   plural pairs are tried both ways (مطبخ/مطابخ, حمام/حمامات…). A page must match
+   every word to rank as a result; if none does, pages matching some words are
+   shown as close matches. Heading 6, title 4, section headings 2, description 1. */
+(function () {
+  var box = document.querySelector('[data-site-search]');
+  if (!box) return;
+  var L = {};
+  try { L = JSON.parse(box.getAttribute('data-labels') || '{}'); } catch (e) {}
+  var input = box.querySelector('input[name=q]'), list = box.querySelector('.ss__res'),
+      count = box.querySelector('.ss__count'), none = box.querySelector('.ss__none');
+  var norm = function (s) {
+    return String(s || '').toLowerCase()
+      .replace(/[ً-ٰٟـ]/g, '')
+      .replace(/[أإآٱ]/g, 'ا').replace(/ة/g, 'ه').replace(/ى/g, 'ي').replace(/ؤ/g, 'و').replace(/ئ/g, 'ي')
+      .replace(/[٠-٩]/g, function (d) { return String(d.charCodeAt(0) - 0x0660); })
+      .replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  };
+  var STOP = ' في من على عن الى او مع ده دي اللي و ب ل عايز محتاج ازاي كام the a an of in for and to with my i need how ';
+  var PAIRS = [['مطبخ', 'مطابخ'], ['حمام', 'حمامات'], ['شقه', 'شقق'], ['فيلا', 'فيلات', 'فلل'], ['شاليه', 'شاليهات'], ['باب', 'ابواب'],
+    ['شباك', 'شبابيك'], ['سلم', 'سلالم'], ['ارضيه', 'ارضيات'], ['دهان', 'دهانات', 'نقاشه'], ['سقف', 'اسقف'], ['ديكور', 'ديكورات'],
+    ['سعر', 'اسعار', 'تكلفه'], ['سيراميك', 'بورسلين', 'بلاط'], ['حجر', 'احجار'], ['دولاب', 'دواليب'], ['مكتب', 'مكاتب'], ['عياده', 'عيادات'],
+    ['محل', 'محلات'], ['واجهه', 'واجهات'], ['كميه', 'كميات'], ['حاسبه', 'حساب'], ['اسكندريه', 'الاسكندريه'],
+    ['kitchen', 'kitchens'], ['bathroom', 'bathrooms'], ['villa', 'villas'], ['price', 'cost', 'prices'], ['tile', 'tiles', 'ceramic', 'porcelain'], ['calculator', 'calculate']];
+  var variants = function (w) {
+    var v = [w];
+    var bare = w.replace(/^(وال|بال|لل|ال)(?=..)/, '');
+    if (bare !== w && bare.length > 2) v.push(bare);
+    PAIRS.forEach(function (p) { if (p.indexOf(bare) > -1 || p.indexOf(w) > -1) v = v.concat(p); });
+    if (/^[a-z]{4,}s$/.test(w)) v.push(w.slice(0, -1));
+    return v.filter(function (x, i, a) { return x.length > 1 && a.indexOf(x) === i; });
+  };
+  var index = null;
+  var load = function () {
+    if (index) return Promise.resolve(index);
+    return fetch(box.getAttribute('data-index')).then(function (r) { return r.json(); }).then(function (rows) {
+      index = rows.map(function (r) { r._t = ' ' + norm(r.t) + ' '; r._a = ' ' + norm(r.a) + ' '; r._h = ' ' + norm(r.h) + ' '; r._d = ' ' + norm(r.d) + ' '; return r; });
+      return index;
+    });
+  };
+  var esc = function (s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; };
+  var run = function (q) {
+    var words = norm(q).split(' ').filter(function (w) { return w && STOP.indexOf(' ' + w + ' ') < 0; });
+    list.innerHTML = ''; none.hidden = true; count.textContent = '';
+    if (!words.length) return;
+    count.textContent = L.loading || '…';
+    load().then(function (rows) {
+      var groups = words.map(variants), phrase = norm(q);
+      var scored = rows.map(function (r) {
+        var s = 0, hit = 0;
+        groups.forEach(function (g) {
+          var best = 0;
+          g.forEach(function (v) {
+            if (r._t.indexOf(v) > -1) best = Math.max(best, 6);
+            else if (r._a.indexOf(v) > -1) best = Math.max(best, 4);
+            else if (r._h.indexOf(v) > -1) best = Math.max(best, 2);
+            else if (r._d.indexOf(v) > -1) best = Math.max(best, 1);
+          });
+          if (best) { hit++; s += best; }
+        });
+        if (phrase.length > 3 && r._t.indexOf(phrase) > -1) s += 5;
+        if (/^(قسم|Department|تشطيبات|Finishing|ديكور|Decoration|توريدات|Supply|دليل|Guide)$/.test(r.k)) s += 0.5;
+        return { r: r, s: s, all: hit === groups.length, hit: hit };
+      }).filter(function (x) { return x.hit; });
+      var full = scored.filter(function (x) { return x.all; });
+      var shown = (full.length ? full : scored).sort(function (a, b) { return b.s - a.s; }).slice(0, 40);
+      if (!shown.length) {
+        count.textContent = '';
+        none.querySelector('.ss__none-h').textContent = L.none || 'Nothing found.';
+        none.querySelector('.ss__none-p').textContent = L.noneP || '';
+        none.hidden = false;
+        return;
+      }
+      count.textContent = full.length ? (shown.length + ' ' + (L.found || 'results')) : (L.partial || 'Close matches');
+      list.innerHTML = shown.map(function (x) {
+        return '<li><a href="' + x.r.u + '"><span class="ss__k">' + esc(x.r.k) + '</span><b>' + esc(x.r.t) + '</b>' +
+          (x.r.d ? '<span class="ss__d">' + esc(x.r.d) + '</span>' : '') + '</a></li>';
+      }).join('');
+    }).catch(function () { count.textContent = ''; none.hidden = false; });
+  };
+  var q0 = new URLSearchParams(location.search).get('q') || '';
+  if (q0) { input.value = q0; run(q0); }
+  var timer;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+      var q = input.value.trim();
+      try { history.replaceState(null, '', location.pathname + (q ? '?q=' + encodeURIComponent(q) : '')); } catch (e) {}
+      run(q);
+    }, 220);
+  });
+  box.querySelector('.ss__form').addEventListener('submit', function (e) { e.preventDefault(); run(input.value.trim()); });
+})();
+
 /* ------------- tile and paint calculators (2026-10-07) -------------
    /guides/tile-calculator/ and /guides/paint-calculator/. Quantities only,
    never money (Dee: quantity figures are fine).
