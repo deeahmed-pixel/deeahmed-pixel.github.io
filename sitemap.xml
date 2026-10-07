@@ -4069,6 +4069,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://deeahmed-pixel.github.io/finishing/clinics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deeahmed-pixel.github.io/finishing/clinics/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deeahmed-pixel.github.io/ar/finishing/clinics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deeahmed-pixel.github.io/finishing/clinics/"/>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://deeahmed-pixel.github.io/ar/finishing/clinics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deeahmed-pixel.github.io/finishing/clinics/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deeahmed-pixel.github.io/ar/finishing/clinics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deeahmed-pixel.github.io/finishing/clinics/"/>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://deeahmed-pixel.github.io/guides/imported-marble-types/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deeahmed-pixel.github.io/guides/imported-marble-types/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deeahmed-pixel.github.io/ar/guides/imported-marble-types/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deeahmed-pixel.github.io/guides/imported-marble-types/"/>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://deeahmed-pixel.github.io/ar/guides/imported-marble-types/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deeahmed-pixel.github.io/guides/imported-marble-types/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://deeahmed-pixel.github.io/ar/guides/imported-marble-types/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://deeahmed-pixel.github.io/guides/imported-marble-types/"/>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://deeahmed-pixel.github.io/gallery/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://deeahmed-pixel.github.io/gallery/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://deeahmed-pixel.github.io/ar/gallery/"/>
