@@ -1752,6 +1752,8 @@ figure.fig figcaption{font-size:.8rem;letter-spacing:0;color:var(--ink-3)}
 .hero__mosaic .hm__t{position:relative;overflow:hidden;border-radius:10px;background:var(--paper-3)}
 .hero__mosaic--3{grid-template-columns:1.3fr 1fr}
 .hero__mosaic--3 .hm__t:first-child{grid-row:1/3}
+.hero__mosaic--2{grid-template-rows:1fr}
+.hero__mosaic--1{grid-template-columns:1fr;grid-template-rows:1fr}
 .hero__mosaic .hm__t:empty{display:none}
 .hero__mosaic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 @media(max-width:900px){
@@ -1759,6 +1761,8 @@ figure.fig figcaption{font-size:.8rem;letter-spacing:0;color:var(--ink-3)}
   .hero__mosaic{grid-template-columns:repeat(3,1fr);grid-template-rows:1fr}
   .hero__mosaic--3 .hm__t:first-child{grid-row:auto}
   .hero__mosaic--4{grid-template-columns:repeat(4,1fr)}
+  .hero__mosaic--2{grid-template-columns:repeat(2,1fr)}
+  .hero__mosaic--1{grid-template-columns:1fr}
 }
 
 /* video tiles: a poster image until tapped, so a page of clips stays light */
