@@ -1778,3 +1778,10 @@ figure.fig figcaption{font-size:.8rem;letter-spacing:0;color:var(--ink-3)}
    look blank to anyone scrolling fast, to screenshot crawlers, and on a slow
    phone. The content is simply there. */
 .reveal,.js .reveal{opacity:1!important;transform:none!important;transition:none!important}
+
+/* download box (lead magnet) */
+.dl{display:flex;gap:1rem;align-items:center;background:var(--paper-w);border:1.5px dashed var(--brass);border-radius:var(--r);padding:1rem 1.2rem;max-width:760px}
+.dl:hover{background:var(--paper)}
+.dl__i{flex:none;width:2.6rem;height:2.6rem;border-radius:50%;background:var(--brass);color:#fff;display:grid;place-items:center;font-size:1.1rem}
+.dl b{display:block;color:var(--night)}
+.dl span span{display:block;font-size:.9rem;color:var(--ink-2)}
