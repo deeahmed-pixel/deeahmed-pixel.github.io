@@ -631,6 +631,122 @@
   });
 })();
 
+/* ------------- tile and paint calculators (2026-10-07) -------------
+   /guides/tile-calculator/ and /guides/paint-calculator/. Quantities only,
+   never money (Dee: quantity figures are fine).
+   Tiles:  floor = length × width; walls = 2 × (length + width) × tiling height
+           − 1.6 m² per door. To buy = net × (1 + wastage). Tiles = to buy ÷ one
+           tile's area, rounded up; cartons = to buy ÷ m² per carton, rounded up
+           (only if typed). Skirting (floor) = perimeter − 0.9 m per door.
+   Paint:  room walls = 2 × (length + width) × height − 1.8 m² per door − 1.5 m²
+           per window; flat walls = area × 2.5–3.5 × height ÷ 3 (the cost-by-size
+           rule); ceiling = floor area. Litres = area × coats ÷ coverage; primer =
+           area ÷ coverage, one coat. */
+(function () {
+  var digits = function (s) { return String(s).replace(/[٠-٩]/g, function (c) { return c.charCodeAt(0) - 0x0660; }).replace(',', '.'); };
+  var setup = function (box, solve) {
+    var L = {};
+    try { L = JSON.parse(box.getAttribute('data-labels') || '{}'); } catch (e) {}
+    var field = function (n) { return box.querySelector('[name=' + n + ']'); };
+    var num = function (n, d) { var el = field(n); var v = el ? parseFloat(digits(el.value)) : NaN; return isFinite(v) && v >= 0 && el.value !== '' ? v : d; };
+    var mode = function () { var r = box.querySelector('.qc__mode input:checked'); return r ? r.value : ''; };
+    var sync = function () {
+      var m = mode(), size = field('size');
+      box.querySelectorAll('[data-only]').forEach(function (el) {
+        var o = el.getAttribute('data-only');
+        el.hidden = o === 'own' ? !(size && size.value === 'own') : o !== m;
+      });
+    };
+    box.addEventListener('change', sync);
+    sync();
+    var r1 = function (x) { return Math.round(x * 10) / 10; };
+    var lastText = '';
+    box.querySelector('.qc__go').addEventListener('click', function () {
+      var res = solve({ L: L, num: num, mode: mode(), field: field, r1: r1 });
+      var err = box.querySelector('.qc__err'), out = box.querySelector('.qc__out');
+      if (!res) { err.hidden = false; out.hidden = true; return; }
+      err.hidden = true;
+      var tb = out.querySelector('tbody');
+      tb.innerHTML = '';
+      res.rows.forEach(function (r) {
+        var tr = document.createElement('tr'), th = document.createElement('th'), td = document.createElement('td');
+        th.scope = 'row'; th.textContent = r[0]; td.textContent = r[1];
+        tr.appendChild(th); tr.appendChild(td); tb.appendChild(tr);
+      });
+      lastText = L.msg + ' — ' + res.input + ':\n' + res.rows.map(function (r) { return '• ' + r[0] + ': ' + r[1]; }).join('\n');
+      var wa = box.querySelector('.qc__wa');
+      if (wa) wa.href = 'https://wa.me/' + box.getAttribute('data-wa') + '?text=' + encodeURIComponent(lastText);
+      out.hidden = false;
+    });
+    box.querySelector('.qc__send').addEventListener('click', function (e) {
+      var form = document.querySelector('#quote form[data-quote-form]') || document.querySelector('form[data-quote-form]');
+      var msg = form && form.querySelector('[name=message]');
+      if (!form || !msg || !lastText) return;
+      e.preventDefault();
+      msg.value = lastText + (msg.value ? '\n\n' + msg.value : '');
+      form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var nm = form.querySelector('[name=name]');
+      if (nm) setTimeout(function () { nm.focus({ preventScroll: true }); }, 500);
+    });
+  };
+
+  document.querySelectorAll('[data-tcalc]').forEach(function (box) {
+    setup(box, function (c) {
+      var L = c.L, len = c.num('len', 0), wid = c.num('wid', 0);
+      if (!len || !wid) return null;
+      var wall = c.mode === 'wall', doors = Math.round(c.num('doors', 0));
+      var hgt = c.num('hgt', 2.5);
+      var net = wall ? Math.max(0, 2 * (len + wid) * hgt - doors * 1.6) : len * wid;
+      var waste = parseFloat(c.field('waste').value) / 100;
+      var size = c.field('size').value, tw, th;
+      if (size === 'own') { tw = c.num('ow', 0); th = c.num('oh', 0); if (!tw || !th) return null; }
+      else { tw = parseFloat(size.split('x')[0]); th = parseFloat(size.split('x')[1]); }
+      var buy = net * (1 + waste), tileA = tw * th / 10000;
+      var carton = c.num('carton', 0);
+      var rows = [
+        [L.net, c.r1(net) + ' ' + L.m2],
+        [L.buy, c.r1(buy) + ' ' + L.m2],
+        [L.tiles, Math.ceil(buy / tileA - 1e-9) + ' ' + L.tileU + ' (' + tw + ' × ' + th + ')']
+      ];
+      if (carton) rows.push([L.cartons, Math.ceil(buy / carton - 1e-9) + ' ' + L.cartonU]);
+      if (!wall) rows.push([L.skirt, c.r1(Math.max(0, 2 * (len + wid) - doors * 0.9)) + ' ' + L.m]);
+      return { rows: rows, input: (wall ? L.wall : L.floor) + L.sep + len + ' × ' + wid + (wall ? ' × ' + hgt : '') + ' ' + L.u + L.sep + Math.round(waste * 100) + '%' };
+    });
+  });
+
+  document.querySelectorAll('[data-pcalc]').forEach(function (box) {
+    setup(box, function (c) {
+      var L = c.L, flat = c.mode === 'flat', h = c.num('hgt', 3);
+      var coats = Math.max(1, Math.round(c.num('coats', 2))), cover = c.num('cover', 10) || 10;
+      var ceilOn = c.field('ceil').checked, primerOn = c.field('primer').checked;
+      var wLo, wHi, ceil, input;
+      if (flat) {
+        var A = c.num('area', 0);
+        if (!A) return null;
+        wLo = A * 2.5 * h / 3; wHi = A * 3.5 * h / 3; ceil = A;
+        input = L.flat + L.sep + A + ' ' + L.m2 + L.sep + h + ' ' + L.u;
+      } else {
+        var len = c.num('len', 0), wid = c.num('wid', 0);
+        if (!len || !wid) return null;
+        wLo = wHi = Math.max(0, 2 * (len + wid) * h - Math.round(c.num('doors', 0)) * 1.8 - Math.round(c.num('wins', 0)) * 1.5);
+        ceil = len * wid;
+        input = L.room + L.sep + len + ' × ' + wid + ' × ' + h + ' ' + L.u;
+      }
+      var show = function (lo, hi, unit, d) {
+        var f = function (x) { return d ? Math.round(x) : Math.round(x * 10) / 10; };
+        return f(lo) === f(hi) ? f(lo) + ' ' + unit : (L.from ? L.from + ' ' : '') + f(lo) + ' ' + L.to + ' ' + f(hi) + ' ' + unit;
+      };
+      var tLo = wLo + (ceilOn ? ceil : 0), tHi = wHi + (ceilOn ? ceil : 0);
+      var rows = [[L.walls, show(wLo, wHi, L.m2, true)]];
+      if (ceilOn) rows.push([L.ceilA, show(ceil, ceil, L.m2, true)]);
+      rows.push([L.total, show(tLo, tHi, L.m2, true)]);
+      rows.push([L.paint, show(tLo * coats / cover, tHi * coats / cover, L.l, tHi * coats / cover >= 20) + ' (' + coats + ' × ' + cover + ' ' + L.m2 + '/' + L.l + ')']);
+      if (primerOn) rows.push([L.prim, show(tLo / cover, tHi / cover, L.l, tHi / cover >= 20)]);
+      return { rows: rows, input: input + L.sep + coats + ' × ' + cover + ' ' + L.m2 + '/' + L.l };
+    });
+  });
+})();
+
 /* ------------- where enquiries come from (2026-10-07) -------------
    The site had no analytics, and most enquiries never touch the form: people
    tap WhatsApp or call. The first page of a visit and its source (Google,
