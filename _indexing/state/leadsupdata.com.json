@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-06T11:21:07+03:00",
+  "last_sync": "2026-10-07T02:25:08+03:00",
   "sync_note": "",
   "urls": {
     "https://leadsupdata.com/": {
@@ -58,6 +58,78 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/arizona": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.8,
+      "requested": [
+        "2026-10-07T02:41:10+03:00"
+      ],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "requested"
+    },
+    "https://leadsupdata.com/arizona/company-owned-property": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/arizona/maricopa-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/arizona/multi-property-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/arizona/older-buildings": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/arizona/out-of-state-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/arizona/statistics": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/batchleads-alternative": {
       "checked": "2026-10-04T14:56:51+03:00",
       "coverage": null,
@@ -79,10 +151,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-07T02:30:32+03:00"
+      ],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "indexed"
+      "status": "requested"
     },
     "https://leadsupdata.com/bulk-skip-tracing": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -97,6 +171,226 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/colorado": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.8,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/adams-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/arapahoe-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/boulder-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/broomfield-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/company-owned-property": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/denver-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/douglas-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-11",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/jefferson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/la-plata-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/larimer-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/mesa-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/multi-property-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-12",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/out-of-state-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/park-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/pitkin-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/pueblo-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/rio-grande-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-13",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/routt-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/statistics": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/teller-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/colorado/weld-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/compare": {
       "checked": "2026-10-04T14:56:51+03:00",
       "coverage": null,
@@ -105,10 +399,152 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-07T02:33:01+03:00"
+      ],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "indexed"
+      "status": "requested"
+    },
+    "https://leadsupdata.com/connecticut": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.8,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/bridgeport": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-14",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/company-owned-property": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/fairfield": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/hamden": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/milford": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/multi-property-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-15",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/new-haven": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/older-buildings": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/out-of-state-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/statistics": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/wallingford": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/waterbury": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/connecticut/west-haven": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-17",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupdata.com/contact": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -157,10 +593,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-07T02:28:38+03:00"
+      ],
       "scheduled": "2026-10-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/florida/alachua-county": {
       "coverage": null,
@@ -168,7 +606,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -178,7 +616,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-12-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -188,7 +626,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -211,7 +649,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-12-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -221,7 +659,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-12-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -244,7 +682,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -254,7 +692,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-12-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -264,7 +702,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -274,7 +712,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -297,7 +735,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-12-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -307,7 +745,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -343,7 +781,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -353,7 +791,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-12-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -363,7 +801,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -373,7 +811,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-12-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -383,7 +821,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -393,7 +831,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -403,7 +841,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-12-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -413,7 +851,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -436,7 +874,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-12-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -446,7 +884,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-12-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -456,7 +894,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -466,7 +904,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-12-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -476,7 +914,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-10",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -512,7 +950,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-12-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -522,7 +960,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-12-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -532,7 +970,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-12-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -542,7 +980,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -565,7 +1003,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-12-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -588,7 +1026,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-12-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -598,7 +1036,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -621,7 +1059,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -643,7 +1081,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -653,7 +1091,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-11",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -688,7 +1126,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-12-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -711,7 +1149,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-12-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -747,7 +1185,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-12-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -757,7 +1195,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-12-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -767,7 +1205,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-12-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -777,7 +1215,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-12-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -800,7 +1238,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-12-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -823,7 +1261,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-12-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -846,7 +1284,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-12-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -856,7 +1294,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-12-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -866,7 +1304,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -876,7 +1314,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -899,7 +1337,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-12-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -922,7 +1360,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -932,7 +1370,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-12-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -955,7 +1393,7 @@
       "last_inspected": null,
       "priority": 0.6,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-12-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -967,10 +1405,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
-      "scheduled": "2026-10-08",
+      "requested": [
+        "2026-10-07T02:36:57+03:00"
+      ],
+      "scheduled": "2026-10-09",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/florida/sumter-county": {
       "coverage": null,
@@ -978,7 +1418,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1001,7 +1441,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-12",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1011,7 +1451,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1082,13 +1522,233 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupdata.com/minnesota": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.8,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/anoka-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/carver-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/cass-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/company-owned-property": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-22",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/crow-wing-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/dakota-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/hennepin-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/itasca-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/multi-property-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-23",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/older-buildings": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/olmsted-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/otter-tail-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/out-of-state-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/ramsey-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-24",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/scott-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/sherburne-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/st-louis-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/statistics": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/stearns-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-25",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/washington-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/minnesota/wright-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-26",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupdata.com/north-carolina": {
       "coverage": null,
       "first_seen": "2026-10-06T11:21:07+03:00",
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1098,7 +1758,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1108,7 +1768,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1118,7 +1778,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1128,7 +1788,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1138,7 +1798,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1148,7 +1808,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1158,7 +1818,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1168,7 +1828,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1178,7 +1838,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1188,7 +1848,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1198,7 +1858,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1208,7 +1868,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1218,7 +1878,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1228,7 +1888,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1238,7 +1898,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1248,7 +1908,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1258,7 +1918,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1268,7 +1928,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1278,7 +1938,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1288,7 +1948,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1298,7 +1958,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1308,7 +1968,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1318,7 +1978,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/guilford-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1328,7 +1998,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1338,7 +2008,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1348,7 +2018,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1358,7 +2028,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1368,7 +2038,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1378,7 +2048,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1388,7 +2058,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1398,7 +2068,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1408,7 +2078,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1418,7 +2088,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1428,7 +2098,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1438,7 +2108,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1448,7 +2118,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1458,7 +2128,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1468,7 +2138,27 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/onslow-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/north-carolina/orange-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1478,7 +2168,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1488,7 +2178,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1498,7 +2188,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1508,7 +2198,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1518,7 +2208,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1528,7 +2218,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1538,7 +2228,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1548,7 +2238,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1558,7 +2248,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1568,7 +2258,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1578,7 +2268,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1588,7 +2278,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1598,7 +2288,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1608,7 +2298,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1618,7 +2308,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1628,7 +2318,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1638,7 +2328,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1648,7 +2338,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1658,7 +2348,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1670,10 +2360,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
+      "requested": [
+        "2026-10-07T02:35:37+03:00"
+      ],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "indexed"
+      "status": "requested"
     },
     "https://leadsupdata.com/privacy": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -1735,7 +2427,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-08",
+      "scheduled": "2026-10-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1760,10 +2452,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
+      "requested": [
+        "2026-10-07T02:38:16+03:00"
+      ],
       "scheduled": "2026-10-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/skip-genie-alternative": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -1799,10 +2493,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-07T02:31:47+03:00"
+      ],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "indexed"
+      "status": "requested"
     },
     "https://leadsupdata.com/solar-leads": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -1812,10 +2508,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
+      "requested": [
+        "2026-10-07T02:39:48+03:00"
+      ],
       "scheduled": "2026-10-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/support": {
       "checked": "2026-10-04T14:56:51+03:00",
@@ -1849,7 +2547,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-07",
+      "scheduled": "2026-10-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1859,7 +2557,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1869,7 +2567,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1879,7 +2577,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1889,7 +2587,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1899,7 +2597,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1909,7 +2607,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1919,7 +2617,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1929,7 +2627,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1939,7 +2637,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1949,7 +2647,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1959,7 +2657,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1969,7 +2667,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1979,7 +2677,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1989,7 +2687,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1999,7 +2697,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2009,7 +2707,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2019,7 +2717,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2029,7 +2727,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2039,7 +2737,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2049,7 +2747,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2059,7 +2757,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2069,7 +2767,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2079,7 +2777,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2089,7 +2787,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2099,7 +2797,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2109,7 +2807,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2119,7 +2817,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2129,7 +2827,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2139,7 +2837,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2149,7 +2847,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2159,7 +2857,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2169,7 +2867,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2179,7 +2877,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2189,7 +2887,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2199,7 +2897,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2209,7 +2907,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2219,7 +2917,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2229,7 +2927,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2239,7 +2937,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2249,7 +2947,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2259,7 +2957,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2269,7 +2967,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2279,7 +2977,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2289,7 +2987,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2299,7 +2997,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2309,7 +3007,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2319,7 +3017,17 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-16",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/texas/harris-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2329,7 +3037,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2339,7 +3047,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2349,7 +3057,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2359,7 +3067,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2369,7 +3077,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2379,7 +3087,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2389,7 +3097,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2399,7 +3107,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2409,7 +3117,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2419,7 +3127,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2429,7 +3137,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2439,7 +3147,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2449,7 +3157,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2459,7 +3167,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2469,7 +3177,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2479,7 +3187,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2489,7 +3197,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2499,7 +3207,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2509,7 +3217,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2519,7 +3227,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2529,7 +3237,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2539,7 +3247,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2549,7 +3257,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2559,7 +3267,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2569,7 +3277,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2579,7 +3287,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2589,7 +3297,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2599,7 +3307,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2609,7 +3317,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2619,7 +3327,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2629,7 +3337,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2639,7 +3347,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2649,7 +3357,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2659,7 +3367,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2669,7 +3377,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2679,7 +3387,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2689,7 +3397,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2699,7 +3407,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2709,7 +3417,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2719,7 +3427,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2729,7 +3437,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2739,7 +3447,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2749,7 +3457,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2759,7 +3467,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2769,7 +3477,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2779,7 +3487,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2789,7 +3497,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2799,7 +3507,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2809,7 +3517,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2819,7 +3527,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2829,7 +3537,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2839,7 +3547,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2849,7 +3557,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2859,7 +3567,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2869,7 +3577,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2879,7 +3587,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2889,7 +3597,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2899,7 +3607,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2909,7 +3617,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2919,7 +3627,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2929,7 +3637,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2939,7 +3647,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2949,7 +3657,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2977,6 +3685,366 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupdata.com/wisconsin": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.8,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/brown-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/chippewa-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-29",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/company-owned-property": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/dane-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/dodge-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/door-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/eau-claire-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-11-30",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/fond-du-lac-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/jefferson-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/la-crosse-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/manitowoc-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/marathon-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-01",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/marinette-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/milwaukee-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/multi-property-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/oconto-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/oneida-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-02",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/out-of-state-owners": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/outagamie-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/ozaukee-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/polk-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/portage-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-03",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/racine-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/rock-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/sauk-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/sheboygan-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/st-croix-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-04",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/statistics": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/vilas-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/walworth-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/washington-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/waukesha-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-05",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/waupaca-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/winnebago-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-06",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupdata.com/wisconsin/wood-county": {
+      "coverage": null,
+      "first_seen": "2026-10-07T02:25:08+03:00",
+      "last_inspected": null,
+      "priority": 0.7,
+      "requested": [],
+      "scheduled": "2026-12-06",
+      "source": "sitemap",
+      "status": "scheduled"
     }
   }
 }

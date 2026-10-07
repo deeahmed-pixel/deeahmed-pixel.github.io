@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-06T11:21:05+03:00",
+  "last_sync": "2026-10-07T02:25:07+03:00",
   "sync_note": "",
   "urls": {
     "https://leadsupcallcenter.com/": {
@@ -176,10 +176,12 @@
       "first_seen": "2026-10-06T11:21:05+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-07T02:27:09+03:00"
+      ],
       "scheduled": "2026-10-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/expired-listing-script": {
       "coverage": null,
@@ -340,7 +342,7 @@
       "requested": [],
       "scheduled": "2026-10-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling": {
       "checked": "2026-10-04T15:18:20+03:00",
