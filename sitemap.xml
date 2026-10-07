@@ -45,7 +45,7 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-brass.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-facade-dusk.jpg</image:loc></image:image>
@@ -84,7 +84,7 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-brass.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-facade-dusk.jpg</image:loc></image:image>
@@ -119,8 +119,8 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-walkway-led.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-stair.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-shower-valve.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/010.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-landing-balustrade.jpg</image:loc></image:image>
@@ -356,11 +356,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/services/swimming-pools/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/services/swimming-pools/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/services/swimming-pools/"/>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-led-dusk.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-chalets-day.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-mosaic-night.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-mosaic-corner.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-coping-during.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-chalets-day.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/699.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-walkway-sea.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-landing-balustrade.jpg</image:loc></image:image>
@@ -376,10 +375,10 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/services/landscape-hardscape/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/services/landscape-hardscape/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-marble-strip-path.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-paving-laying.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-path-basalt.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-drive-grid.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/elec-irrigation-wifi.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-paving-laying.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-drive-grid.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/051.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-walkway-sea.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-landing-balustrade.jpg</image:loc></image:image>
@@ -411,7 +410,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/services/furniture/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/services/furniture/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/services/furniture/"/>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-workshop-stack.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-desk-raw.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-desk-finished.jpg</image:loc></image:image>
@@ -686,8 +685,8 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-walkway-led.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-stair.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-shower-valve.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/010.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-landing-balustrade.jpg</image:loc></image:image>
@@ -923,11 +922,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/services/swimming-pools/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/services/swimming-pools/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/services/swimming-pools/"/>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-led-dusk.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-chalets-day.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-mosaic-night.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-mosaic-corner.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-coping-during.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/pool-chalets-day.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/699.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-walkway-sea.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-landing-balustrade.jpg</image:loc></image:image>
@@ -943,10 +941,10 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/services/landscape-hardscape/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/services/landscape-hardscape/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-marble-strip-path.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-paving-laying.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-path-basalt.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-drive-grid.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/elec-irrigation-wifi.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-paving-laying.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hard-drive-grid.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/051.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-walkway-sea.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-landing-balustrade.jpg</image:loc></image:image>
@@ -978,7 +976,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/services/furniture/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/services/furniture/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/services/furniture/"/>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-workshop-stack.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-desk-raw.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-desk-finished.jpg</image:loc></image:image>
@@ -4208,7 +4206,7 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/covers/stone-cladding.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/185.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1149.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/412.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/414.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/148.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/451.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/389.jpg</image:loc></image:image>
@@ -4238,7 +4236,7 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/covers/stone-cladding.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/185.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1149.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/412.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/414.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/148.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/451.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/389.jpg</image:loc></image:image>
@@ -5972,11 +5970,11 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/decoration/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/decoration/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-brass.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
@@ -5999,11 +5997,11 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/decoration/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/decoration/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-brass.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
@@ -6742,11 +6740,10 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/decoration/modern/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/decoration/modern/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-landing-balustrade.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1138.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/363.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/proc-electrical-abb-board.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/680.jpg</image:loc></image:image>
@@ -6762,11 +6759,10 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/decoration/modern/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/decoration/modern/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-landing-balustrade.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1138.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/363.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/proc-electrical-abb-board.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/680.jpg</image:loc></image:image>
@@ -6782,12 +6778,11 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/decoration/neo-classic/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/decoration/neo-classic/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/513.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/301.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/353.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/214.jpg</image:loc></image:image>
@@ -6802,12 +6797,11 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/decoration/neo-classic/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/decoration/neo-classic/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/513.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/301.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/353.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/214.jpg</image:loc></image:image>
@@ -6825,7 +6819,7 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-shower-valve.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1324.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/proc-electrical-abb-board.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/285.jpg</image:loc></image:image>
@@ -6842,7 +6836,7 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-shower-valve.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1324.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/proc-electrical-abb-board.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/285.jpg</image:loc></image:image>
@@ -6896,7 +6890,7 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/700.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/298.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/016.jpg</image:loc></image:image>
@@ -6916,7 +6910,7 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/700.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/298.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/016.jpg</image:loc></image:image>
@@ -7411,8 +7405,8 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/guides/tile-calculator/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/526.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-brass.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/244.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/010.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/744.jpg</image:loc></image:image>
@@ -7427,8 +7421,8 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/guides/tile-calculator/"/>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/526.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-brass.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-bath-nero.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/244.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/010.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/744.jpg</image:loc></image:image>
@@ -7591,11 +7585,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/areas/north-coast-sahel/chalet-furnishing/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/areas/north-coast-sahel/chalet-furnishing/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/areas/north-coast-sahel/chalet-furnishing/"/>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1322.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/702.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/743.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/748.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hero-terrace-bluehour.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-walkway-sea.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-facade-dusk.jpg</image:loc></image:image>
@@ -7612,11 +7605,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/areas/north-coast-sahel/chalet-furnishing/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/areas/north-coast-sahel/chalet-furnishing/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/areas/north-coast-sahel/chalet-furnishing/"/>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1322.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/702.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/743.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/748.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/hero-terrace-bluehour.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-walkway-sea.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-facade-dusk.jpg</image:loc></image:image>
@@ -7661,12 +7653,11 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/areas/alexandria/decoration/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/areas/alexandria/decoration/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/areas/alexandria/decoration/"/>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-pool-column.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-shower-valve.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/511.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
@@ -7683,12 +7674,11 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/areas/alexandria/decoration/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/areas/alexandria/decoration/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/areas/alexandria/decoration/"/>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/913.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-vanity-backlit.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/int-timber-niche-light.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-pool-column.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/in-use/sunny-light-shower-valve.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/511.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/411.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fur-bed-carved.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-a-bedroom-rattan.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/fs-lobby-inlay-stairs.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/projects/nc-b-kitchen-island.jpg</image:loc></image:image>
@@ -7705,10 +7695,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/gallery/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/gallery/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/gallery/"/>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/111.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/121.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/126.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/644.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/704.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/739.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/700.jpg</image:loc></image:image>
@@ -7724,7 +7710,11 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1198.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1216.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/132.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/111.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/121.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/126.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/768.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/644.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/771.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/656.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/663.jpg</image:loc></image:image>
@@ -7744,10 +7734,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://itmamfinishing.com/gallery/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://itmamfinishing.com/ar/gallery/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://itmamfinishing.com/gallery/"/>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/111.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/121.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/126.jpg</image:loc></image:image>
-    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/644.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/704.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/739.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/700.jpg</image:loc></image:image>
@@ -7763,7 +7749,11 @@
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1198.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/1216.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/132.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/111.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/121.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/126.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/768.jpg</image:loc></image:image>
+    <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/644.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/771.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/656.jpg</image:loc></image:image>
     <image:image><image:loc>https://itmamfinishing.com/assets/img/archive/663.jpg</image:loc></image:image>
