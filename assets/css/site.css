@@ -1388,6 +1388,7 @@ body{background:var(--paper);font-size:16.5px;line-height:1.65;letter-spacing:0}
 .nav__item.is-open>.mega{opacity:1;visibility:visible;transform:none}
 .mega__in{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) 270px;gap:clamp(1.4rem,3vw,2.6rem);padding:1.8rem 0 2rem}
 .mega__in--1{grid-template-columns:minmax(0,1fr) 270px}
+.mega__in--4{grid-template-columns:repeat(4,minmax(0,1fr)) 230px;gap:clamp(1rem,2.2vw,2rem)}
 .mega__h{font-size:.74rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);margin-bottom:.55rem}
 [dir="rtl"] .mega__h{text-transform:none;font-size:.85rem}
 .mega__col ul{display:grid;gap:.05rem}
