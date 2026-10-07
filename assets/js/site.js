@@ -274,6 +274,8 @@
         _gotcha: val('_gotcha'),
         source: window.location.host + window.location.pathname
       };
+      // where this visit came from (first page, Google/Facebook/…): see the end of this file
+      if (window.itmVisit) { var vi = window.itmVisit({}); for (var vk in vi) payload[vk] = vi[vk]; }
 
       // Do not let a slow network hold the visitor: hand off after 6 seconds
       // regardless, and let the POST finish in the background.
@@ -527,23 +529,161 @@
   });
 })();
 
-/* ------------- v5: tell the office which page a WhatsApp came from -------------
-   Every WhatsApp button carries a message; on tap, the page address is added to
-   it, so the first reply can be about what the visitor was actually reading. */
+/* ------------- tell the office which page a WhatsApp came from -------------
+   v5 added the page ADDRESS to the message ("(/ar/finishing/villas/)"), which
+   the visitor sees in their own chat box and reads as a glitch. Since
+   2026-10-07 a button that still carries the general greeting gets the page's
+   own heading instead — "قريت صفحة «تشطيب فيلات» وعايز أسأل" — which tells the
+   office the same thing in words the visitor would write. Buttons that already
+   name the page (landing pages) are left alone; so is the home page. */
 (function () {
+  var GENERIC = /عايز أتكلم معاكم عن مشروع|I'd like to discuss a project/;
+  var home = /^\/(ar\/)?$/.test(location.pathname);
+  var h1 = document.querySelector('main h1, h1');
+  var title = h1 ? h1.textContent.replace(/\s+/g, ' ').trim() : '';
+  if (title.length > 80) title = title.slice(0, 78).replace(/\s+\S*$/, '') + '…';
+  var ar = (document.documentElement.lang || '').indexOf('ar') === 0;
   document.addEventListener('click', function (e) {
     var a = e.target.closest('a[href*="wa.me/"]');
-    if (!a || a.hasAttribute('data-noref') || a.closest('[data-form-done]')) return;
+    if (!a || home || !title || a.hasAttribute('data-noref') || a.closest('[data-form-done]')) return;
     try {
       var u = new URL(a.href);
-      var txt = u.searchParams.get('text') || '';
-      var ref = location.pathname;
-      if (txt.indexOf(ref) === -1) {
-        u.searchParams.set('text', txt + '\n\n(' + ref + ')');
-        a.href = u.toString();
-      }
+      if (!GENERIC.test(u.searchParams.get('text') || '')) return;
+      u.searchParams.set('text', ar
+        ? 'السلام عليكم — قريت صفحة "' + title + '" على موقع إتمام وعايز أسأل.'
+        : 'Hello Itmam — I read "' + title + '" on your website and have a question.');
+      a.href = u.toString();
     } catch (err) {}
   }, true);
+})();
+
+/* ------------- quantity calculator (2026-10-07) -------------
+   The cost-by-size guide answers "تشطيب شقة 100 متر بيتكلف كام" with
+   quantities, never money. Rules of thumb, shown as ranges (cutting waste
+   included):
+     floors        area × 1.05–1.10
+     ceilings      area × 1.00–1.05
+     bathroom tile per bathroom: perimeter of a roughly 4:5 room (4.1 × √area) ×
+                   tiled height (ceiling − 0.3 m for the false ceiling, at most
+                   2.5 m) − one door (1.6 m²), × 1.05–1.10
+     wall paint    area × 2.5–3.5 × (ceiling ÷ 3 m), less the tiled bathroom walls
+     skirting      wall length ≈ area × 2.5–3.5 ÷ 3, less the bathrooms, about 7 m
+                   of kitchen wall behind cabinets and ~0.9 m per door (a door
+                   for every ~12 m²), × 1.05
+   Kept in step with the worked examples on /guides/apartment-finishing-cost-by-size/.
+   "Send" writes the result into the quote form's message box and takes the
+   visitor there, so the quantities arrive with the enquiry. */
+(function () {
+  document.querySelectorAll('[data-qcalc]').forEach(function (box) {
+    var L = {};
+    try { L = JSON.parse(box.getAttribute('data-labels') || '{}'); } catch (e) {}
+    var get = function (n, d) {
+      var el = box.querySelector('[name=' + n + ']');
+      var v = el ? parseFloat(String(el.value).replace(/[٠-٩]/g, function (c) { return c.charCodeAt(0) - 0x0660; }).replace(',', '.')) : NaN;
+      return isFinite(v) && v > 0 ? v : d;
+    };
+    var r5 = function (x) { return Math.max(0, Math.round(x / 5) * 5); };
+    var range = function (a, b, unit) {
+      if (r5(a) === r5(b)) return L.about + ' ' + r5(a) + ' ' + unit;
+      return (L.from ? L.from + ' ' : '') + r5(a) + ' ' + L.to + ' ' + r5(b) + ' ' + unit;
+    };
+    var lastText = '';
+    box.querySelector('.qc__go').addEventListener('click', function () {
+      var A = get('area', 0);
+      var err = box.querySelector('.qc__err'), out = box.querySelector('.qc__out');
+      if (!A || A < 20) { err.hidden = false; out.hidden = true; return; }
+      err.hidden = true;
+      var h = Math.min(Math.max(get('height', 3), 2.4), 6);
+      var b = Math.round(get('baths', 0)), ba = get('bathArea', 5);
+      var bathPerim = 4.1 * Math.sqrt(ba);
+      var bathWall = Math.max(0, bathPerim * Math.min(h - 0.3, 2.5) - 1.6) * b;
+      var notSkirted = b * bathPerim + 7 + A / 12 * 0.9;   // bathrooms, kitchen cabinets, doors
+      var rows = [
+        [L.floor, range(A * 1.05, A * 1.10, L.m2)],
+        [L.paint, range(Math.max(0, A * 2.5 * h / 3 - bathWall), Math.max(0, A * 3.5 * h / 3 - bathWall), L.m2)],
+        [L.ceil, range(A, A * 1.05, L.m2)],
+        [L.bathTiles, b ? range(bathWall * 1.05, bathWall * 1.10, L.m2) : '—'],
+        [L.skirt, range(Math.max(0, A * 2.5 / 3 - notSkirted) * 1.05, Math.max(0, A * 3.5 / 3 - notSkirted) * 1.05, L.m)]
+      ];
+      var tb = out.querySelector('tbody');
+      tb.innerHTML = '';
+      rows.forEach(function (r) {
+        var tr = document.createElement('tr'), th = document.createElement('th'), td = document.createElement('td');
+        th.scope = 'row'; th.textContent = r[0]; td.textContent = r[1];
+        tr.appendChild(th); tr.appendChild(td); tb.appendChild(tr);
+      });
+      lastText = L.msg + ' — ' + L.sArea + ' ' + A + ' ' + L.m2 + L.sep + L.sHeight + ' ' + h + ' ' + L.unitM + L.sep + L.sBaths + ' ' + b + ' × ' + ba + ' ' + L.m2 + ':\n' +
+        rows.map(function (r) { return '• ' + r[0] + ': ' + r[1]; }).join('\n');
+      var wa = box.querySelector('.qc__wa');
+      if (wa) wa.href = 'https://wa.me/' + box.getAttribute('data-wa') + '?text=' + encodeURIComponent(lastText);
+      out.hidden = false;
+    });
+    box.querySelector('.qc__send').addEventListener('click', function (e) {
+      var form = document.querySelector('#quote form[data-quote-form]') || document.querySelector('form[data-quote-form]');
+      var msg = form && form.querySelector('[name=message]');
+      if (!form || !msg || !lastText) return;
+      e.preventDefault();
+      msg.value = lastText + (msg.value ? '\n\n' + msg.value : '');
+      form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var name = form.querySelector('[name=name]');
+      if (name) setTimeout(function () { name.focus({ preventScroll: true }); }, 500);
+    });
+  });
+})();
+
+/* ------------- where enquiries come from (2026-10-07) -------------
+   The site had no analytics, and most enquiries never touch the form: people
+   tap WhatsApp or call. The first page of a visit and its source (Google,
+   Facebook, a utm tag…) are remembered for the tab, sent with the quote form,
+   and every WhatsApp / phone / email tap sends one small beacon to the same
+   endpoint. The office's table then says which pages and which searches bring
+   enquiries. Nothing personal is sent: page paths and the visit source only. */
+(function () {
+  var body = document.body;
+  var LEAD = body && body.getAttribute('data-lead');
+  var VISIT = null;
+  try { VISIT = JSON.parse(sessionStorage.getItem('itm_visit') || 'null'); } catch (e) {}
+  if (!VISIT) {
+    var q = new URLSearchParams(location.search);
+    var ref = '';
+    try { ref = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, '') : ''; } catch (e) {}
+    if (ref && ref === location.hostname.replace(/^www\./, '')) ref = '';
+    var src = q.get('utm_source') || '';
+    if (!src) {
+      if (q.get('gclid') || q.get('gbraid') || q.get('wbraid')) src = 'google-ads';
+      else if (q.get('fbclid')) src = 'facebook';
+      else if (/(^|\.)google\./.test(ref)) src = 'google';
+      else if (/(^|\.)bing\.com$/.test(ref)) src = 'bing';
+      else if (/(^|\.)(facebook\.com|fb\.com|fb\.me)$/.test(ref)) src = 'facebook';
+      else if (/(^|\.)instagram\.com$/.test(ref)) src = 'instagram';
+      else if (/(^|\.)(chatgpt\.com|openai\.com)$/.test(ref)) src = 'chatgpt';
+      else if (/(^|\.)(whatsapp\.com|wa\.me)$/.test(ref)) src = 'whatsapp';
+      else src = ref || 'direct';
+    }
+    VISIT = { landing: location.pathname, src: src.toLowerCase().slice(0, 60), ref: ref,
+      utm_medium: q.get('utm_medium') || '', utm_campaign: q.get('utm_campaign') || '' };
+    try { sessionStorage.setItem('itm_visit', JSON.stringify(VISIT)); } catch (e) {}
+  }
+  var visit = function (extra) {
+    var o = { page: location.pathname, lang: document.documentElement.lang || '',
+      device: window.matchMedia && window.matchMedia('(max-width: 820px)').matches ? 'mobile' : 'desktop' };
+    for (var k in VISIT) o[k] = VISIT[k];
+    for (var j in extra) o[j] = extra[j];
+    return o;
+  };
+  window.itmVisit = visit;   // the quote form adds this to its payload
+
+  if (!LEAD) return;
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a');
+    if (!a || a.closest('[data-form-done]')) return;   // the thank-you panel's WhatsApp follows a form already counted
+    var href = a.getAttribute('href') || '';
+    var kind = href.indexOf('wa.me/') > -1 ? 'whatsapp' : href.indexOf('tel:') === 0 ? 'phone' : href.indexOf('mailto:') === 0 ? 'email' : '';
+    if (!kind) return;
+    var data = JSON.stringify(visit({ event: 'tap', kind: kind }));
+    try { if (navigator.sendBeacon && navigator.sendBeacon(LEAD, data)) return; } catch (err) {}
+    try { fetch(LEAD, { method: 'POST', body: data, keepalive: true, mode: 'no-cors' }); } catch (err) {}
+  });
 })();
 
 
