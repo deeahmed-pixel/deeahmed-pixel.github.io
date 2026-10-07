@@ -1765,3 +1765,16 @@ figure.fig figcaption{font-size:.8rem;letter-spacing:0;color:var(--ink-3)}
 .vt__play::after{content:"";position:absolute;left:52%;top:50%;transform:translate(-50%,-50%);border-style:solid;border-width:9px 0 9px 15px;border-color:transparent transparent transparent var(--night)}
 .vt__cap{position:absolute;inset:auto 0 0;padding:1.4rem .6rem .5rem;font-size:.74rem;line-height:1.3;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.7))}
 .vt.is-playing .vt__play,.vt.is-playing .vt__cap{display:none}
+
+/* A page with no photograph and no stone colour gets a clean, full-width
+   header rather than an empty dark panel. */
+.hero--page.hero--plain{grid-template-columns:1fr;background:
+  radial-gradient(60% 120% at 100% 0%,rgba(18,59,48,.10),transparent 60%),
+  radial-gradient(50% 90% at 0% 100%,rgba(169,81,42,.08),transparent 60%),var(--paper-2)}
+.hero--page.hero--plain .hero__bg{display:none}
+.hero--page.hero--plain .hero__in{max-width:900px}
+
+/* v5: no scroll-triggered fade. Cards that only appear once the observer fires
+   look blank to anyone scrolling fast, to screenshot crawlers, and on a slow
+   phone. The content is simply there. */
+.reveal,.js .reveal{opacity:1!important;transform:none!important;transition:none!important}
