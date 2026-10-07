@@ -58,6 +58,21 @@
         "",
         "en"
       ]
+    },
+    "itmamfinishing.com": {
+      "property": "https://itmamfinishing.com/",
+      "gsc_verified": true,
+      "gsc_account": "deeahmed@leadsupcallcenter.com",
+      "start": "2026-10-08",
+      "sitemaps": [
+        "https://itmamfinishing.com/sitemap.xml"
+      ],
+      "indexnow_key": "a5b31458a73b17834a11cb885e9edeee",
+      "lang_order": [
+        "ar",
+        ""
+      ],
+      "daily_quota": 10
     }
   }
 }

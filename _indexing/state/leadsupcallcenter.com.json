@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-07T02:25:07+03:00",
+  "last_sync": "2026-10-07T16:02:48+03:00",
   "sync_note": "",
   "urls": {
     "https://leadsupcallcenter.com/": {
@@ -119,6 +119,16 @@
       "source": "sitemap",
       "status": "requested"
     },
+    "https://leadsupcallcenter.com/cold-calling-roi-calculator": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupcallcenter.com/cold-calling-script-pack": {
       "checked": "2026-10-04T15:18:20+03:00",
       "coverage": null,
@@ -144,6 +154,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupcallcenter.com/cold-calling-vs-texting-vs-email": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupcallcenter.com/cold-emailing": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -295,6 +315,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupcallcenter.com/pre-foreclosure-leads": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupcallcenter.com/pricing": {
       "checked": "2026-10-04T15:18:20+03:00",
       "coverage": null,
@@ -357,6 +387,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-alabama": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupcallcenter.com/real-estate-cold-calling-arizona": {
       "checked": "2026-10-04T15:18:20+03:00",
       "coverage": null,
@@ -382,6 +422,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-colorado": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-07",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-cost": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -422,6 +472,76 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-illinois": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-indiana": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-kentucky": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-louisiana": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-maryland": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-08",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-michigan": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-missouri": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupcallcenter.com/real-estate-cold-calling-north-carolina": {
       "checked": "2026-10-04T15:18:20+03:00",
       "coverage": null,
@@ -448,6 +568,26 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-oklahoma": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-pennsylvania": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupcallcenter.com/real-estate-cold-calling-scripts": {
       "checked": "2026-10-04T15:18:20+03:00",
       "coverage": null,
@@ -460,6 +600,16 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupcallcenter.com/real-estate-cold-calling-south-carolina": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-09",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-tennessee": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -602,6 +752,16 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://leadsupcallcenter.com/tax-delinquent-leads": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
     "https://leadsupcallcenter.com/terms": {
       "checked": "2026-10-04T15:18:20+03:00",
       "coverage": null,
@@ -627,6 +787,26 @@
       "scheduled": "2026-10-04",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://leadsupcallcenter.com/tired-landlord-leads": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
+    },
+    "https://leadsupcallcenter.com/vacant-land-leads": {
+      "coverage": null,
+      "first_seen": "2026-10-07T16:02:48+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [],
+      "scheduled": "2026-10-10",
+      "source": "sitemap",
+      "status": "scheduled"
     },
     "https://leadsupcallcenter.com/website-design-seo": {
       "checked": "2026-10-04T15:18:20+03:00",
