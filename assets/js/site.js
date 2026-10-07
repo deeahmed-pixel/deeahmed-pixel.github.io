@@ -545,3 +545,13 @@
     } catch (err) {}
   }, true);
 })();
+
+
+/* Area pages tell the quote forms where the visitor is looking (2026-10-07):
+   the location box starts filled in, the visitor can still change it. */
+(function () {
+  var a = document.querySelector('[data-page-area]');
+  if (!a) return;
+  var v = a.getAttribute('data-page-area');
+  document.querySelectorAll('form[data-quote-form] input[name="area"]').forEach(function (i) { if (!i.value) i.value = v; });
+})();
