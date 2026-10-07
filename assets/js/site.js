@@ -643,6 +643,7 @@
            rule); ceiling = floor area. Litres = area × coats ÷ coverage; primer =
            area ÷ coverage, one coat. */
 (function () {
+  var counted = function (n, sing, pl) { return n + ' ' + (pl && n >= 3 && n <= 10 ? pl : sing); };
   var digits = function (s) { return String(s).replace(/[٠-٩]/g, function (c) { return c.charCodeAt(0) - 0x0660; }).replace(',', '.'); };
   var setup = function (box, solve) {
     var L = {};
@@ -654,7 +655,7 @@
       var m = mode(), size = field('size');
       box.querySelectorAll('[data-only]').forEach(function (el) {
         var o = el.getAttribute('data-only');
-        el.hidden = o === 'own' ? !(size && size.value === 'own') : o !== m;
+        el.hidden = o === 'own' ? !(size && size.value === 'own') : o.split(' ').indexOf(m) < 0;
       });
     };
     box.addEventListener('change', sync);
@@ -706,11 +707,45 @@
       var rows = [
         [L.net, c.r1(net) + ' ' + L.m2],
         [L.buy, c.r1(buy) + ' ' + L.m2],
-        [L.tiles, Math.ceil(buy / tileA - 1e-9) + ' ' + L.tileU + ' (' + tw + ' × ' + th + ')']
+        [L.tiles, counted(Math.ceil(buy / tileA - 1e-9), L.tileU, L.tilePl) + ' (' + tw + ' × ' + th + ')']
       ];
-      if (carton) rows.push([L.cartons, Math.ceil(buy / carton - 1e-9) + ' ' + L.cartonU]);
+      if (carton) rows.push([L.cartons, counted(Math.ceil(buy / carton - 1e-9), L.cartonU, L.cartonPl)]);
       if (!wall) rows.push([L.skirt, c.r1(Math.max(0, 2 * (len + wid) - doors * 0.9)) + ' ' + L.m]);
       return { rows: rows, input: (wall ? L.wall : L.floor) + L.sep + len + ' × ' + wid + (wall ? ' × ' + hgt : '') + ' ' + L.u + L.sep + Math.round(waste * 100) + '%' };
+    });
+  });
+
+  /* Building materials: red brick 25×12×6 cm with 1 cm joints → 1 ÷ (0.26 ×
+     0.07) ≈ 55 bricks per m² of half-brick wall, twice that for one brick, +5%
+     waste. Mortar = wall volume − brick volume, +20% waste. Plaster mortar =
+     area × thickness × 1.15; tile bed × 1.10. Sand ≈ mortar volume; cement =
+     sand × the mix (kg per m³ of sand), in 50 kg bags. */
+  document.querySelectorAll('[data-mcalc]').forEach(function (box) {
+    setup(box, function (c) {
+      var L = c.L, m = c.mode, rows = [], input, mortar, mix;
+      var r2 = function (x) { return Math.round(x * 100) / 100; };
+      if (m === 'bricks') {
+        var len = c.num('len', 0), hgt = c.num('hgt', 3);
+        if (!len || !hgt) return null;
+        var area = Math.max(0, len * hgt - c.num('open', 0));
+        var full = c.field('wtype').value === 'full', per = (full ? 2 : 1) / (0.26 * 0.07);
+        var bricks = Math.ceil(area * per * 1.05);
+        mortar = Math.max(0, area * (full ? 0.25 : 0.12) - area * per * 0.0018) * 1.2;
+        mix = c.num('mixB', 250);
+        rows.push([L.wall, c.r1(area) + ' ' + L.m2], [L.brick, bricks > 10 ? bricks.toLocaleString('en') + ' ' + L.brickU : counted(bricks, L.brickU, L.brickPl)]);
+        input = L.bricks + L.sep + len + ' × ' + hgt + ' ' + L.u + L.sep + (full ? L.full : L.half);
+      } else {
+        var A = c.num('area', 0);
+        if (!A) return null;
+        var bed = m === 'bed', th = bed ? c.num('thickB', 3) : c.num('thickP', 2.5);
+        mortar = A * th / 100 * (bed ? 1.10 : 1.15);
+        mix = c.num('mixP', 300);
+        input = (bed ? L.bed : L.plaster) + L.sep + A + ' ' + L.m2 + L.sep + th + ' ' + L.cm;
+      }
+      var cement = mortar * mix;
+      rows.push([L.mortar, r2(mortar) + ' ' + L.m3], [L.sand, r2(mortar) + ' ' + L.m3],
+        [L.cement, Math.round(cement).toLocaleString('en') + ' ' + L.kg + ' ≈ ' + counted(Math.ceil(cement / 50 - 1e-9), L.bag, L.bagPl)]);
+      return { rows: rows, input: input + L.sep + mix + ' ' + L.kg + '/' + L.m3 };
     });
   });
 
@@ -740,9 +775,9 @@
       var rows = [[L.walls, show(wLo, wHi, L.m2, true)]];
       if (ceilOn) rows.push([L.ceilA, show(ceil, ceil, L.m2, true)]);
       rows.push([L.total, show(tLo, tHi, L.m2, true)]);
-      rows.push([L.paint, show(tLo * coats / cover, tHi * coats / cover, L.l, tHi * coats / cover >= 20) + ' (' + coats + ' × ' + cover + ' ' + L.m2 + '/' + L.l + ')']);
+      rows.push([L.paint, show(tLo * coats / cover, tHi * coats / cover, L.l, tHi * coats / cover >= 20) + ' (' + coats + ' × ' + cover + ' ' + L.m2 + '/' + L.lp + ')']);
       if (primerOn) rows.push([L.prim, show(tLo / cover, tHi / cover, L.l, tHi / cover >= 20)]);
-      return { rows: rows, input: input + L.sep + coats + ' × ' + cover + ' ' + L.m2 + '/' + L.l };
+      return { rows: rows, input: input + L.sep + coats + ' × ' + cover + ' ' + L.m2 + '/' + L.lp };
     });
   });
 })();
