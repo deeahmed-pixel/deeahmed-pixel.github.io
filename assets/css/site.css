@@ -1373,8 +1373,10 @@ body{background:var(--paper);font-size:16.5px;line-height:1.65;letter-spacing:0}
 .lg__tile{fill:var(--brass)}
 .lg__name{font-weight:600;letter-spacing:.13em;font-size:1.12rem}
 .lg__sub{font-size:.58rem;letter-spacing:.16em;opacity:1;color:var(--brass);margin-top:.45em;text-transform:uppercase;font-weight:500;white-space:nowrap}
-[dir="rtl"] .lg__name{font-size:1.42rem;letter-spacing:0!important;direction:rtl;font-family:var(--sans);line-height:1.05}
-[dir="rtl"] .lg__sub{font-size:.72rem;opacity:1;margin-top:.25em;letter-spacing:0;text-transform:none}
+/* Arabic: إ carries its hamza BELOW the line, so the name needs a real line
+   height or the tagline sits on top of it (Dee, 2026-10-07) */
+[dir="rtl"] .lg__name{font-size:1.42rem;letter-spacing:0!important;direction:rtl;font-family:var(--sans);line-height:1.45;padding-bottom:.1em}
+[dir="rtl"] .lg__sub{font-size:.72rem;opacity:1;margin-top:.1em;letter-spacing:0;text-transform:none;line-height:1.3}
 .nav{flex:1;display:flex;justify-content:center;min-width:0}
 .nav__list{display:flex;align-items:center;gap:.1rem}
 .nav__item{position:static}
