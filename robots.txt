@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 Disallow: /thank-you/
 
-Sitemap: https://deeahmed-pixel.github.io/sitemap.xml
+Sitemap: https://itmamfinishing.com/sitemap.xml
