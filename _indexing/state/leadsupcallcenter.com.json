@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-08T14:57:10+03:00",
+  "last_sync": "2026-10-10T16:00:27+03:00",
   "sync_note": "",
   "urls": {
     "https://leadsupcallcenter.com/": {
@@ -406,10 +406,12 @@
       "first_seen": "2026-10-07T16:02:48+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-09",
+      "requested": [
+        "2026-10-10T16:14:40+03:00"
+      ],
+      "scheduled": "2026-10-10",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-arizona": {
       "checked": "2026-10-04T15:18:20+03:00",
@@ -514,9 +516,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-laws-by-state": {
       "coverage": null,
@@ -635,9 +637,9 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-09",
+      "scheduled": "2026-10-10",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://leadsupcallcenter.com/real-estate-cold-calling-tennessee": {
       "checked": "2026-10-04T15:18:20+03:00",
