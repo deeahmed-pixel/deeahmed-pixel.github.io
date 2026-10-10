@@ -46,20 +46,24 @@
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:53:20+03:00"
+      ],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/compare/star-galaxy-vs-black-aswan/": {
       "coverage": null,
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:47:06+03:00"
+      ],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/contractors/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -4019,10 +4023,12 @@
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:54:56+03:00"
+      ],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/uses/floors/black/": {
       "coverage": null,
@@ -4040,7 +4046,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4052,30 +4058,36 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:48:47+03:00"
+      ],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "indexed"
+      "status": "requested"
     },
     "https://weshamarble.com/uses/kitchen-countertops/beige/": {
       "coverage": null,
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:45:36+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/uses/kitchen-countertops/black/": {
       "coverage": null,
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:42:37+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/uses/kitchen-countertops/brown/": {
       "coverage": null,
@@ -4083,7 +4095,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4092,20 +4104,24 @@
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:51:47+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/uses/kitchen-countertops/white/": {
       "coverage": null,
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:44:06+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/uses/outdoor/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -4138,10 +4154,12 @@
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:50:17+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/uses/stairs/black/": {
       "coverage": null,
@@ -4149,7 +4167,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4220,10 +4238,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-10T16:41:08+03:00"
+      ],
       "scheduled": "2026-10-04",
       "source": "sitemap",
-      "status": "indexed"
+      "status": "requested"
     }
   }
 }
