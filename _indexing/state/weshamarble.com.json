@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-11T16:44:40+03:00",
+  "last_sync": "2026-10-12T03:05:25+03:00",
   "sync_note": "",
   "urls": {
     "https://weshamarble.com/": {
@@ -402,10 +402,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/granite/colour/grey/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -441,10 +443,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/granite/colour/red/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1033,6 +1037,18 @@
       "source": "sitemap",
       "status": "indexed"
     },
+    "https://weshamarble.com/guide/affordable-marble/": {
+      "coverage": null,
+      "first_seen": "2026-10-12T03:05:25+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "requested"
+    },
     "https://weshamarble.com/guide/bathroom-marble-guide/": {
       "checked": "2026-10-04T14:53:05+03:00",
       "coverage": null,
@@ -1188,10 +1204,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/guide/marble-granite-quartz/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1270,6 +1288,18 @@
       "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "indexed"
+    },
+    "https://weshamarble.com/guide/quartz-quartzite-corian/": {
+      "coverage": null,
+      "first_seen": "2026-10-12T03:05:25+03:00",
+      "last_inspected": null,
+      "priority": 0.5,
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
+      "scheduled": "2026-10-16",
+      "source": "sitemap",
+      "status": "requested"
     },
     "https://weshamarble.com/guide/questions-to-ask-before-buying-marble/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1533,7 +1563,7 @@
       "requested": [],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/marble/bardiglio-imperiale/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3211,10 +3241,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/north-coast/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3250,10 +3282,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/onyx/apple-jasper/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3305,7 +3339,7 @@
       "requested": [],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/onyx/brown-onyx/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3484,10 +3518,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/onyx/onyx-miele/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3562,10 +3598,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/onyx/yellow-quartz/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3841,10 +3879,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-12T03:50:59+03:00"
+      ],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/quartz/q-saint-laurent-black-27/": {
       "checked": "2026-10-04T14:53:05+03:00",
