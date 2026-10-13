@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-13T20:44:05+03:00",
+  "last_sync": "2026-10-13T21:55:01+03:00",
   "sync_note": "",
   "urls": {
     "https://itmamfinishing.com/": {
@@ -50,7 +50,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -71,10 +71,12 @@
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-13T22:08:39+03:00"
+      ],
       "scheduled": "2026-10-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/aluminium-windows/": {
       "coverage": null,
@@ -105,10 +107,12 @@
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-13T22:03:17+03:00"
+      ],
       "scheduled": "2026-10-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/decoration/": {
       "coverage": null,
@@ -127,40 +131,48 @@
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-13T22:10:27+03:00"
+      ],
       "scheduled": "2026-10-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/flooring/": {
       "coverage": null,
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-13T22:11:56+03:00"
+      ],
       "scheduled": "2026-10-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/furnishing/": {
       "coverage": null,
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:57:56+03:00"
+      ],
       "scheduled": "2026-10-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/gypsum-board/": {
       "coverage": null,
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-13T22:05:08+03:00"
+      ],
       "scheduled": "2026-10-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/kitchens/": {
       "coverage": null,
@@ -249,10 +261,12 @@
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:59:48+03:00"
+      ],
       "scheduled": "2026-10-18",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/catalogue/": {
       "coverage": null,
@@ -260,7 +274,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -270,7 +284,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -530,7 +544,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -890,7 +904,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1000,7 +1014,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1250,7 +1264,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1310,7 +1324,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1410,7 +1424,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1440,7 +1454,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1450,7 +1464,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1470,7 +1484,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1490,7 +1504,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1510,7 +1524,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1520,7 +1534,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1530,7 +1544,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1540,7 +1554,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1550,7 +1564,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1560,7 +1574,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1570,7 +1584,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1580,7 +1594,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1590,7 +1604,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1610,7 +1624,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1630,7 +1644,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1640,7 +1654,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1650,7 +1664,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-20",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1659,10 +1673,12 @@
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-13T22:06:58+03:00"
+      ],
       "scheduled": "2026-10-20",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/finishing/stairs/": {
       "coverage": null,
@@ -1680,7 +1696,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1690,7 +1706,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1700,7 +1716,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1710,7 +1726,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1720,7 +1736,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1730,7 +1746,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1740,7 +1756,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1760,7 +1776,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1770,7 +1786,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1790,7 +1806,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1810,7 +1826,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-21",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1850,7 +1866,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-22",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1860,7 +1876,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1869,10 +1885,12 @@
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.8,
-      "requested": [],
+      "requested": [
+        "2026-10-13T22:01:24+03:00"
+      ],
       "scheduled": "2026-10-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/guides/tile-calculator/": {
       "coverage": null,
@@ -1889,10 +1907,12 @@
       "first_seen": "2026-10-12T14:32:13+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-13T22:13:29+03:00"
+      ],
       "scheduled": "2026-10-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/prices/": {
       "coverage": null,
@@ -1900,7 +1920,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1920,7 +1940,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2170,7 +2190,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2180,7 +2200,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2190,7 +2210,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2200,7 +2220,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2210,7 +2230,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2220,7 +2240,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2230,7 +2250,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2240,7 +2260,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-14",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2250,7 +2270,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2260,7 +2280,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2270,7 +2290,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2280,7 +2300,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2290,7 +2310,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2300,7 +2320,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2310,7 +2330,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2320,7 +2340,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2330,7 +2350,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2340,7 +2360,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2350,7 +2370,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2360,7 +2380,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2370,7 +2390,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2380,7 +2400,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2390,7 +2410,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2400,7 +2420,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2410,7 +2430,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2420,7 +2440,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2430,7 +2450,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2440,7 +2460,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2450,7 +2470,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2460,7 +2480,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2470,7 +2490,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2480,7 +2500,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2490,7 +2510,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2500,7 +2520,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2510,7 +2530,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2520,7 +2540,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2530,7 +2550,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2540,7 +2560,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-13",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2570,7 +2590,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-19",
       "source": "sitemap",
       "status": "scheduled"
     },
