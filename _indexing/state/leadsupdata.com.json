@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-12T03:05:21+03:00",
+  "last_sync": "2026-10-13T20:44:00+03:00",
   "sync_note": "",
   "urls": {
     "https://leadsupdata.com/": {
@@ -278,50 +278,60 @@
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:00:55+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/la-plata-county": {
       "coverage": null,
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:03:58+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/larimer-county": {
       "coverage": null,
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:07:04+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/mesa-county": {
       "coverage": null,
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:08:49+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/multi-property-owners": {
       "coverage": null,
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:11:00+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/out-of-state-owners": {
       "coverage": null,

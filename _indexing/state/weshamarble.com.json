@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-12T03:05:25+03:00",
+  "last_sync": "2026-10-13T20:44:04+03:00",
   "sync_note": "",
   "urls": {
     "https://weshamarble.com/": {
@@ -1310,7 +1310,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1362,7 +1362,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1614,10 +1614,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:16:24+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/bianco-carrara/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1666,10 +1668,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:18:41+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/black-wooden-vein/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1827,7 +1831,7 @@
       "requested": [],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/marble/coffee-wood-vein/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2157,10 +2161,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:21:45+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/fior-di-pesco/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2277,7 +2283,7 @@
       "requested": [],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/marble/golden-cream-vein/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2339,10 +2345,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:24:18+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/imperial-bronze/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2404,10 +2412,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:26:18+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/khatmeya/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2511,7 +2521,7 @@
       "requested": [],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/marble/new-palissandro/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2815,10 +2825,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-14",
+      "requested": [
+        "2026-10-13T21:28:59+03:00"
+      ],
+      "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/royal-grey/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2856,10 +2868,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-14",
+      "requested": [
+        "2026-10-13T21:31:05+03:00"
+      ],
+      "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/samaha/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -2869,10 +2883,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-14",
+      "requested": [
+        "2026-10-13T21:33:09+03:00"
+      ],
+      "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/marble/sea-grey/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3750,7 +3766,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3762,10 +3778,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:13:03+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/quartz/q-crema-marfil-15/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3776,7 +3794,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3789,7 +3807,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-15",
+      "scheduled": "2026-10-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3801,10 +3819,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-13T21:14:44+03:00"
+      ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/quartz/q-grey-stripe-22/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3998,7 +4018,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4217,7 +4237,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4227,7 +4247,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-16",
       "source": "sitemap",
       "status": "scheduled"
     },
