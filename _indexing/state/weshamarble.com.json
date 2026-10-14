@@ -389,10 +389,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:27:06+03:00"
+      ],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/granite/colour/green/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -430,10 +432,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:32:00+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/granite/colour/pink/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1153,7 +1157,7 @@
       "requested": [],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/guide/granite-for-stairs-and-facades/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1166,7 +1170,7 @@
       "requested": [],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/guide/how-installation-works/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1235,7 +1239,7 @@
       "requested": [],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/guide/marble-vs-porcelain/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1309,10 +1313,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:34:09+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/guide/stone-glossary/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -1361,10 +1367,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:35:14+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/imported/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3074,7 +3082,7 @@
       "requested": [],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/marble/sunny-oro/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3407,7 +3415,7 @@
       "requested": [],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/onyx/egyptian-alabaster/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3575,10 +3583,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:24:59+03:00"
+      ],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/onyx/red-dragon-onyx/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3670,10 +3680,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:36:20+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/quartz/colour/white/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3699,7 +3711,7 @@
       "requested": [],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/quartz/q-calacatta-gold-01/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3768,7 +3780,7 @@
       "requested": [],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/quartz/q-concrete-grey-16/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3796,7 +3808,7 @@
       "requested": [],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/quartz/q-dalmatian-18/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3806,10 +3818,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:30:53+03:00"
+      ],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/quartz/q-dark-grey-carrara-31/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3850,7 +3864,7 @@
       "requested": [],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://weshamarble.com/quartz/q-panda-vein-14/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3927,10 +3941,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:37:57+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/quartz/q-statuario-03/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3940,10 +3956,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:39:09+03:00"
+      ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/quartz/q-volakas-13/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -3953,10 +3971,12 @@
       "issue": null,
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:26:02+03:00"
+      ],
       "scheduled": "2026-10-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/quote/": {
       "checked": "2026-10-04T14:53:05+03:00",
@@ -4018,7 +4038,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4028,7 +4048,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4038,7 +4058,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4048,7 +4068,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4096,7 +4116,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4106,7 +4126,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4155,7 +4175,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4227,7 +4247,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4237,7 +4257,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4247,7 +4267,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4313,7 +4333,7 @@
       "requested": [],
       "scheduled": "2026-10-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     }
   }
 }
