@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-13T20:44:00+03:00",
+  "last_sync": "2026-10-14T22:55:12+03:00",
   "sync_note": "",
   "urls": {
     "https://leadsupdata.com/": {
@@ -338,50 +338,60 @@
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:14:13+03:00"
+      ],
       "scheduled": "2026-10-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/park-county": {
       "coverage": null,
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:15:21+03:00"
+      ],
       "scheduled": "2026-10-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/pitkin-county": {
       "coverage": null,
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:16:26+03:00"
+      ],
       "scheduled": "2026-10-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/pueblo-county": {
       "coverage": null,
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:17:30+03:00"
+      ],
       "scheduled": "2026-10-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/rio-grande-county": {
       "coverage": null,
       "first_seen": "2026-10-07T02:25:08+03:00",
       "last_inspected": null,
       "priority": 0.7,
-      "requested": [],
+      "requested": [
+        "2026-10-14T23:19:05+03:00"
+      ],
       "scheduled": "2026-10-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://leadsupdata.com/colorado/routt-county": {
       "coverage": null,
