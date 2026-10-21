@@ -18,9 +18,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/": {
       "coverage": null,
@@ -28,7 +28,8 @@
       "last_inspected": null,
       "priority": 1.0,
       "requested": [
-        "2026-10-08T15:27:21+03:00"
+        "2026-10-08T15:27:21+03:00",
+        "2026-10-22T02:06:56+03:00"
       ],
       "scheduled": "2026-10-08",
       "source": "sitemap",
@@ -40,7 +41,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -50,9 +51,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/": {
       "coverage": null,
@@ -64,7 +65,7 @@
       ],
       "scheduled": "2026-10-12",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/air-conditioning/": {
       "coverage": null,
@@ -88,7 +89,7 @@
       ],
       "scheduled": "2026-10-21",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/bathrooms/": {
       "coverage": null,
@@ -100,7 +101,7 @@
       ],
       "scheduled": "2026-10-21",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/contracting/": {
       "coverage": null,
@@ -124,7 +125,7 @@
       ],
       "scheduled": "2026-10-20",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/doors/": {
       "coverage": null,
@@ -184,7 +185,7 @@
       ],
       "scheduled": "2026-10-20",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/supply/": {
       "coverage": null,
@@ -196,7 +197,7 @@
       ],
       "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/alexandria/tiles/": {
       "coverage": null,
@@ -208,7 +209,7 @@
       ],
       "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/madinaty/": {
       "coverage": null,
@@ -220,7 +221,7 @@
       ],
       "scheduled": "2026-10-17",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/new-cairo-fifth-settlement/": {
       "coverage": null,
@@ -242,7 +243,7 @@
       ],
       "scheduled": "2026-10-13",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/north-coast-sahel/chalet-furnishing/": {
       "coverage": null,
@@ -254,7 +255,7 @@
       ],
       "scheduled": "2026-10-20",
       "source": "sitemap",
-      "status": "requested"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/areas/sheikh-zayed-october/": {
       "coverage": null,
@@ -286,7 +287,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -296,7 +297,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -306,7 +307,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -316,7 +317,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -326,7 +327,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -336,7 +337,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -346,7 +347,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -356,7 +357,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -366,7 +367,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -376,7 +377,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -386,7 +387,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -396,7 +397,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -406,7 +407,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -416,7 +417,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -426,7 +427,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-29",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -436,7 +437,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -446,7 +447,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -456,7 +457,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -466,7 +467,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -476,9 +477,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/granite/rosa-sinai/": {
       "coverage": null,
@@ -486,9 +487,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/granite/sahara-brown/": {
       "coverage": null,
@@ -496,7 +497,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -506,7 +507,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-10-31",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -516,9 +517,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/granite/white-aswan/": {
       "coverage": null,
@@ -526,7 +527,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-30",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -536,7 +537,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -546,7 +547,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -556,7 +557,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -566,7 +567,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -576,7 +577,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -586,7 +587,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -596,7 +597,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -606,7 +607,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -616,9 +617,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/marble/egyptian-botticino/": {
       "coverage": null,
@@ -626,7 +627,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -636,7 +637,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-31",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -646,9 +647,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/marble/galala-extra/": {
       "coverage": null,
@@ -656,7 +657,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -666,9 +667,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/marble/golden-cream-flower/": {
       "coverage": null,
@@ -676,7 +677,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -686,7 +687,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -696,7 +697,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -706,7 +707,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -716,7 +717,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -726,9 +727,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/marble/imperial-grey/": {
       "coverage": null,
@@ -736,7 +737,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-01",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -766,9 +767,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/marble/new-milly-gray/": {
       "coverage": null,
@@ -786,7 +787,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -796,7 +797,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -806,7 +807,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -816,7 +817,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -826,7 +827,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -836,7 +837,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-02",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -886,7 +887,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -896,7 +897,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -906,7 +907,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -916,7 +917,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -926,7 +927,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -936,7 +937,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -946,7 +947,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-03",
+      "scheduled": "2026-11-04",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -996,7 +997,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1006,7 +1007,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1016,9 +1017,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/semi-precious/amethyst/": {
       "coverage": null,
@@ -1026,7 +1027,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1036,7 +1037,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1046,7 +1047,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1056,7 +1057,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-04",
+      "scheduled": "2026-11-05",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1106,7 +1107,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1116,7 +1117,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1126,7 +1127,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1136,7 +1137,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1146,9 +1147,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/semi-precious/indian-onyx/": {
       "coverage": null,
@@ -1156,7 +1157,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-05",
+      "scheduled": "2026-11-06",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1206,9 +1207,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/semi-precious/picture-jasper/": {
       "coverage": null,
@@ -1226,7 +1227,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1236,9 +1237,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/semi-precious/tiger-eye/": {
       "coverage": null,
@@ -1246,9 +1247,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/catalogue/semi-precious/yellow-quartz/": {
       "coverage": null,
@@ -1256,7 +1257,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-06",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1266,9 +1267,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/commissions/backlit-onyx-panel/": {
       "coverage": null,
@@ -1276,7 +1277,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1286,7 +1287,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1296,7 +1297,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1306,7 +1307,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1316,7 +1317,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1326,9 +1327,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/commissions/helix-washstand/": {
       "coverage": null,
@@ -1336,7 +1337,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1346,7 +1347,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1356,9 +1357,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-30",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/commissions/mitred-waterfall-vanity/": {
       "coverage": null,
@@ -1366,7 +1367,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1376,7 +1377,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1386,7 +1387,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1396,7 +1397,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-24",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1406,7 +1407,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1416,7 +1417,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1426,7 +1427,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1436,7 +1437,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1446,7 +1447,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1455,10 +1456,12 @@
       "first_seen": "2026-10-07T16:02:54+03:00",
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
-      "scheduled": "2026-10-16",
+      "requested": [
+        "2026-10-22T02:08:55+03:00"
+      ],
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/decoration/": {
       "coverage": null,
@@ -1478,7 +1481,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1488,7 +1491,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1498,9 +1501,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/decoration/reception-tv-wall/": {
       "coverage": null,
@@ -1508,7 +1511,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1518,7 +1521,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1540,9 +1543,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/finishing/chalets/": {
       "coverage": null,
@@ -1562,7 +1565,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1572,7 +1575,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1582,9 +1585,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/finishing/from-red-brick/": {
       "coverage": null,
@@ -1592,9 +1595,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-16",
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/finishing/hotel-style/": {
       "coverage": null,
@@ -1602,7 +1605,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-21",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1611,10 +1614,12 @@
       "first_seen": "2026-10-07T16:02:54+03:00",
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
-      "scheduled": "2026-10-16",
+      "requested": [
+        "2026-10-22T02:16:58+03:00"
+      ],
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/finishing/levels/super-lux/": {
       "coverage": null,
@@ -1622,7 +1627,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1632,7 +1637,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1642,7 +1647,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1652,7 +1657,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1662,7 +1667,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1672,7 +1677,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1694,7 +1699,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1716,7 +1721,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1726,7 +1731,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1735,10 +1740,12 @@
       "first_seen": "2026-10-07T16:02:54+03:00",
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
-      "scheduled": "2026-10-16",
+      "requested": [
+        "2026-10-22T02:10:23+03:00"
+      ],
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/guides/apartment-finishing-cost-by-size/": {
       "coverage": null,
@@ -1758,9 +1765,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/guides/coastal-materials/": {
       "coverage": null,
@@ -1768,7 +1775,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1778,7 +1785,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1788,9 +1795,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/guides/finishing-boq/": {
       "coverage": null,
@@ -1798,7 +1805,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1808,7 +1815,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-25",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1818,9 +1825,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/guides/flooring/": {
       "coverage": null,
@@ -1828,9 +1835,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/guides/handover-checklist/": {
       "coverage": null,
@@ -1838,9 +1845,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/guides/imported-marble-types/": {
       "coverage": null,
@@ -1848,7 +1855,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1858,9 +1865,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/guides/marble-granite-quartz/": {
       "coverage": null,
@@ -1868,7 +1875,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -1937,10 +1944,12 @@
       "first_seen": "2026-10-07T16:02:54+03:00",
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
-      "scheduled": "2026-10-16",
+      "requested": [
+        "2026-10-22T02:11:48+03:00"
+      ],
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/process/": {
       "coverage": null,
@@ -1948,9 +1957,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/": {
       "coverage": null,
@@ -1958,9 +1967,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/bathrooms/": {
       "coverage": null,
@@ -1968,9 +1977,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/doors-joinery/": {
       "coverage": null,
@@ -1978,9 +1987,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/el-moghra/": {
       "coverage": null,
@@ -1988,9 +1997,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/electrical/": {
       "coverage": null,
@@ -1998,7 +2007,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2008,7 +2017,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2018,9 +2027,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/garden-lighting/": {
       "coverage": null,
@@ -2028,7 +2037,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2038,9 +2047,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-26",
+      "scheduled": "2026-11-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/glass-shutters/": {
       "coverage": null,
@@ -2048,7 +2057,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2058,9 +2067,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/hardscape/": {
       "coverage": null,
@@ -2068,9 +2077,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/hvac/": {
       "coverage": null,
@@ -2078,7 +2087,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2088,7 +2097,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2098,9 +2107,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/logistics/": {
       "coverage": null,
@@ -2108,9 +2117,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/marble-brass-villa/": {
       "coverage": null,
@@ -2118,7 +2127,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2128,9 +2137,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/oak-rattan-villa/": {
       "coverage": null,
@@ -2138,9 +2147,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-27",
+      "scheduled": "2026-11-02",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/pool/": {
       "coverage": null,
@@ -2148,9 +2157,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/renders/": {
       "coverage": null,
@@ -2158,7 +2167,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2168,9 +2177,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/projects/solar/": {
       "coverage": null,
@@ -2178,7 +2187,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2188,7 +2197,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-10-29",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2198,49 +2207,57 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-28",
+      "scheduled": "2026-11-03",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/": {
       "coverage": null,
       "first_seen": "2026-10-07T16:02:54+03:00",
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
-      "scheduled": "2026-10-16",
+      "requested": [
+        "2026-10-22T02:13:09+03:00"
+      ],
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/services/aluminium-glass/": {
       "coverage": null,
       "first_seen": "2026-10-07T16:02:54+03:00",
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
-      "scheduled": "2026-10-16",
+      "requested": [
+        "2026-10-22T02:18:18+03:00"
+      ],
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/services/bathrooms/": {
       "coverage": null,
       "first_seen": "2026-10-07T16:02:54+03:00",
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
-      "scheduled": "2026-10-16",
+      "requested": [
+        "2026-10-22T02:19:39+03:00"
+      ],
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/services/bedrooms-furniture/": {
       "coverage": null,
       "first_seen": "2026-10-07T16:02:54+03:00",
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
-      "scheduled": "2026-10-17",
+      "requested": [
+        "2026-10-22T02:20:58+03:00"
+      ],
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/services/blocks-bricks/": {
       "coverage": null,
@@ -2248,7 +2265,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2258,7 +2275,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2268,9 +2285,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/commercial-fitout/": {
       "coverage": null,
@@ -2278,9 +2295,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/design-engineering/": {
       "coverage": null,
@@ -2288,9 +2305,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/electrical-materials/": {
       "coverage": null,
@@ -2298,9 +2315,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/electrical/": {
       "coverage": null,
@@ -2308,7 +2325,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2318,9 +2335,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/fire-security/": {
       "coverage": null,
@@ -2328,9 +2345,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-17",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/full-renovation/": {
       "coverage": null,
@@ -2338,7 +2355,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2348,9 +2365,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/granite/": {
       "coverage": null,
@@ -2358,9 +2375,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/gypsum-ceilings/": {
       "coverage": null,
@@ -2368,9 +2385,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/hvac/": {
       "coverage": null,
@@ -2378,7 +2395,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2388,7 +2405,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2398,7 +2415,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2408,7 +2425,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2418,9 +2435,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/painting-finishes/": {
       "coverage": null,
@@ -2428,9 +2445,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-18",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/paints-coatings/": {
       "coverage": null,
@@ -2438,9 +2455,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/plumbing-materials/": {
       "coverage": null,
@@ -2448,9 +2465,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/quartz/": {
       "coverage": null,
@@ -2458,7 +2475,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2468,9 +2485,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/shutters/": {
       "coverage": null,
@@ -2478,7 +2495,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-23",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2488,7 +2505,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2498,7 +2515,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2508,7 +2525,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2518,9 +2535,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/services/swimming-pools/": {
       "coverage": null,
@@ -2528,7 +2545,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-19",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2538,7 +2555,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2548,7 +2565,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2558,9 +2575,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/ar/showroom/": {
       "coverage": null,
@@ -2579,10 +2596,12 @@
       "first_seen": "2026-10-07T16:02:54+03:00",
       "last_inspected": null,
       "priority": 0.9,
-      "requested": [],
-      "scheduled": "2026-10-16",
+      "requested": [
+        "2026-10-22T02:15:30+03:00"
+      ],
+      "scheduled": "2026-10-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://itmamfinishing.com/ar/supply/building-materials-calculator/": {
       "coverage": null,
@@ -2600,7 +2619,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-10-23",
+      "scheduled": "2026-10-26",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2610,7 +2629,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-10-20",
+      "scheduled": "2026-10-24",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2620,9 +2639,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/areas/alexandria/": {
       "coverage": null,
@@ -2630,9 +2649,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/areas/alexandria/air-conditioning/": {
       "coverage": null,
@@ -2640,7 +2659,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2650,7 +2669,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2660,7 +2679,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2670,7 +2689,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2680,9 +2699,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/areas/alexandria/doors/": {
       "coverage": null,
@@ -2690,7 +2709,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2700,7 +2719,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2710,7 +2729,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2720,7 +2739,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2730,9 +2749,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-22",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/areas/alexandria/supply/": {
       "coverage": null,
@@ -2740,7 +2759,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2750,7 +2769,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-16",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2760,9 +2779,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/areas/new-cairo-fifth-settlement/": {
       "coverage": null,
@@ -2770,9 +2789,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/areas/north-coast-sahel/": {
       "coverage": null,
@@ -2780,9 +2799,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/areas/north-coast-sahel/chalet-furnishing/": {
       "coverage": null,
@@ -2790,9 +2809,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/areas/sheikh-zayed-october/": {
       "coverage": null,
@@ -2800,7 +2819,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2810,9 +2829,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/granite/": {
       "coverage": null,
@@ -2820,9 +2839,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/granite/aswan-red/": {
       "coverage": null,
@@ -2830,9 +2849,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/granite/bianco-halayeb/": {
       "coverage": null,
@@ -2840,9 +2859,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/granite/black-aswan/": {
       "coverage": null,
@@ -2850,7 +2869,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2860,7 +2879,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2870,7 +2889,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2880,7 +2899,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2890,7 +2909,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2900,7 +2919,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2910,9 +2929,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/granite/halayeb/": {
       "coverage": null,
@@ -2920,9 +2939,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-29",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/granite/hoody-dark/": {
       "coverage": null,
@@ -2930,7 +2949,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2940,7 +2959,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-23",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2950,7 +2969,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2960,7 +2979,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2970,7 +2989,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2980,7 +2999,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -2990,7 +3009,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3000,9 +3019,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-30",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/granite/rosa-marwa/": {
       "coverage": null,
@@ -3010,7 +3029,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3020,7 +3039,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3030,7 +3049,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3040,7 +3059,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-24",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3050,7 +3069,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3060,7 +3079,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3070,9 +3089,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/": {
       "coverage": null,
@@ -3080,9 +3099,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/beige-dune/": {
       "coverage": null,
@@ -3090,7 +3109,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3100,7 +3119,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3110,9 +3129,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/breccia-sinai/": {
       "coverage": null,
@@ -3120,9 +3139,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/cleopatra/": {
       "coverage": null,
@@ -3130,7 +3149,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3140,9 +3159,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/egyptian-alabaster/": {
       "coverage": null,
@@ -3150,9 +3169,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-25",
+      "scheduled": "2026-12-01",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/egyptian-botticino/": {
       "coverage": null,
@@ -3160,9 +3179,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/fillito/": {
       "coverage": null,
@@ -3170,7 +3189,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3180,7 +3199,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3190,7 +3209,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3200,7 +3219,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3210,9 +3229,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-12-02",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/golden-cream-vein/": {
       "coverage": null,
@@ -3220,7 +3239,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3230,7 +3249,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3240,7 +3259,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3250,7 +3269,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-26",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3260,7 +3279,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3270,7 +3289,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3280,7 +3299,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3290,7 +3309,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3300,9 +3319,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-12-03",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/new-milly-gray/": {
       "coverage": null,
@@ -3310,7 +3329,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3320,7 +3339,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3330,7 +3349,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3340,7 +3359,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3350,7 +3369,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-27",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3360,7 +3379,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3370,7 +3389,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3380,9 +3399,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/sunny-medium/": {
       "coverage": null,
@@ -3390,7 +3409,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3400,9 +3419,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-12-04",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/marble/sunny-oro-light/": {
       "coverage": null,
@@ -3410,7 +3429,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3420,7 +3439,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3430,7 +3449,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3440,9 +3459,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/quartz/calacatta-nile/": {
       "coverage": null,
@@ -3450,7 +3469,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3460,7 +3479,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-28",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3470,7 +3489,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3480,7 +3499,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3490,7 +3509,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3500,7 +3519,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3510,7 +3529,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3520,7 +3539,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3530,7 +3549,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3540,7 +3559,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3550,9 +3569,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/amethyst/": {
       "coverage": null,
@@ -3560,9 +3579,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-12-05",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/apple-jasper/": {
       "coverage": null,
@@ -3570,7 +3589,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-29",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3580,9 +3599,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-12-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/blue-agate/": {
       "coverage": null,
@@ -3590,7 +3609,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3600,9 +3619,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-12-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/brown-onyx/": {
       "coverage": null,
@@ -3610,7 +3629,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3620,9 +3639,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-12-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/colorful-onyx/": {
       "coverage": null,
@@ -3630,7 +3649,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3640,9 +3659,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-12-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/green-onyx/": {
       "coverage": null,
@@ -3650,7 +3669,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3660,9 +3679,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-12-06",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/ice-quartz/": {
       "coverage": null,
@@ -3670,7 +3689,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-30",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3680,7 +3699,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3690,9 +3709,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-12-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/light-green-onyx/": {
       "coverage": null,
@@ -3700,7 +3719,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3710,9 +3729,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-12-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/onyx-miele-flower/": {
       "coverage": null,
@@ -3720,7 +3739,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3730,7 +3749,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3740,9 +3759,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-12-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/picture-jasper/": {
       "coverage": null,
@@ -3750,7 +3769,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3760,9 +3779,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-12-07",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/rose-quartz/": {
       "coverage": null,
@@ -3770,7 +3789,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-01",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3780,9 +3799,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-02",
+      "scheduled": "2026-12-08",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/catalogue/semi-precious/yellow-quartz/": {
       "coverage": null,
@@ -3790,7 +3809,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-12-02",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3800,9 +3819,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/commissions/backlit-onyx-panel/": {
       "coverage": null,
@@ -3810,7 +3829,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3820,7 +3839,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3830,9 +3849,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/commissions/book-matched-panel/": {
       "coverage": null,
@@ -3840,9 +3859,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/commissions/column-base-capital/": {
       "coverage": null,
@@ -3850,7 +3869,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3860,7 +3879,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3870,7 +3889,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3880,9 +3899,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/commissions/lettering-plaques/": {
       "coverage": null,
@@ -3890,7 +3909,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3900,9 +3919,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/commissions/monolithic-table/": {
       "coverage": null,
@@ -3910,7 +3929,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3920,7 +3939,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3930,7 +3949,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3940,9 +3959,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-24",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/commissions/stair-treads/": {
       "coverage": null,
@@ -3950,7 +3969,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-18",
+      "scheduled": "2026-11-10",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3960,7 +3979,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3970,7 +3989,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -3980,9 +3999,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/contact/": {
       "coverage": null,
@@ -4010,9 +4029,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/decoration/modern/": {
       "coverage": null,
@@ -4020,9 +4039,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/decoration/neo-classic/": {
       "coverage": null,
@@ -4030,9 +4049,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/decoration/reception-tv-wall/": {
       "coverage": null,
@@ -4040,9 +4059,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/decoration/wall-cladding/": {
       "coverage": null,
@@ -4050,9 +4069,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/": {
       "coverage": null,
@@ -4060,9 +4079,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/buildings/": {
       "coverage": null,
@@ -4070,9 +4089,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/chalets/": {
       "coverage": null,
@@ -4080,9 +4099,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/clinics/": {
       "coverage": null,
@@ -4090,9 +4109,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/duplex/": {
       "coverage": null,
@@ -4100,7 +4119,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4110,9 +4129,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-13",
+      "scheduled": "2026-11-19",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/from-red-brick/": {
       "coverage": null,
@@ -4120,9 +4139,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/hotel-style/": {
       "coverage": null,
@@ -4130,9 +4149,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/levels/": {
       "coverage": null,
@@ -4140,7 +4159,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4150,9 +4169,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/levels/ultra-super-lux/": {
       "coverage": null,
@@ -4160,9 +4179,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/offices/": {
       "coverage": null,
@@ -4170,9 +4189,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/old-apartment-renovation/": {
       "coverage": null,
@@ -4180,9 +4199,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/roof/": {
       "coverage": null,
@@ -4190,9 +4209,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/semi-finished/": {
       "coverage": null,
@@ -4200,9 +4219,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/shops-cafes/": {
       "coverage": null,
@@ -4210,7 +4229,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4220,7 +4239,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4230,9 +4249,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/finishing/waterproofing/": {
       "coverage": null,
@@ -4240,7 +4259,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4250,7 +4269,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4270,9 +4289,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/choose-finishing-company/": {
       "coverage": null,
@@ -4280,9 +4299,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/coastal-materials/": {
       "coverage": null,
@@ -4290,9 +4309,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-14",
+      "scheduled": "2026-11-20",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/damp-walls/": {
       "coverage": null,
@@ -4300,9 +4319,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/egyptian-marble-types/": {
       "coverage": null,
@@ -4310,9 +4329,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/finishing-boq/": {
       "coverage": null,
@@ -4320,9 +4339,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/finishing-contract/": {
       "coverage": null,
@@ -4330,9 +4349,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/finishing-steps/": {
       "coverage": null,
@@ -4340,9 +4359,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/flooring/": {
       "coverage": null,
@@ -4350,9 +4369,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/handover-checklist/": {
       "coverage": null,
@@ -4360,9 +4379,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/imported-marble-types/": {
       "coverage": null,
@@ -4370,7 +4389,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4380,9 +4399,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-19",
+      "scheduled": "2026-11-25",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/marble-granite-quartz/": {
       "coverage": null,
@@ -4390,9 +4409,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-21",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/newlywed-apartment/": {
       "coverage": null,
@@ -4400,7 +4419,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4410,9 +4429,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/social-housing-apartment-finishing/": {
       "coverage": null,
@@ -4420,7 +4439,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-15",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4430,9 +4449,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/guides/wall-paint-colours/": {
       "coverage": null,
@@ -4440,7 +4459,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4450,9 +4469,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/process/": {
       "coverage": null,
@@ -4460,9 +4479,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-23",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/": {
       "coverage": null,
@@ -4470,7 +4489,7 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-08",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4480,7 +4499,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4490,9 +4509,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/el-moghra/": {
       "coverage": null,
@@ -4500,9 +4519,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/electrical/": {
       "coverage": null,
@@ -4510,7 +4529,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4520,7 +4539,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4530,7 +4549,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4540,9 +4559,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-20",
+      "scheduled": "2026-11-26",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/garden-pergola/": {
       "coverage": null,
@@ -4550,7 +4569,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4560,7 +4579,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4570,9 +4589,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/hardscape/": {
       "coverage": null,
@@ -4580,7 +4599,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-11",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4590,7 +4609,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4600,7 +4619,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4610,9 +4629,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/logistics/": {
       "coverage": null,
@@ -4620,7 +4639,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4630,9 +4649,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/market-street/": {
       "coverage": null,
@@ -4640,9 +4659,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-21",
+      "scheduled": "2026-11-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/oak-rattan-villa/": {
       "coverage": null,
@@ -4650,9 +4669,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/pool/": {
       "coverage": null,
@@ -4660,7 +4679,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4670,7 +4689,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4680,9 +4699,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/projects/solar/": {
       "coverage": null,
@@ -4690,7 +4709,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4700,7 +4719,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4710,7 +4729,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-12",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4720,9 +4739,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-07",
+      "scheduled": "2026-11-13",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/aluminium-glass/": {
       "coverage": null,
@@ -4730,9 +4749,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/bathrooms/": {
       "coverage": null,
@@ -4740,9 +4759,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/bedrooms-furniture/": {
       "coverage": null,
@@ -4750,9 +4769,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/blocks-bricks/": {
       "coverage": null,
@@ -4760,9 +4779,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-08",
+      "scheduled": "2026-11-14",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/build-from-land/": {
       "coverage": null,
@@ -4770,9 +4789,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/cement/": {
       "coverage": null,
@@ -4780,9 +4799,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/commercial-fitout/": {
       "coverage": null,
@@ -4790,9 +4809,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/design-engineering/": {
       "coverage": null,
@@ -4800,9 +4819,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/electrical-materials/": {
       "coverage": null,
@@ -4810,9 +4829,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/electrical/": {
       "coverage": null,
@@ -4820,9 +4839,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/equestrian/": {
       "coverage": null,
@@ -4830,9 +4849,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/fire-security/": {
       "coverage": null,
@@ -4840,9 +4859,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/full-renovation/": {
       "coverage": null,
@@ -4850,9 +4869,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/furniture/": {
       "coverage": null,
@@ -4860,9 +4879,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-09",
+      "scheduled": "2026-11-15",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/granite/": {
       "coverage": null,
@@ -4870,9 +4889,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/gypsum-ceilings/": {
       "coverage": null,
@@ -4880,9 +4899,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/hvac/": {
       "coverage": null,
@@ -4890,9 +4909,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/kitchens/": {
       "coverage": null,
@@ -4900,9 +4919,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/landscape-hardscape/": {
       "coverage": null,
@@ -4910,9 +4929,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/marble/": {
       "coverage": null,
@@ -4920,9 +4939,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/outdoor-terraces/": {
       "coverage": null,
@@ -4930,9 +4949,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/painting-finishes/": {
       "coverage": null,
@@ -4940,9 +4959,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/paints-coatings/": {
       "coverage": null,
@@ -4950,9 +4969,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/plumbing-materials/": {
       "coverage": null,
@@ -4960,9 +4979,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-10",
+      "scheduled": "2026-11-16",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/quartz/": {
       "coverage": null,
@@ -4970,7 +4989,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4980,9 +4999,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/shutters/": {
       "coverage": null,
@@ -4990,9 +5009,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/solar-energy/": {
       "coverage": null,
@@ -5000,7 +5019,7 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-07",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5010,9 +5029,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/steel-rebar/": {
       "coverage": null,
@@ -5020,9 +5039,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/stone-artwork/": {
       "coverage": null,
@@ -5030,9 +5049,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/swimming-pools/": {
       "coverage": null,
@@ -5040,9 +5059,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/tiles-ceramics/": {
       "coverage": null,
@@ -5050,9 +5069,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/water-systems/": {
       "coverage": null,
@@ -5060,9 +5079,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-11",
+      "scheduled": "2026-11-17",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/services/windows-doors/": {
       "coverage": null,
@@ -5070,9 +5089,9 @@
       "last_inspected": null,
       "priority": 0.9,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/showroom/": {
       "coverage": null,
@@ -5080,9 +5099,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/supply/": {
       "coverage": null,
@@ -5100,9 +5119,9 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-22",
+      "scheduled": "2026-11-28",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     },
     "https://itmamfinishing.com/videos/": {
       "coverage": null,
@@ -5110,7 +5129,7 @@
       "last_inspected": null,
       "priority": 0.7,
       "requested": [],
-      "scheduled": "2026-11-17",
+      "scheduled": "2026-11-09",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -5120,9 +5139,9 @@
       "last_inspected": null,
       "priority": 0.8,
       "requested": [],
-      "scheduled": "2026-11-12",
+      "scheduled": "2026-11-18",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "indexed"
     }
   }
 }
