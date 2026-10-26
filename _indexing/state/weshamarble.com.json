@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-10-22T10:09:00+03:00",
+  "last_sync": "2026-10-27T00:35:08+03:00",
   "sync_note": "",
   "urls": {
     "https://weshamarble.com/": {
@@ -1194,7 +1194,8 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [
-        "2026-10-04T23:55:46+03:00"
+        "2026-10-04T23:55:46+03:00",
+        "2026-10-27T01:07:34+03:00"
       ],
       "scheduled": "2026-10-04",
       "source": "sitemap",
@@ -4037,20 +4038,24 @@
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-22",
+      "requested": [
+        "2026-10-27T01:14:59+03:00"
+      ],
+      "scheduled": "2026-10-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/uses/bathroom-vanities/black/": {
       "coverage": null,
       "first_seen": "2026-10-07T16:02:53+03:00",
       "last_inspected": null,
       "priority": 0.5,
-      "requested": [],
-      "scheduled": "2026-10-22",
+      "requested": [
+        "2026-10-27T01:16:23+03:00"
+      ],
+      "scheduled": "2026-10-27",
       "source": "sitemap",
-      "status": "scheduled"
+      "status": "requested"
     },
     "https://weshamarble.com/uses/bathroom-vanities/grey/": {
       "coverage": null,
@@ -4058,7 +4063,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4068,7 +4073,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4104,7 +4109,8 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [
-        "2026-10-10T16:54:56+03:00"
+        "2026-10-10T16:54:56+03:00",
+        "2026-10-27T01:07:34+03:00"
       ],
       "scheduled": "2026-10-15",
       "source": "sitemap",
@@ -4116,7 +4122,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4126,7 +4132,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4151,7 +4157,8 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [
-        "2026-10-10T16:45:36+03:00"
+        "2026-10-10T16:45:36+03:00",
+        "2026-10-27T01:02:52+03:00"
       ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
@@ -4163,7 +4170,8 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [
-        "2026-10-10T16:42:37+03:00"
+        "2026-10-10T16:42:37+03:00",
+        "2026-10-27T01:05:14+03:00"
       ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
@@ -4175,7 +4183,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4185,7 +4193,8 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [
-        "2026-10-10T16:51:47+03:00"
+        "2026-10-10T16:51:47+03:00",
+        "2026-10-27T01:05:14+03:00"
       ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
@@ -4197,7 +4206,8 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [
-        "2026-10-10T16:44:06+03:00"
+        "2026-10-10T16:44:06+03:00",
+        "2026-10-27T01:09:08+03:00"
       ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
@@ -4235,7 +4245,8 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [
-        "2026-10-10T16:50:17+03:00"
+        "2026-10-10T16:50:17+03:00",
+        "2026-10-27T01:13:28+03:00"
       ],
       "scheduled": "2026-10-16",
       "source": "sitemap",
@@ -4247,7 +4258,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4257,7 +4268,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4267,7 +4278,7 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [],
-      "scheduled": "2026-10-22",
+      "scheduled": "2026-10-28",
       "source": "sitemap",
       "status": "scheduled"
     },
@@ -4319,7 +4330,8 @@
       "last_inspected": null,
       "priority": 0.5,
       "requested": [
-        "2026-10-10T16:41:08+03:00"
+        "2026-10-10T16:41:08+03:00",
+        "2026-10-27T01:01:37+03:00"
       ],
       "scheduled": "2026-10-04",
       "source": "sitemap",
